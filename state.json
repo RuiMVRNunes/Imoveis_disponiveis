@@ -1,0 +1,3065 @@
+{
+ "meta": {
+  "version": 1,
+  "created_at": "2026-07-06T22:53:43.088954+00:00",
+  "baselined_searches": [
+   "Arrendamento Aveiro",
+   "Casa Feira"
+  ]
+ },
+ "listings": {
+  "imovirtual:1iyKg": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 240000,
+   "title": "LA - T2 com Terraço de 40m² e 2 Lugares de Garagem Rio Meão, Feira",
+   "location": "Rio Meão",
+   "rooms": 3,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImhvcjBicm8zNnJwaTItQVBUIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.xBfDA5DCkQlliw4dkIcTxnw17cl_4O_KiPVjc7uxRl4/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/la-t2-com-terraco-de-40m-e-2-lugares-de-garagem-rio-meao-feira-ID1iyKg"
+   ]
+  },
+  "imovirtual:1iyfr": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 265000,
+   "title": "T3 - São João de Ver - Santa Maria da Feira",
+   "location": "São João de Ver",
+   "rooms": 4,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6InJkdDJzM2FsZDZ2aS1FQ09TWVNURU0iLCJ3IjpbeyJmbiI6IjY5bmxwYTdlY3FtNzEtQVBUIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.u-h26T7V3qvimvP2urmC4n9WqR-fdludaYhQPjmmNxM/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/t3-sao-joao-de-ver-santa-maria-da-feira-ID1iyfr"
+   ]
+  },
+  "imovirtual:1ix7w": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 247500,
+   "title": "Apartamento T2 com grandes áreas, próximo do Picôto - Mozelos",
+   "location": "Mozelos",
+   "rooms": 3,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IjFxdTRuOXBzNmo3bjMtQVBUIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.YwJxQ3BOt5kkoi_iaCE5j_H6iHk6FlrRFDcOKKWymcM/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/apartamento-t2-com-grandes-areas-proximo-do-picoto-mozelos-ID1ix7w"
+   ]
+  },
+  "imovirtual:1ix3K": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 275000,
+   "title": "Fantástico Apartamento T3 para venda em Rio Meão",
+   "location": "Rio Meão",
+   "rooms": 4,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IjA2aDRsMXI0Mng5czItRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.AOg8XUv7WbInFMX0oY47pus289YdVfnx6dMfG_LOEj4/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/fantastico-apartamento-t3-para-venda-em-rio-meao-ID1ix3K"
+   ]
+  },
+  "imovirtual:1ix1I": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 290000,
+   "title": "T2 EM MOZELOS",
+   "location": "Mozelos",
+   "rooms": 3,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6InJ3MGdvd3ViOWQwNDEtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.WC24ES7utd887MJ3hFpUtmqOz3OF5S46XaD1bvReiUA/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/t2-em-mozelos-ID1ix1I"
+   ]
+  },
+  "imovirtual:1ivA2": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 230000,
+   "title": "Apartamento T3 c/ Garagem, Varandas & Elevador – Centro da Feira...",
+   "location": "Santa Maria da Feira, Travanca, Sanfins e Espargo",
+   "rooms": 4,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Im9laG5tZzIwdXhxYi1FQ09TWVNURU0iLCJ3IjpbeyJmbiI6IjY5bmxwYTdlY3FtNzEtQVBUIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.MhtJSGbAY6v-4UA7rmhdJnno3A1xGeyF4oux4eXNlQo/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/apartamento-t3-c-garagem-varandas-elevador-centro-da-feira-ID1ivA2"
+   ]
+  },
+  "imovirtual:1ivmg": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 279000,
+   "title": "Apartamento T2 espaçoso em Santa Maria da Feira - Exclusivo",
+   "location": "Santa Maria da Feira, Travanca, Sanfins e Espargo",
+   "rooms": 3,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImdqdHpsb3V3ZWFqeDItQVBUIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.Y-Q43geC_qtsb3LA_9PO3buH3EwVHoe0XOJLIbNobfI/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/apartamento-t2-espacoso-em-santa-maria-da-feira-exclusivo-ID1ivmg"
+   ]
+  },
+  "imovirtual:1ivho": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 227500,
+   "title": "T2 c/ terraço - Lobão",
+   "location": "Lobão, Gião, Louredo e Guisande",
+   "rooms": 3,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IjVjdTZnejV1Ymt2Zy1FQ09TWVNURU0iLCJ3IjpbeyJmbiI6IjY5bmxwYTdlY3FtNzEtQVBUIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.LtnTNGvLDdb6yUNkSm4_lBzomW7EEFmMWz7Uq6DP4fg/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/t2-c-terraco-lobao-ID1ivho"
+   ]
+  },
+  "imovirtual:1ive0": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 299900,
+   "title": "Apartamento Moderno T3 em Cesar",
+   "location": "Cesar",
+   "rooms": 4,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImMzOGpmMWowZjlrbC1BUFQiLCJ3IjpbeyJmbiI6IjY5bmxwYTdlY3FtNzEtQVBUIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.TvkRFPAkW6un8a4a7FGaH7xAcbVl3mGB8GL8Gk3kQTo/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/apartamento-moderno-t3-em-cesar-ID1ive0"
+   ]
+  },
+  "imovirtual:1iv2L": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 342000,
+   "title": "Apartamento T3 Novo em Construção -  Nogueira do Cravo",
+   "location": "Nogueira da Regedoura",
+   "rooms": 4,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Ino0aXlmZTB5aHA0ei1FQ09TWVNURU0iLCJ3IjpbeyJmbiI6IjY5bmxwYTdlY3FtNzEtQVBUIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.NjNAqilHpo2R0LHPONrLr5HCDt5onbFly9ViSezoss4/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/apartamento-t3-novo-em-construcao-nogueira-do-cravo-ID1iv2L"
+   ]
+  },
+  "imovirtual:1iwUC": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 280000,
+   "title": "Apartamento T3 para venda",
+   "location": "Paços de Brandão",
+   "rooms": 4,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6InoyMXYzMTJobmt5OTEtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.9Cbv8KCWURjXxsP0ygs-Ypde_pZdDRWstvbvruqBCKU/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/apartamento-t3-para-venda-ID1iwUC"
+   ]
+  },
+  "imovirtual:1iwKc": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 249000,
+   "title": "Apartamento T2 Mobilado e Equipado com Garagem Fechada em Sanfins",
+   "location": "Escapães",
+   "rooms": 3,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IjVrOTB1MmlvcnZvNDMtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.BHdZ70lPuRnmzBs-6oqqnLzN7h1xK-BZ3YqQI8UJzMo/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/apartamento-t2-mobilado-e-equipado-com-garagem-fechada-em-sanfins-ID1iwKc"
+   ]
+  },
+  "imovirtual:1iwy8": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 235000,
+   "title": "Espaçoso Apartamento T2 c/ Varanda, Garagem & Arrumos Fechados...",
+   "location": "Arrifana",
+   "rooms": 3,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IjBubGwxcHZuM3N1ay1FQ09TWVNURU0iLCJ3IjpbeyJmbiI6IjY5bmxwYTdlY3FtNzEtQVBUIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.wcUSv1U7YWf7w5NnvnG2nUnsKQryTYYplmSlAt_DufE/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/espacoso-apartamento-t2-c-varanda-garagem-arrumos-fechados-ID1iwy8"
+   ]
+  },
+  "imovirtual:1iw0o": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 339000,
+   "title": "Apartamento T3 em Nogueira da Regedora",
+   "location": "Nogueira da Regedoura",
+   "rooms": 4,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IjZrNHlyeGgyd3I0ZzMtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.FgeOiQLwLLnww6LQ9LcqOx4kbqqWI1IzDy4Br2HPh0s/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/apartamento-t3-em-nogueira-da-regedora-ID1iw0o"
+   ]
+  },
+  "imovirtual:1iuJR": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 295000,
+   "title": "Apartamento T3 duplex em São João de Ver",
+   "location": "São João de Ver",
+   "rooms": 4,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IjQ0ZmR0NGViN3NlczMtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.E-UERKxNvVt8l3scFatwoGakJaQPMvSFoNUT-RRsdNE/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/apartamento-t3-duplex-em-sao-joao-de-ver-ID1iuJR"
+   ]
+  },
+  "imovirtual:1iunI": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 279000,
+   "title": "Apartamento T3 com Terraço junto à EN1 em Santa Maria da Feira",
+   "location": "São João de Ver",
+   "rooms": 4,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6InVzZWRhaXdwZ3J6ZjMtQVBUIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.Jt7-hj4zD-h2MV05Hf46KLLrZU3ey_0Ge0LHVh9LUOA/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/apartamento-t3-com-terraco-junto-a-en1-em-santa-maria-da-feira-ID1iunI"
+   ]
+  },
+  "imovirtual:1iuea": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 330000,
+   "title": "Apartamento T2 Venda em Escapães,Santa Maria da Feira",
+   "location": "Escapães",
+   "rooms": 3,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6InZiZTdna21paGdxdDEtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0._Y54V5hIB7ymYR58-ELGnCX5JPy-Iw3_pN59SotEKK8/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/apartamento-t2-venda-em-escapaes-santa-maria-da-feira-ID1iuea"
+   ]
+  },
+  "imovirtual:1iu09": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 232000,
+   "title": "Apartamento T3, Santa Maria da Feira",
+   "location": "Santa Maria da Feira, Travanca, Sanfins e Espargo",
+   "rooms": 4,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImlvMjg3Nzl5bjkxcC1FQ09TWVNURU0iLCJ3IjpbeyJmbiI6IjY5bmxwYTdlY3FtNzEtQVBUIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.4EwjSbJ9I9Qdwtzp1GApjSxn7fbyWOlY7aPobfdSSCY/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/apartamento-t3-santa-maria-da-feira-ID1iu09"
+   ]
+  },
+  "imovirtual:1itYR": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 232000,
+   "title": "Apartamento T3 em Travanca",
+   "location": "Santa Maria da Feira, Travanca, Sanfins e Espargo",
+   "rooms": 4,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IjVseWtnZ2w5NmNydzEtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.3cTSjDjt6vEizBR7eOBD9p8urOYp2KvjD2jWLMtoM8Q/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/apartamento-t3-em-travanca-ID1itYR"
+   ]
+  },
+  "imovirtual:1itFj": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 265000,
+   "title": "Apartamento T2+1 Venda em São Paio de Oleiros,Santa Maria da Feira",
+   "location": "São Paio de Oleiros",
+   "rooms": 3,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImZyMXdjem0yZTRqcDItRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.OGwJwcaSGrxwO-6DbDGurRo3ewkkjvyy0wMP1sUMcyI/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/apartamento-t2-1-venda-em-sao-paio-de-oleiros-santa-maria-da-feira-ID1itFj"
+   ]
+  },
+  "imovirtual:1isHT": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 320000,
+   "title": "Apartamento T3 para venda",
+   "location": "Santa Maria da Feira, Travanca, Sanfins e Espargo",
+   "rooms": 4,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6InNvZnBhZjYzbHJtYzMtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.WDPOx3JZf_LqcroZb1UeF3riRphkYczyL3aHHvk4UnQ/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/apartamento-t3-para-venda-ID1isHT"
+   ]
+  },
+  "imovirtual:1ispD": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 257500,
+   "title": "T3 São João de Ver",
+   "location": "São João de Ver",
+   "rooms": 4,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImppM2EwN2FiampibzItRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.u4O01a-8_3D4gRKB9iyquI_2KcPQqK4-JC2s71Z-eUE/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/t3-sao-joao-de-ver-ID1ispD"
+   ]
+  },
+  "imovirtual:1is1E": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 295000,
+   "title": "Espaçoso apartamento T3 com 3 frentes no centro de S. M. da Feira",
+   "location": "Santa Maria da Feira, Travanca, Sanfins e Espargo",
+   "rooms": 4,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6InhleGFpandpMXdzNjMtQVBUIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.p0AIFmGwIU2lXbwJG4IQqmqljkIy-Rh_-jOUNul7G_k/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/espacoso-apartamento-t3-com-3-frentes-no-centro-de-s-m-da-feira-ID1is1E"
+   ]
+  },
+  "imovirtual:1irNN": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 320000,
+   "title": "Apartamento T2, vista castelo a sul, ampla varanda, Feira",
+   "location": "Santa Maria da Feira, Travanca, Sanfins e Espargo",
+   "rooms": 3,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Imp5eWdqNDd4anFpZS1FQ09TWVNURU0iLCJ3IjpbeyJmbiI6IjY5bmxwYTdlY3FtNzEtQVBUIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.UiKbalV0ncwbQXbu7H_Xgdbiwm5SPzg4g-_zpL7xkvE/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/apartamento-t2-vista-castelo-a-sul-ampla-varanda-feira-ID1irNN"
+   ]
+  },
+  "imovirtual:1irj9": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 260000,
+   "title": "Apartamento T3 em Arrifana",
+   "location": "Arrifana",
+   "rooms": 4,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Imh1M2Rydm9odTg2bDEtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.3Ra6OOReiZQ-roEdtJDsim6DgKd9lCo6GkzINRng-UM/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/apartamento-t3-em-arrifana-ID1irj9"
+   ]
+  },
+  "imovirtual:1iqZO": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 330000,
+   "title": "Apartamento T3+1 em São João de Ver (junto à Suil Park)",
+   "location": "São João de Ver",
+   "rooms": 4,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IjI1NjdxbG1nZHl3MjEtQVBUIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.Z_ijYJyYB9a-WL4NKHj17r4ceXkC-ShwbUuOWA9174E/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/apartamento-t3-1-em-sao-joao-de-ver-junto-a-suil-park-ID1iqZO"
+   ]
+  },
+  "imovirtual:1iqNI": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 270000,
+   "title": "Apartamento T2 com Terraço, Varanda e Escritório em São João de Ver",
+   "location": "São João de Ver",
+   "rooms": 3,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IjdscXZ2czRuOGp2MzEtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.KfTDXze-XywfvDCCNz1kkqMAGwAEhE6IdBEgfnR6Hro/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/apartamento-t2-com-terraco-varanda-e-escritorio-em-sao-joao-de-ver-ID1iqNI"
+   ]
+  },
+  "imovirtual:1iqvq": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 279000,
+   "title": "T3 num condomínio fechado em São João de Ver",
+   "location": "São João de Ver",
+   "rooms": 4,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImxuM2Rqa3N1bDF5MjItQVBUIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.4Su_LrKbFnqqit3sSjeNKa4hNZYnrA5dJJrxXds7Kzc/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/t3-num-condominio-fechado-em-sao-joao-de-ver-ID1iqvq"
+   ]
+  },
+  "imovirtual:1ipN5": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 279000,
+   "title": "Apartamento T3 num condomínio fechado em São João de Ver",
+   "location": "São João de Ver",
+   "rooms": 4,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IjVya2d3d2NucjRjMjMtQVBUIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.lM-uU8bO-O77ps06LIbsVXnYfjhZL7Kb3pGTXsNbC1s/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/apartamento-t3-num-condominio-fechado-em-sao-joao-de-ver-ID1ipN5"
+   ]
+  },
+  "imovirtual:1ip5D": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 275000,
+   "title": "Apartamento T3 de 3 frentes com varanda à N1",
+   "location": "Mozelos",
+   "rooms": 4,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImFjcDk1a3FxYmx2MS1FQ09TWVNURU0iLCJ3IjpbeyJmbiI6IjY5bmxwYTdlY3FtNzEtQVBUIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.sLT6Ya0i76CCOwgf7JMysWDbd1ZFrw_a50_EGNv3V4g/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/apartamento-t3-de-3-frentes-com-varanda-a-n1-ID1ip5D"
+   ]
+  },
+  "imovirtual:1ioEO": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 345000,
+   "title": "Apartamento T2 Feira Living - Santa Maria da Feira",
+   "location": "Santa Maria da Feira, Travanca, Sanfins e Espargo",
+   "rooms": 3,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6InJpam84NnN0N3gzaS1FQ09TWVNURU0iLCJ3IjpbeyJmbiI6IjY5bmxwYTdlY3FtNzEtQVBUIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.Q4oSEX0Vf363PcFmic1YZaH7QVGt815YFQj3ehGb910/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/apartamento-t2-feira-living-santa-maria-da-feira-ID1ioEO"
+   ]
+  },
+  "imovirtual:1inTf": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 265000,
+   "title": "Apartamento T3 em São Paio de Oleiros",
+   "location": "São Paio de Oleiros",
+   "rooms": 4,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImZwY3RzNnUzeW95My1FQ09TWVNURU0iLCJ3IjpbeyJmbiI6IjY5bmxwYTdlY3FtNzEtQVBUIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.ipQ3I2lqUuXVzZz3GwLE7H8lDuxb-RvXPTT75oyMiag/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/apartamento-t3-em-sao-paio-de-oleiros-ID1inTf"
+   ]
+  },
+  "imovirtual:1intt": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 240000,
+   "title": "Apartamento T3 Renovado com Varandas em Santa Maria de Lamas",
+   "location": "Santa Maria de Lamas",
+   "rooms": 4,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6InY3cjl4amFoMjduejEtQVBUIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.7BxyjmEu3I3AU6ofzNk2MAqWaaIIwuoc3t1t9O5GExw/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/apartamento-t3-renovado-com-varandas-em-santa-maria-de-lamas-ID1intt"
+   ]
+  },
+  "imovirtual:1inoK": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 345000,
+   "title": "Excelente apartamento T2 novo em Santa Maria da Feira",
+   "location": "Santa Maria da Feira, Travanca, Sanfins e Espargo",
+   "rooms": 3,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IjBmOTB2bnI1dGp2dDEtQVBUIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.sbWwUFWbWIj0Z8-ZqwtdS_HQ18v7DjrX7hjerMJfdZw/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/excelente-apartamento-t2-novo-em-santa-maria-da-feira-ID1inoK"
+   ]
+  },
+  "imovirtual:1innt": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 325000,
+   "title": "Excelente apartamento T2 novo, com terraço em Santa Maria da feira",
+   "location": "Santa Maria da Feira, Travanca, Sanfins e Espargo",
+   "rooms": 3,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Imo4ZDJ4ZHZoZHA1djItQVBUIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.kjAVxHJgduPVKQ0BhDgfHXwX7tcrsh3aS6Tnbm_W2Nk/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/excelente-apartamento-t2-novo-com-terraco-em-santa-maria-da-feira-ID1innt"
+   ]
+  },
+  "imovirtual:1in0N": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 320000,
+   "title": "Apartamento T3 para venda",
+   "location": "Rio Meão",
+   "rooms": 4,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Imdra2phMzU5MWpucTMtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.reR-ajIkxcO6YJNwJVMo_0OMouTHjt07dUZJp0FhoQs/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/apartamento-t3-para-venda-ID1in0N"
+   ]
+  },
+  "imovirtual:1imHx": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 279000,
+   "title": "T3 c/ Garagem Box em São João de Ver",
+   "location": "São João de Ver",
+   "rooms": 4,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IjhtdG82a2M3YmVtbDItQVBUIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.kzloSUj-KgSSXQd07ghDSAAGI3mzl1NinT6fyTzPDWI/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/t3-c-garagem-box-em-sao-joao-de-ver-ID1imHx"
+   ]
+  },
+  "imovirtual:1imCM": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 279000,
+   "title": "T3 c/ Terraço e Garagem Box em S. João De Ver",
+   "location": "São João de Ver",
+   "rooms": 4,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Imc4dnNzMDcyNW15NjMtQVBUIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.U4Fs1ArgyKqvUOX9n_yK9aXYDRgoqhNDuqICmpzZAdo/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/t3-c-terraco-e-garagem-box-em-s-joao-de-ver-ID1imCM"
+   ]
+  },
+  "imovirtual:1imBr": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 279000,
+   "title": "Apartamento T3 c/Terraço em São João de Vêr",
+   "location": "São João de Ver",
+   "rooms": 3,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Im9ndWNiaDNicGRqOC1BUFQiLCJ3IjpbeyJmbiI6IjY5bmxwYTdlY3FtNzEtQVBUIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.Ja3gjUHYr5hjY-jzQQ4R8i0MqWOSxQ-o1N5MzpuiNGE/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/apartamento-t3-c-terraco-em-sao-joao-de-ver-ID1imBr"
+   ]
+  },
+  "imovirtual:1imAV": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 255500,
+   "title": "Irresistível T2 para venda em Paços de Brandão (Santa Maria da Feira)",
+   "location": "Paços de Brandão",
+   "rooms": 3,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6InQ0aHg1MmVybWk3djMtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.lLvk6sSeQvhmoEz2z3LhuYoc2OP4yk_fHXcE74nX074/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/irresistivel-t2-para-venda-em-pacos-de-brandao-santa-maria-da-feira-ID1imAV"
+   ]
+  },
+  "imovirtual:1ilQJ": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 249900,
+   "title": "Apartamento T3 para venda",
+   "location": "Mozelos",
+   "rooms": 4,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImRxN2V1Z3hpMmRpbzMtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.XuWaoGDs7B90--HxThDcO3MnzU2CMYGuGDlRI3aPsr8/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/apartamento-t3-para-venda-ID1ilQJ"
+   ]
+  },
+  "imovirtual:1ilh2": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 260000,
+   "title": "T2 duplex renovado com 122m² em Argoncilhe",
+   "location": "Argoncilhe",
+   "rooms": 3,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IjNjN2lwMDVib3g4YzEtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.GhcqYcJhgKMyzvp8G43G6NsaCCsWZhaGICi5F7v8vcE/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/t2-duplex-renovado-com-122m-em-argoncilhe-ID1ilh2"
+   ]
+  },
+  "imovirtual:1iknI": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 209900,
+   "title": "Apartamento T3 para venda",
+   "location": "Santa Maria de Lamas",
+   "rooms": 4,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImR5YnJxbjJxanBoaDMtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.JmPX_ZKLGrmFu_ipPt0Tzr712wsPLwPu16M_cpcnpb0/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/apartamento-t3-para-venda-ID1iknI"
+   ]
+  },
+  "imovirtual:1ijfl": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 265000,
+   "title": "Apartamento T3 em Mozelos",
+   "location": "Mozelos",
+   "rooms": 4,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImM5cnZ4ZndwZWk5bTItRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.MuNqyPaOi4GMdAvvS_27W2WvveoIztok8GzCTt4Sets/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/apartamento-t3-em-mozelos-ID1ijfl"
+   ]
+  },
+  "imovirtual:1iizZ": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 249000,
+   "title": "Apartamento T2 c/ Garagem Fechada p/ 2 Carros & Duas Varandas –...",
+   "location": "Mozelos",
+   "rooms": 3,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IjFvZzNobGJyd3g5NTEtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.QTB963X6GKeeqPZUR7Fu276Rsb7UoWPNiBmOspxdnP8/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/apartamento-t2-c-garagem-fechada-p-2-carros-duas-varandas-ID1iizZ"
+   ]
+  },
+  "imovirtual:1igtj": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 275000,
+   "title": "Apartamento T2 Venda em Argoncilhe,Santa Maria da Feira",
+   "location": "Argoncilhe",
+   "rooms": 3,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IjZtczZlbjlydDFjajEtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.19G711FMj9JiVH8J0qXiczDauiXF3_ohnmLEE17Tz4A/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/apartamento-t2-venda-em-argoncilhe-santa-maria-da-feira-ID1igtj"
+   ]
+  },
+  "imovirtual:1igth": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 285000,
+   "title": "Apartamento T2 Venda em Argoncilhe,Santa Maria da Feira",
+   "location": "Argoncilhe",
+   "rooms": 3,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Im5nMW9za2l4aWJpNzMtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.B3WdECq8QfMWGEdpB48Jv7ut0XMv9ft7gLln8cHh0W0/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/apartamento-t2-venda-em-argoncilhe-santa-maria-da-feira-ID1igth"
+   ]
+  },
+  "imovirtual:1ifjX": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 246000,
+   "title": "Andar moradia T3 em São João de Ver",
+   "location": "São João de Ver",
+   "rooms": 4,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImFybGN1NmZwNnJhbzItRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.FmMPyS2YQln_Juz5vlSkVoKmbUn9aPk6T2EgEIUPjl4/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/andar-moradia-t3-em-sao-joao-de-ver-ID1ifjX"
+   ]
+  },
+  "imovirtual:1ieL0": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 295000,
+   "title": "Apartamento T2 no Cavaco",
+   "location": "Santa Maria da Feira, Travanca, Sanfins e Espargo",
+   "rooms": 3,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImRtYWFiOXZwNjNrMTMtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.-EnCbZv-osAGZIbh-5K0h_MW_jioqeZ6TScLUer_hfk/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/apartamento-t2-no-cavaco-ID1ieL0"
+   ]
+  },
+  "imovirtual:1iedn": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 299000,
+   "title": "T 2 Santa Maria da feira - Viver com Qualidade.",
+   "location": "Santa Maria da Feira, Travanca, Sanfins e Espargo",
+   "rooms": 3,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IjVha3VldmZtcXZiZi1FQ09TWVNURU0iLCJ3IjpbeyJmbiI6IjY5bmxwYTdlY3FtNzEtQVBUIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.weMMKiDL_8OW8Cg4-RnLM5VgNDTu2tJxdhGQanprTBs/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/t-2-santa-maria-da-feira-viver-com-qualidade-ID1iedn"
+   ]
+  },
+  "imovirtual:1icKk": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 267500,
+   "title": "Apartamento T2+1 Venda em Argoncilhe,Santa Maria da Feira",
+   "location": "Argoncilhe",
+   "rooms": 3,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IjQzcm5rczliaWhleTItRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.MqQsgLaP53stVx50B251YXKayO2uly4U-DvKm4t5ayg/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/apartamento-t2-1-venda-em-argoncilhe-santa-maria-da-feira-ID1icKk"
+   ]
+  },
+  "imovirtual:1icyz": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 277500,
+   "title": "Apartamento T2+2 Venda em Argoncilhe,Santa Maria da Feira",
+   "location": "Argoncilhe",
+   "rooms": 4,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6InVuanJvN2dscmRrbjMtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.kUIARfA61i-5bPOrLPnvM8axjAh8jxmV83LImrChoSQ/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/apartamento-t2-2-venda-em-argoncilhe-santa-maria-da-feira-ID1icyz"
+   ]
+  },
+  "imovirtual:1icez": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 269000,
+   "title": "T3, garagem 2 carros, 1º andar elevador, aquecimento central",
+   "location": "Santa Maria de Lamas",
+   "rooms": 4,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImRxNHM4cjNqMXM4cDItQVBUIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.SOXMZW7Dw-ZIA5EDyXwH2cF1e6_Ts3oOC8vgu7gjOx0/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/t3-garagem-2-carros-1-andar-elevador-aquecimento-central-ID1icez"
+   ]
+  },
+  "imovirtual:1ibcp": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 250000,
+   "title": "Apartamento c/ 203m2 + Varandas (Garagem de 100m2) – Imóvel...",
+   "location": "Escapães",
+   "rooms": 3,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Inl1d3Bsa2MzMzEzNjMtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.KvNjXXqYp1ezaZdA0EbYU28PbGWzd208SCj8ONNe2zI/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/apartamento-c-203m2-varandas-garagem-de-100m2-imovel-ID1ibcp"
+   ]
+  },
+  "imovirtual:1ibbv": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 265000,
+   "title": "Apartamento T3 para venda",
+   "location": "Arrifana",
+   "rooms": 4,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImhrNm00c3djdWgyYzMtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.3aaylBh-KAGjZnXmZT5AHcSjmmV0ingzxFBaMkjsFxM/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/apartamento-t3-para-venda-ID1ibbv"
+   ]
+  },
+  "imovirtual:1iaoL": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 247500,
+   "title": "T3 centro de Mozelos",
+   "location": "Mozelos",
+   "rooms": 4,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IjJpN2docWd3N2JtMDEtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.T_I9jPgFW3rRxBkUTGrGL1-KBIKtKwUQGY6euacmPxA/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/t3-centro-de-mozelos-ID1iaoL"
+   ]
+  },
+  "imovirtual:1i9Ih": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 299000,
+   "title": "Apartamento T3 Duplex c/ 200m2, Varandas, Garagem e Último Andar...",
+   "location": "Lourosa",
+   "rooms": 4,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IndobjI3NzR5bXZiaDEtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.teVBpbOR0KeJcG5nWu0iD15C-_RL7W0D9X7IQxXeu0Y/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/apartamento-t3-duplex-c-200m2-varandas-garagem-e-ultimo-andar-ID1i9Ih"
+   ]
+  },
+  "imovirtual:1i90a": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 280000,
+   "title": "Apartamento T3 com terraço em Paços de Brandão",
+   "location": "Paços de Brandão",
+   "rooms": 4,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Imw3eWY5czN6bzRrdC1FQ09TWVNURU0iLCJ3IjpbeyJmbiI6IjY5bmxwYTdlY3FtNzEtQVBUIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.JAfa6aIB15AJ8l2NirKlhm76AVQjSyjm7A_bJRP0Zt0/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/apartamento-t3-com-terraco-em-pacos-de-brandao-ID1i90a"
+   ]
+  },
+  "imovirtual:1i8VK": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 305000,
+   "title": "Excelente T2 com terraço nos Passionistas, Santa Maria da Feira",
+   "location": "Santa Maria da Feira, Travanca, Sanfins e Espargo",
+   "rooms": 3,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Incxb2gzaDloZHNudi1BUFQiLCJ3IjpbeyJmbiI6IjY5bmxwYTdlY3FtNzEtQVBUIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.FkOIS4giMhSNpcgdoWRACXJL3BXGybXuRX9fZ5hhZDk/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/excelente-t2-com-terraco-nos-passionistas-santa-maria-da-feira-ID1i8VK"
+   ]
+  },
+  "imovirtual:1i7Qi": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 265000,
+   "title": "T3 semi-novo | Totalmente equipado | Exposição nascente/sul",
+   "location": "São João de Ver",
+   "rooms": 4,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImswMmo5MzFsODRvZzMtQVBUIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.Qo4ABf6lo8Ve7Tej9XVm2CS9VDKRJJvqmFsj6mqNHaw/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/t3-semi-novo-totalmente-equipado-exposicao-nascente-sul-ID1i7Qi"
+   ]
+  },
+  "imovirtual:1i6Iz": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 259000,
+   "title": "Apartamento T3 para venda",
+   "location": "Santa Maria de Lamas",
+   "rooms": 4,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6InJ2OXU2dGJsbXg4aDEtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0._HdGlw0IoW_exkjNOPnr2PJVppHm2NFPL7X8eV15XE0/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/apartamento-t3-para-venda-ID1i6Iz"
+   ]
+  },
+  "imovirtual:1i60D": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 279000,
+   "title": "T3 c/ Terraço em S. João De Ver (Santa Maria da Feira)",
+   "location": "São João de Ver",
+   "rooms": 4,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IjZ2MXRubHM0NzRtYjEtQVBUIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.BE20-44Kzg9Hk7aqiA9lCl-rbyOro2JXkIynMRa7aSM/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/t3-c-terraco-em-s-joao-de-ver-santa-maria-da-feira-ID1i60D"
+   ]
+  },
+  "imovirtual:1i60z": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 279000,
+   "title": "T3 c/ Terraço em São João de Ver",
+   "location": "São João de Ver",
+   "rooms": 4,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IjVsYWVvdmtmczJndi1BUFQiLCJ3IjpbeyJmbiI6IjY5bmxwYTdlY3FtNzEtQVBUIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.-1QlXUtKEAItL6JuqnoSQ0kOL4veqh4eue8icYbCofU/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/t3-c-terraco-em-sao-joao-de-ver-ID1i60z"
+   ]
+  },
+  "imovirtual:1i5D6": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 340000,
+   "title": "T3-Recuado -Último Andar- Junto ao Lidl e Continente de Mozelos.",
+   "location": "Mozelos",
+   "rooms": 4,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IjdrNWd2MnpsMDIyaDItRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.HNePeMaVlNxPggDVi-S-a0RvE-d0sl3Bny4UCS9iCSg/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/t3-recuado-ultimo-andar-junto-ao-lidl-e-continente-de-mozelos-ID1i5D6"
+   ]
+  },
+  "imovirtual:1i5eA": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 339000,
+   "title": "Apartamento T3, sito no último andar com 140m2",
+   "location": "Nogueira da Regedoura",
+   "rooms": 4,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImFoemhrczRoemN0NC1FQ09TWVNURU0iLCJ3IjpbeyJmbiI6IjY5bmxwYTdlY3FtNzEtQVBUIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.ZiW-wPrDr-WX2OeCn2thqjkQ5IWKiw-KTkKap2ElErE/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/apartamento-t3-sito-no-ultimo-andar-com-140m2-ID1i5eA"
+   ]
+  },
+  "imovirtual:1i4H3": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 339000,
+   "title": "ApartamentoT3 com Vista Mar + Garagem p/2 carros | Nogueira da Rege...",
+   "location": "Nogueira da Regedoura",
+   "rooms": 4,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6InZuMWIweG53YmdmZC1FQ09TWVNURU0iLCJ3IjpbeyJmbiI6IjY5bmxwYTdlY3FtNzEtQVBUIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.fxFwEA2ul19O7K9dnhXpgXAcdZQFVsdaHCZS1-duYIE/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/apartamentot3-com-vista-mar-garagem-p-2-carros-nogueira-da-rege-ID1i4H3"
+   ]
+  },
+  "imovirtual:1i495": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 237000,
+   "title": "Apartamento T2 para venda",
+   "location": "Caldas de São Jorge e Pigeiros",
+   "rooms": 3,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IjZuZnphZXRvZWg2cC1FQ09TWVNURU0iLCJ3IjpbeyJmbiI6IjY5bmxwYTdlY3FtNzEtQVBUIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.BfNscC7_GigqaCBLPAsT4vMxdJLS4KirXy7Z1Zdrwtw/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/apartamento-t2-para-venda-ID1i495"
+   ]
+  },
+  "imovirtual:1i2XP": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 330000,
+   "title": "APARTAMENTO T2 NOVO - ARGONCILHE",
+   "location": "Argoncilhe",
+   "rooms": 3,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IjBucnI1ajFyd293aDItRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.HLm14ogHyXMHoDMIs2YwI6nGUHFWL5arisOc58Mlvko/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/apartamento-t2-novo-argoncilhe-ID1i2XP"
+   ]
+  },
+  "imovirtual:1hXYM": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 350000,
+   "title": "T2 Passionistas S.M.Feira - obra 2025",
+   "location": "Santa Maria da Feira, Travanca, Sanfins e Espargo",
+   "rooms": 3,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImdxZGp1c205ZXBvcC1FQ09TWVNURU0iLCJ3IjpbeyJmbiI6IjY5bmxwYTdlY3FtNzEtQVBUIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.qunZMQV-4m-wi9O4kGq6BtTLJDiluAJLf-uzM5Ph4SM/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/t2-passionistas-s-m-feira-obra-2025-ID1hXYM"
+   ]
+  },
+  "imovirtual:1hV5j": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 200000,
+   "title": "Excelente T2 no Último Andar com Terraços e Garagem em São João de",
+   "location": "São João de Ver",
+   "rooms": 3,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IjRlb2k2Y3NmZXZpYTEtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.FGIrn5k6D2XSt61YEFvZmX6v4cZNvsbVCAsmeYCBUwk/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/excelente-t2-no-ultimo-andar-com-terracos-e-garagem-em-sao-joao-de-ID1hV5j"
+   ]
+  },
+  "imovirtual:1hUik": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 345000,
+   "title": "Apartamento T2 Novo num Condomínio Fechado em Santa Maria da Feira",
+   "location": "Santa Maria da Feira, Travanca, Sanfins e Espargo",
+   "rooms": 3,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6InIxY3EyZXNldG0xei1FQ09TWVNURU0iLCJ3IjpbeyJmbiI6IjY5bmxwYTdlY3FtNzEtQVBUIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.8QVFnbRX8S9u78kQETqErCZKhKq0Dul6RuqvwT6d_Rg/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/apartamento-t2-novo-num-condominio-fechado-em-santa-maria-da-feira-ID1hUik"
+   ]
+  },
+  "imovirtual:1hUfX": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 277500,
+   "title": "APARTAMENTO T3 RECUADO - LOBÃO",
+   "location": "Lobão, Gião, Louredo e Guisande",
+   "rooms": 4,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IjNhd3gzY2dyZXczYTItRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.vgX9DHqE1EuLY8hrs2lk9MH9MDD5gsIZOqgx2KUpuFQ/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/apartamento-t3-recuado-lobao-ID1hUfX"
+   ]
+  },
+  "imovirtual:1ixLn": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 320000,
+   "title": "Moradia Geminada V3 | Urbanização Quinta do Areeiro | São João de Ver",
+   "location": "São João de Ver",
+   "rooms": 4,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6InhqejhnNWdta216cTItQVBUIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.Tw8p6vkTY_1dr7stCYMVIxcL3ZDoCZWDEBEfYxLnISc/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/moradia-geminada-v3-urbanizacao-quinta-do-areeiro-sao-joao-de-ver-ID1ixLn"
+   ]
+  },
+  "imovirtual:1ix0L": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 339000,
+   "title": "Moradia T3 para venda",
+   "location": "Lobão, Gião, Louredo e Guisande",
+   "rooms": 4,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImtsbGFkbXppeGttbjItRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.PhKOgw2Aje0ggTxp4WOzIlvlMy6eN5O9yDg4-bHpvUQ/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/moradia-t3-para-venda-ID1ix0L"
+   ]
+  },
+  "imovirtual:1ivCo": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 289900,
+   "title": "Moradia T3 com Minimercado e Snack-Bar em Funcionamento – São João da",
+   "location": "Arrifana",
+   "rooms": 4,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IjVsZXF3bGs4cDNuNDEtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.foz7c1OcsDGDx8-QrouLzmWDvV5M2MZyi7m3_N74xUo/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/moradia-t3-com-minimercado-e-snack-bar-em-funcionamento-sao-joao-da-ID1ivCo"
+   ]
+  },
+  "imovirtual:1ivxK": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 305000,
+   "title": "Moradia T3 com Suite e Garagem para 3 Viaturas em Rio Meão - Exclusivo",
+   "location": "Rio Meão",
+   "rooms": 4,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6InpxdDFnc212bTZ2eDItQVBUIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.7qLOetYSgo-L0f5HYMOYjngyd4Cp-IW8E4O2ohAKEZ4/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/moradia-t3-com-suite-e-garagem-para-3-viaturas-em-rio-meao-exclusivo-ID1ivxK"
+   ]
+  },
+  "imovirtual:1iveX": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 250000,
+   "title": "Quinta com Frente de Rio e Moinho para Recuperar - Potencial Único",
+   "location": "São Miguel do Souto e Mosteirô",
+   "rooms": 3,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6InNvZmE1M2IwdTFtYzItRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.CFQZLUfuXlD-fS93y0-ZrQPGmGg7b20hySxL-mmKLx4/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/quinta-com-frente-de-rio-e-moinho-para-recuperar-potencial-unico-ID1iveX"
+   ]
+  },
+  "imovirtual:1iwk4": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 96000,
+   "title": "Casa para venda",
+   "location": "Lobão, Gião, Louredo e Guisande",
+   "rooms": 3,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImFldzlmY29iajB6ZzItRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.-0v9uFfNmhApJLf6PLZyxmQclXA_1eoAF4hkr19SFts/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/casa-para-venda-ID1iwk4"
+   ]
+  },
+  "imovirtual:1iuPE": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 319000,
+   "title": "Moradia Banda V3, S João de Ver",
+   "location": "São João de Ver",
+   "rooms": 4,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImQwaTg2c3VjMzB5di1FQ09TWVNURU0iLCJ3IjpbeyJmbiI6IjY5bmxwYTdlY3FtNzEtQVBUIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.ey7Kl7ozWQJ0kAhLCBQUeqXRkxFUBmxR2nYSSXjcJpg/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/moradia-banda-v3-s-joao-de-ver-ID1iuPE"
+   ]
+  },
+  "imovirtual:1ium6": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 319000,
+   "title": "Moradia em banda V3 em São João de Ver Santa Maria da Feira",
+   "location": "São João de Ver",
+   "rooms": 4,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImFkcGNucGc3dWpmMDMtQVBUIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.cejJnexXaeTYH2AvIZllRsCYultQOfSmQl87e8Qsifg/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/moradia-em-banda-v3-em-sao-joao-de-ver-santa-maria-da-feira-ID1ium6"
+   ]
+  },
+  "imovirtual:1iuc7": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 350000,
+   "title": "Moradia T3 a cinco minutos de Espinho e Feira",
+   "location": "São Paio de Oleiros",
+   "rooms": 4,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Imt5bmtsMTQyZmVzNDMtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.6rpIj8UPWmoPU5FkYqbkChitoC7vYCsirdoR4IPQuyg/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/moradia-t3-a-cinco-minutos-de-espinho-e-feira-ID1iuc7"
+   ]
+  },
+  "imovirtual:1it4H": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 315000,
+   "title": "Moradia V3 Outeiro Arrifana Santa Maria da Feira",
+   "location": "Arrifana",
+   "rooms": 4,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Imd6Y2p3bjBncnFjby1FQ09TWVNURU0iLCJ3IjpbeyJmbiI6IjY5bmxwYTdlY3FtNzEtQVBUIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.T7TZtHVUJcpborRuNt9iV8M9wt5rT8NW6qEuuWqFVIQ/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/moradia-v3-outeiro-arrifana-santa-maria-da-feira-ID1it4H"
+   ]
+  },
+  "imovirtual:1is4s": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 319000,
+   "title": "Moradia em Banda V3 em São João de Ver, Santa Maria da Feira",
+   "location": "São João de Ver",
+   "rooms": 4,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Ijd4MmYwNWxyaTlvbzEtQVBUIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.1vJTAc2MmrNWSUyrnr_AOWfRRMzsZIuHQzoSCZMr6i8/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/moradia-em-banda-v3-em-sao-joao-de-ver-santa-maria-da-feira-ID1is4s"
+   ]
+  },
+  "imovirtual:1irng": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 220000,
+   "title": "Moradia T2 Térrea - Guisande",
+   "location": "Lobão, Gião, Louredo e Guisande",
+   "rooms": 3,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6InNmNDFnYW5zdDN4bzMtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.CsG8vfRdbS1N_l1qEGJejZhpBruC7Stdp4p8_uIqins/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/moradia-t2-terrea-guisande-ID1irng"
+   ]
+  },
+  "imovirtual:1ippZ": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 330000,
+   "title": "Moradia T3 para venda",
+   "location": "Canedo, Vale e Vila Maior",
+   "rooms": 4,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IjJvZmRuMTQ3emYxMTItRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.xVU2KJYPsTTJJUqZzMzlyE7efFb6iiI9sHaKtXfAS5M/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/moradia-t3-para-venda-ID1ippZ"
+   ]
+  },
+  "imovirtual:1ioU9": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 349500,
+   "title": "Moradia T3+1 em construção com excelente localização - Exclusivo",
+   "location": "Santa Maria da Feira, Travanca, Sanfins e Espargo",
+   "rooms": 4,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Iml3cGRkaG1ucDl6MzItQVBUIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0._CEkaliQDPmcC-05POXDuhrGwNCGjH4E1ikESXQyqP4/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/moradia-t3-1-em-construcao-com-excelente-localizacao-exclusivo-ID1ioU9"
+   ]
+  },
+  "imovirtual:1ioNR": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 250000,
+   "title": "Moradia com 2 T3",
+   "location": "Santa Maria de Lamas",
+   "rooms": 4,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IjRhbmNzZmhodXc1cTEtQVBUIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.vbhtPBm3AsEyg4054sxU8JtiHl_ohO1BC-aJIjYrdyA/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/moradia-com-2-t3-ID1ioNR"
+   ]
+  },
+  "imovirtual:1ioIA": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 320000,
+   "title": "Moradia BI-FAMILIAR com amplas varandas",
+   "location": "Romariz",
+   "rooms": 4,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Imc1MWlvMzl3NHg3MjItRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.L63lmHUSrB1eEGhnAiEA82Kks77KsXL5Ykguqjvianw/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/moradia-bi-familiar-com-amplas-varandas-ID1ioIA"
+   ]
+  },
+  "imovirtual:1ioGo": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 319000,
+   "title": "Moradia em banda para venda em São João de Vêr, Santa Maria da Feira",
+   "location": "São João de Ver",
+   "rooms": 4,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Imh5a3cxODVoYmtpdS1FQ09TWVNURU0iLCJ3IjpbeyJmbiI6IjY5bmxwYTdlY3FtNzEtQVBUIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.nrTPhaPvAuYWuz4AJ8Dp6mM0Fulp3NaRSZM5MnS5wvo/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/moradia-em-banda-para-venda-em-sao-joao-de-ver-santa-maria-da-feira-ID1ioGo"
+   ]
+  },
+  "imovirtual:1iolg": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 235000,
+   "title": "Moradia em lote de 600 m2 em Rio Meão Santa Maria da Feira",
+   "location": "Rio Meão",
+   "rooms": 4,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IjIyb2ZydGYyb2NkZjItQVBUIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.MNH7XkKMWwThyQXgwCfIE-voXnRPVxzVJ39wCSnAIBc/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/moradia-em-lote-de-600-m2-em-rio-meao-santa-maria-da-feira-ID1iolg"
+   ]
+  },
+  "imovirtual:1io6x": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 175000,
+   "title": "Terreno Casa Moradia",
+   "location": "Fornos",
+   "rooms": 4,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImFyY3B2bTJxYXltai1FQ09TWVNURU0iLCJ3IjpbeyJmbiI6IjY5bmxwYTdlY3FtNzEtQVBUIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.MfUCJ9qSt11wOEmdAfXJG1j3bcAjwyWE236vNpaKaow/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/terreno-casa-moradia-ID1io6x"
+   ]
+  },
+  "imovirtual:1io2T": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 225000,
+   "title": "Moradia T3 para venda",
+   "location": "Fornos",
+   "rooms": 4,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6InRjMWNxNXZweXBlcy1FQ09TWVNURU0iLCJ3IjpbeyJmbiI6IjY5bmxwYTdlY3FtNzEtQVBUIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.EjHi9JnRJFBkFdTsyrAWKt4Ju_lBbn0_IFt9rCFxg2s/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/moradia-t3-para-venda-ID1io2T"
+   ]
+  },
+  "imovirtual:1inGM": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 270000,
+   "title": "Moradia T3+1 Zona Histórica: Investimento Prime com Charme Ribeirinho",
+   "location": "Santa Maria da Feira, Travanca, Sanfins e Espargo",
+   "rooms": 4,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6InA0ZTEyY2s4dXdydzEtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.vN0KWrXmM5vMp_bSo4I9iHr6219T_x-M9xZrubA9keY/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/moradia-t3-1-zona-historica-investimento-prime-com-charme-ribeirinho-ID1inGM"
+   ]
+  },
+  "imovirtual:1inrr": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 220000,
+   "title": "Moradia Isolada com 1.600 m2 – Excelente Potencial para Investimento o",
+   "location": "Escapães",
+   "rooms": 4,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Ino2Njc5a2EwaGVwZDMtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.PhI_pVIQcerXGxxyfJBppGuLUlV2vSvCUs3CMp_qy0Q/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/moradia-isolada-com-1-600-m2-excelente-potencial-para-investimento-o-ID1inrr"
+   ]
+  },
+  "imovirtual:1inlw": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 129900,
+   "title": "Casa Rústica com imenso potencial mesmo no centro de Romariz",
+   "location": "Romariz",
+   "rooms": 3,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Im9qcWxhczJuZG04bjEtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.IwVeTqJYrdqu8qS-3Nap2O9agE_Sbf1ufni3JUw_aYs/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/casa-rustica-com-imenso-potencial-mesmo-no-centro-de-romariz-ID1inlw"
+   ]
+  },
+  "imovirtual:1ilFS": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 250000,
+   "title": "Moradia T2 térrea com 2 terrenos urbanos - Santa Maria da Feira",
+   "location": "Lobão, Gião, Louredo e Guisande",
+   "rooms": 3,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6InB3Nm9yaW9rdzlmeC1FQ09TWVNURU0iLCJ3IjpbeyJmbiI6IjY5bmxwYTdlY3FtNzEtQVBUIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.Ghjo7ymt9wMo2DvQ4yMSbjqA27kwfR9D8V4os-U53sA/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/moradia-t2-terrea-com-2-terrenos-urbanos-santa-maria-da-feira-ID1ilFS"
+   ]
+  },
+  "imovirtual:1ilm6": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 240000,
+   "title": "Moradias para restauro total - Argoncilhe",
+   "location": "Argoncilhe",
+   "rooms": 4,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IjVkMG5yazE5NXN5NzMtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.a3PUZba5KgDAIB8wLtaeSNSIAFcFm_yvrz2oV7UTkV0/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/moradias-para-restauro-total-argoncilhe-ID1ilm6"
+   ]
+  },
+  "imovirtual:1il3z": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 280000,
+   "title": "moradia individual usada, perto do pingo doce- FEIRA",
+   "location": "Santa Maria da Feira, Travanca, Sanfins e Espargo",
+   "rooms": 4,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImNsbmdmcTRnZmxiejItRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.eKy1Prb3uUrwGpswFccgghJvu8AitJk0PelLIPzZNKs/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/moradia-individual-usada-perto-do-pingo-doce-feira-ID1il3z"
+   ]
+  },
+  "imovirtual:1ikVA": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 335000,
+   "title": "Moradia T3 Independente c/ Jardim & Excelente Espaço Exterior –...",
+   "location": "Romariz",
+   "rooms": 4,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6InEwcG4zcDRwOTQ3bC1FQ09TWVNURU0iLCJ3IjpbeyJmbiI6IjY5bmxwYTdlY3FtNzEtQVBUIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.4DKy44ZacTY01S0jE1k-pwoi1pyyBA9xT3cQ4ekgOws/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/moradia-t3-independente-c-jardim-excelente-espaco-exterior-ID1ikVA"
+   ]
+  },
+  "imovirtual:1ik8H": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 275000,
+   "title": "Exelente moradia Germinada Milheiros de Poiares",
+   "location": "Milheirós de Poiares",
+   "rooms": 4,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6InhvaWlncHY5Z2g1eDEtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.2jaTjhxNMC1Q62p979ETKaVpalZGp4VTvGIfj6T0XrM/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/exelente-moradia-germinada-milheiros-de-poiares-ID1ik8H"
+   ]
+  },
+  "imovirtual:1ijHQ": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 265000,
+   "title": "Moradia T3 para venda",
+   "location": "Caldas de São Jorge e Pigeiros",
+   "rooms": 4,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6InJndXk5NHJtdjh5MzItRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.bll5kUL_18ZgPOgGqXgEhQ6RAmEgcvEZfxWL1htsvnQ/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/moradia-t3-para-venda-ID1ijHQ"
+   ]
+  },
+  "imovirtual:1ihjG": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 79000,
+   "title": "Moradia T3 para venda",
+   "location": "São Paio de Oleiros",
+   "rooms": 4,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IjF3dmw1YW42OWR0cjEtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.EShedh3q2QwOGAn2RMdH0zRhscAgzIRpIuNtCBHDfYs/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/moradia-t3-para-venda-ID1ihjG"
+   ]
+  },
+  "imovirtual:1ih55": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 330000,
+   "title": "Moradia T3 para venda",
+   "location": "São Miguel do Souto e Mosteirô",
+   "rooms": 4,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Inl6NTNybWdhN3U1YzItRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.HtmlW4lgoC-Ez_9LyC5gQOO0nqQGjkXx-X9sVSNYv2E/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/moradia-t3-para-venda-ID1ih55"
+   ]
+  },
+  "imovirtual:1igtS": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 199000,
+   "title": "Moradia T3 para venda",
+   "location": "São João de Ver",
+   "rooms": 4,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IjFhazd4NnptN2ViZTMtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.HscEyxTbRWNWvt5wikUjNddO_e5o47h69C1U8JQJv3Q/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/moradia-t3-para-venda-ID1igtS"
+   ]
+  },
+  "imovirtual:1ig96": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 340000,
+   "title": "Moradia T3 para venda",
+   "location": "Santa Maria da Feira, Travanca, Sanfins e Espargo",
+   "rooms": 4,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IjY4c2l0MXJjdXczZS1FQ09TWVNURU0iLCJ3IjpbeyJmbiI6IjY5bmxwYTdlY3FtNzEtQVBUIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.Fmchr9UTgwEO7sec75udeK4S8f2Q8KXmNT0HPxVCuDg/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/moradia-t3-para-venda-ID1ig96"
+   ]
+  },
+  "imovirtual:1ieHn": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 339900,
+   "title": "Moradia T3 para venda",
+   "location": "Fiães",
+   "rooms": 4,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImRnZXZlMWNvZncyZDItRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.-UhcJ6FMGv2j9Nzkl6rxuOiFinLi9xQydHEl9L9oqg0/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/moradia-t3-para-venda-ID1ieHn"
+   ]
+  },
+  "imovirtual:1icGK": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 325000,
+   "title": "Moradia T3 para venda",
+   "location": "Santa Maria da Feira, Travanca, Sanfins e Espargo",
+   "rooms": 4,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IjJjYTV0YzNuaTF0aDItRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.zXhbERjct0zO76xvReswpRqyAZDwkRl1e-Kioz0jVcM/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/moradia-t3-para-venda-ID1icGK"
+   ]
+  },
+  "imovirtual:1icor": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 180000,
+   "title": "Moradia com duas habitações independentes em Lourosa - Exclusivo",
+   "location": "Lourosa",
+   "rooms": 3,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Ijd3ZWw3eTBtNG8xdjMtQVBUIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.qvS0ux_Yic-8CLOroO0DUokfNJhHf0k6F3kjdzQ6JGk/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/moradia-com-duas-habitacoes-independentes-em-lourosa-exclusivo-ID1icor"
+   ]
+  },
+  "imovirtual:1ibho": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 275000,
+   "title": "Conjunto de 3 Moradias em Lobão",
+   "location": "Lobão, Gião, Louredo e Guisande",
+   "rooms": 4,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImY5bGFjNTBvY2hpNS1FQ09TWVNURU0iLCJ3IjpbeyJmbiI6IjY5bmxwYTdlY3FtNzEtQVBUIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.5gmmcsyi0SvAYf4TTZ4XhXGnyS9n7DfDuRo3fNR5PPs/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/conjunto-de-3-moradias-em-lobao-ID1ibho"
+   ]
+  },
+  "imovirtual:1iadU": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 250000,
+   "title": "Moradia Bi-Familiar com Elevado Potencial de Investimento",
+   "location": "Lourosa",
+   "rooms": 3,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6InRuMWRjcDVsaWljczItRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.SNe6bMMXXdH43etLR4Dm1Ahpk_vegwwLIRPKKJ4I-50/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/moradia-bi-familiar-com-elevado-potencial-de-investimento-ID1iadU"
+   ]
+  },
+  "imovirtual:1i88d": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 309000,
+   "title": "Andar Moradia T3 DUPLEX Venda em Mozelos,Santa Maria da Feira",
+   "location": "Mozelos",
+   "rooms": 4,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImJmNHh5ZHUwYnE5OC1FQ09TWVNURU0iLCJ3IjpbeyJmbiI6IjY5bmxwYTdlY3FtNzEtQVBUIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.VFapqQ04Fl_y_BFP9oHeBFjT_9rCOLG3MmgrP72wrsc/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/andar-moradia-t3-duplex-venda-em-mozelos-santa-maria-da-feira-ID1i88d"
+   ]
+  },
+  "imovirtual:1i5Bm": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 350000,
+   "title": "3 Andares-Moradias em Lobão",
+   "location": "Lobão, Gião, Louredo e Guisande",
+   "rooms": 4,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6InVsb3Z5OHkyMXE3ZDMtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.6MHX18l0HVVT6-i-EHhb6nuSf3aq2StxX7A_DvGH28k/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/3-andares-moradias-em-lobao-ID1i5Bm"
+   ]
+  },
+  "imovirtual:1i4dp": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 290000,
+   "title": "Moradia T3 Isolada em Vila maior",
+   "location": "Canedo, Vale e Vila Maior",
+   "rooms": 4,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Ims5cWIxdGYwamptcC1FQ09TWVNURU0iLCJ3IjpbeyJmbiI6IjY5bmxwYTdlY3FtNzEtQVBUIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.KmoZf9rXd4KbtCyEFggKvyUd0F3EydYOrnAzziE5ld0/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/moradia-t3-isolada-em-vila-maior-ID1i4dp"
+   ]
+  },
+  "imovirtual:1i3Dh": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 275000,
+   "title": "Andar Moradia T3 Renovado com Suite em Paços de Brandão",
+   "location": "Paços de Brandão",
+   "rooms": 4,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IjBreDRpcmt5eGh2ai1FQ09TWVNURU0iLCJ3IjpbeyJmbiI6IjY5bmxwYTdlY3FtNzEtQVBUIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.bs56l1qhehB2eKV3N4w7w4FeUaNvze0LO_9_Ao1Thrw/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/andar-moradia-t3-renovado-com-suite-em-pacos-de-brandao-ID1i3Dh"
+   ]
+  },
+  "imovirtual:1i2tQ": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 340000,
+   "title": "Moradia T3 em Paços de Brandão com Jardim, Terraço, Garagem e Vista pa",
+   "location": "Paços de Brandão",
+   "rooms": 4,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Im43bTV2OWZzeGRpdC1FQ09TWVNURU0iLCJ3IjpbeyJmbiI6IjY5bmxwYTdlY3FtNzEtQVBUIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.WoZX0yo3h1QM5KptVviPADTBGDSUuhhXlIKO1V75Cv4/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/moradia-t3-em-pacos-de-brandao-com-jardim-terraco-garagem-e-vista-pa-ID1i2tQ"
+   ]
+  },
+  "imovirtual:1i0tk": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 285000,
+   "title": "Moradia T3 em fase de acabamento - Vila Maior",
+   "location": "Canedo, Vale e Vila Maior",
+   "rooms": 4,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Im1jZWU4bmVsbnd5NDMtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.mQfQltZySi3heDfbdXDPklj-WsCr1O48LNwP_6xkq48/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/moradia-t3-em-fase-de-acabamento-vila-maior-ID1i0tk"
+   ]
+  },
+  "imovirtual:1hZ8s": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 320000,
+   "title": "Moradia em Banda V3 em S.João de Ver (Urbanização Quinta do Areeiro)",
+   "location": "São João de Ver",
+   "rooms": 4,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImZmMDBzOHhmd2R6bDEtQVBUIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.ImFPgpjEYYtpBELNcLryu6x_nbOiSrm8eVwduTDFdXU/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/moradia-em-banda-v3-em-s-joao-de-ver-urbanizacao-quinta-do-areeiro-ID1hZ8s"
+   ]
+  },
+  "imovirtual:1hXih": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 140000,
+   "title": "Excelente moradia em Espargo, Santa Maria da Feira - Exclusivo",
+   "location": "Santa Maria da Feira, Travanca, Sanfins e Espargo",
+   "rooms": 3,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IjExczIwd2ZuODUxYy1BUFQiLCJ3IjpbeyJmbiI6IjY5bmxwYTdlY3FtNzEtQVBUIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.aMAgwvb_NDH1wVtin-puIbAg0mwO_Jc4C7D2B5reoHc/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/excelente-moradia-em-espargo-santa-maria-da-feira-exclusivo-ID1hXih"
+   ]
+  },
+  "imovirtual:1hVPs": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 350000,
+   "title": "FANTÁSTICO NEGÓCIO - MORADIA V3 | Lobão",
+   "location": "Lobão, Gião, Louredo e Guisande",
+   "rooms": 4,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6InpiOHNkbWYwNWxhbjItQVBUIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.CHALgFwh3tsHQ_uRO7whutwGTKm59xkLSEttf8nJ86w/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/fantastico-negocio-moradia-v3-lobao-ID1hVPs"
+   ]
+  },
+  "imovirtual:1hVL1": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 200000,
+   "title": "Moradia para restauro",
+   "location": "Nogueira da Regedoura",
+   "rooms": 4,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImxuY2RpdHJ5Z3gzby1FQ09TWVNURU0iLCJ3IjpbeyJmbiI6IjY5bmxwYTdlY3FtNzEtQVBUIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.SguMvJk0oHabbgTtSjYSXrjhqqlLQGIVAI63silMong/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/moradia-para-restauro-ID1hVL1"
+   ]
+  },
+  "imovirtual:1hWJn": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 259900,
+   "title": "Moradia T2 para venda",
+   "location": "Lobão, Gião, Louredo e Guisande",
+   "rooms": 3,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6InRlcW9kbmM1MnJjbTItRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.eaSGzzZecGbfjIG7Rz2Gyk6rNbqkFxytZNEBKO41u5A/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/moradia-t2-para-venda-ID1hWJn"
+   ]
+  },
+  "imovirtual:1hWn6": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 320000,
+   "title": "Moradia em Banda c/ 3 Suites em S.João de Ver",
+   "location": "São João de Ver",
+   "rooms": 4,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IjM1MXhtdWYyMjFwdjEtQVBUIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.TkKwxzL0fBJ7zw8f8Z3TZvpuW7zoMoWCXPpDMgbs4K8/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/moradia-em-banda-c-3-suites-em-s-joao-de-ver-ID1hWn6"
+   ]
+  },
+  "imovirtual:1hWm1": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 320000,
+   "title": "Moradia em banda T3 em São João de Ver (Urb. Quinta do Areeiro)",
+   "location": "São João de Ver",
+   "rooms": 4,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6InJvdDdhZnVscWF2bzMtQVBUIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.HykgSwRxiyL-pHQEYYxXL4MOmfysvZ7XpJTXI927KOg/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/moradia-em-banda-t3-em-sao-joao-de-ver-urb-quinta-do-areeiro-ID1hWm1"
+   ]
+  },
+  "imovirtual:1hNhu": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 190000,
+   "title": "Casa / Villa T2 em São João da Madeira de 105,51 m2",
+   "location": "S. João da Madeira",
+   "rooms": 3,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Imc4N3d1eHFqb2xhZTMtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.Y-T0oqaFOdZwxKwR_JfSxBgCIaEXiuKXUlIB1fvUYsk/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/casa-villa-t2-em-sao-joao-da-madeira-de-105-51-m2-ID1hNhu"
+   ]
+  },
+  "imovirtual:1hJmS": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 350000,
+   "title": "Exclusivo Andar-Moradia T3+3 com terreno de + 1.850 m², Argoncilhe -",
+   "location": "Argoncilhe",
+   "rooms": 4,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IjZlcTBrb29mMDFwMjItRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.5A0h5GfUv0sUZVWTKuc7mycnhbpPdJijJ3mhSQmnDlM/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/exclusivo-andar-moradia-t3-3-com-terreno-de-1-850-m-argoncilhe-ID1hJmS"
+   ]
+  },
+  "imovirtual:1hE1W": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 99500,
+   "title": "Moradia para restaurar no centro de Fiães.",
+   "location": "Fiães",
+   "rooms": 3,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6InlwOGFiMHN4MnUxbzItRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.U-7OE8hQaQLifq7URL-liiy8QQCXu6No3Gdte7v-zRQ/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/moradia-para-restaurar-no-centro-de-fiaes-ID1hE1W"
+   ]
+  },
+  "imovirtual:1hwlG": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 199900,
+   "title": "Moradia T3 para venda",
+   "location": "Sanguedo",
+   "rooms": 4,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Ijh6YjI3aG5hamo5ZC1FQ09TWVNURU0iLCJ3IjpbeyJmbiI6IjY5bmxwYTdlY3FtNzEtQVBUIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.Vr_O8-nwYjJ6mBF0ks-11S1y70Eghz4Kk5437sNb0c8/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/moradia-t3-para-venda-ID1hwlG"
+   ]
+  },
+  "imovirtual:1hfAS": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 228500,
+   "title": "Andar Moradia T3 Venda em Paços de Brandão,Santa Maria da Feira",
+   "location": "Paços de Brandão",
+   "rooms": 4,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IjR0aGZ6d2h0MTc4dzItRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.EwjNW9P9If9HC0k10Fe8S8gEOfh9Udjo-Ou-XBOdip4/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/andar-moradia-t3-venda-em-pacos-de-brandao-santa-maria-da-feira-ID1hfAS"
+   ]
+  },
+  "imovirtual:1hdct": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 298000,
+   "title": "Moradia T3 em Rio Meão",
+   "location": "Rio Meão",
+   "rooms": 4,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6InB6cGoxNnM1ZG5oOTItRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.mJwlPHen00OuEwj5jB0tbYts3yOSg32Y4WTFW2kKLK8/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/moradia-t3-em-rio-meao-ID1hdct"
+   ]
+  },
+  "imovirtual:1hdcs": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 325000,
+   "title": "Moradia de 3 frentes em Rio Meão",
+   "location": "Rio Meão",
+   "rooms": 4,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Im9pb3BkejdmZmc4aTMtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.x7fOSeyVrOQmL8geSf8-fYsyjfL4l13Zmds0n61cCbA/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/moradia-de-3-frentes-em-rio-meao-ID1hdcs"
+   ]
+  },
+  "imovirtual:1h8Ar": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 69000,
+   "title": "Moradia para reconstrução total em Sao joao de Ver",
+   "location": "São João de Ver",
+   "rooms": 4,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Inh1anZzNWs3dWdudS1FQ09TWVNURU0iLCJ3IjpbeyJmbiI6IjY5bmxwYTdlY3FtNzEtQVBUIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.SzWDUIq3u1gO-iAkDOEbGY3HU41WmH20t8jY_Wu9Z3Y/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/moradia-para-reconstrucao-total-em-sao-joao-de-ver-ID1h8Ar"
+   ]
+  },
+  "imovirtual:1gMhc": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 97500,
+   "title": "Ruína em Milheirós de Poiares, Santa Maria da Feira",
+   "location": "Milheirós de Poiares",
+   "rooms": 4,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IjMzZXYzYWcyNnpyaTMtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.4vEyTvsf5PLcHKSKWZPUScimFdb81JyqikI5NV0xTvk/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/ruina-em-milheiros-de-poiares-santa-maria-da-feira-ID1gMhc"
+   ]
+  },
+  "imovirtual:1gJQ8": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 280000,
+   "title": "Moradia T3 para venda",
+   "location": "Canedo, Vale e Vila Maior",
+   "rooms": 4,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImE0MW9vaTA3ZXk2NzMtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.YOBklXmeLw1PBH5eWZQIlqGwPfbokjZCmHXgWOs3pcI/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/moradia-t3-para-venda-ID1gJQ8"
+   ]
+  },
+  "imovirtual:1gtzu": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 255000,
+   "title": "Moradia T3 para venda",
+   "location": "Mozelos",
+   "rooms": 4,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Im9kaGZuY3B2eGVlZDEtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.qNFIdiBZ7xRmmyejaR2RqyKh-J965udHpsG-oqZtCiA/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/moradia-t3-para-venda-ID1gtzu"
+   ]
+  },
+  "imovirtual:1gm2u": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 97500,
+   "title": "Moradia com terreno para restauro em Milheirós de Poiares",
+   "location": "Milheirós de Poiares",
+   "rooms": 4,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImRneWhsZ3RiNmMwNS1BUFQiLCJ3IjpbeyJmbiI6IjY5bmxwYTdlY3FtNzEtQVBUIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.LUM2nwi7tKb1zfvSpt__VCexFUyyYRRhGKjPo0OycRM/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/moradia-com-terreno-para-restauro-em-milheiros-de-poiares-ID1gm2u"
+   ]
+  },
+  "imovirtual:1gj4G": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 130000,
+   "title": "Moradia T3 para venda",
+   "location": "Argoncilhe",
+   "rooms": 4,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Imhsc29tbWFjenBjMy1FQ09TWVNURU0iLCJ3IjpbeyJmbiI6IjY5bmxwYTdlY3FtNzEtQVBUIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.1Lq1fEgFDEaY6bMciFUyDDnVoIvEDt8A7mXt9SfsZt0/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/moradia-t3-para-venda-ID1gj4G"
+   ]
+  },
+  "imovirtual:1gf06": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 280000,
+   "title": "Moradia com loja e garagem em Fiães - RESERVADO",
+   "location": "Fiães",
+   "rooms": 4,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Ijc5ejExbTh5M3VxbTEtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.WKIk_jOLuWg1r6TvcP52kMo_effSgjGRUeG299Dt3Og/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/moradia-com-loja-e-garagem-em-fiaes-reservado-ID1gf06"
+   ]
+  },
+  "imovirtual:1fNw5": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 330000,
+   "title": "Moradia isolada T3 em Rio Meão",
+   "location": "Rio Meão",
+   "rooms": 4,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6InpmYnkwbHJub2twdzEtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.qbFfNxN-9GiVSkhtUQFPO6xqNdHlb96gEsI54piAOP4/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/moradia-isolada-t3-em-rio-meao-ID1fNw5"
+   ]
+  },
+  "imovirtual:1eYIz": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 350000,
+   "title": "Moradia T3- Canedo",
+   "location": "Canedo, Vale e Vila Maior",
+   "rooms": 4,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6InMyY296M2tjOGxoejEtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.IK-oESNQ64wA99fTMzpvkTd3FxvJazPJfLa4zRccZ8w/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/moradia-t3-canedo-ID1eYIz"
+   ]
+  },
+  "imovirtual:1ahiC": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 210000,
+   "title": "Moradia para Restauro + Terreno Urbano em Paços de Brandão, Santa M...",
+   "location": "Paços de Brandão",
+   "rooms": 4,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IjBkZjZmc3Jua2o4YS1FQ09TWVNURU0iLCJ3IjpbeyJmbiI6IjY5bmxwYTdlY3FtNzEtQVBUIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.IQZhqb-WYBzcCpR7etAGswiD3vrhG1T24wA3bskmlaM/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/moradia-para-restauro-terreno-urbano-em-pacos-de-brandao-santa-m-ID1ahiC"
+   ]
+  },
+  "imovirtual:12yeg": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 85000,
+   "title": "Com projeto aprovado! Moradia Romariz",
+   "location": "Romariz",
+   "rooms": 4,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6InhrNDNkZ281eGp5MDItRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.qZNO5zgVzZ0tO7iH8Bs4PlFO-rOCIYUSlqhzmZ8FdvI/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/com-projeto-aprovado-moradia-romariz-ID12yeg"
+   ]
+  },
+  "imovirtual:1hj9U": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 277500,
+   "title": "T3 Renovado em Lourosa",
+   "location": "Lourosa",
+   "rooms": 4,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Im40aHhnaWcza215YjItRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.TiGwqQpahVEN9U-rX11rogT60Kq6maw6HBVgGlpapZY/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/t3-renovado-em-lourosa-ID1hj9U"
+   ]
+  },
+  "imovirtual:1eDyA": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 265000,
+   "title": "T2 com grandes áreas e garagem fechada",
+   "location": "Lourosa",
+   "rooms": 3,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6InhwcncybzNmdjhsNC1BUFQiLCJ3IjpbeyJmbiI6IjY5bmxwYTdlY3FtNzEtQVBUIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.kBxownQefKYjb3noKUFPT8gLk41IHgosQfAlRCiCe6U/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/t2-com-grandes-areas-e-garagem-fechada-ID1eDyA"
+   ]
+  },
+  "custojusto:44195747": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 280000,
+   "title": "Novo Empreendimento às portas da cidade de Aveiro",
+   "location": "",
+   "rooms": null,
+   "area_m2": 128.0,
+   "source": "custojusto",
+   "search_name": "Casa Feira",
+   "image_url": "https://prod-images.custojusto.pt/gallery/8035810378-novo-empreendimento-as-portas-da-cidade-de-aveiro.jpg",
+   "fingerprint": null,
+   "urls": [
+    "https://www.custojusto.pt/aveiro/imobiliario/escritorios/novo-empreendimento-as-portas--44195747"
+   ]
+  },
+  "custojusto:44381305": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 6000,
+   "title": "Trator Same Ranger 45",
+   "location": "",
+   "rooms": null,
+   "area_m2": null,
+   "source": "custojusto",
+   "search_name": "Casa Feira",
+   "image_url": "https://prod-images.custojusto.pt/gallery/7199245739-trator-same-ranger-45.jpg",
+   "fingerprint": null,
+   "urls": [
+    "https://www.custojusto.pt/santarem/equipamento/agricultura/tractores/trator-same-ranger-45-44381305"
+   ]
+  },
+  "custojusto:45116201": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 11500,
+   "title": "Fiat Doblo 1.3multijet 3 lugares",
+   "location": "",
+   "rooms": null,
+   "area_m2": null,
+   "source": "custojusto",
+   "search_name": "Casa Feira",
+   "image_url": "https://prod-images.custojusto.pt/gallery/3733737693-fiat-doblo-1-3multijet-3-lugares.jpg",
+   "fingerprint": null,
+   "urls": [
+    "https://www.custojusto.pt/porto/veiculos/comerciais/ligeiro-mercadorias/fiat-doblo-1-3multijet-3-lugar-45116201"
+   ]
+  },
+  "custojusto:44996839": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 17450,
+   "title": "BMW 116 D Sport line",
+   "location": "",
+   "rooms": null,
+   "area_m2": null,
+   "source": "custojusto",
+   "search_name": "Casa Feira",
+   "image_url": "https://prod-images.custojusto.pt/gallery/513835454-bmw-116-d-sport-line.jpg",
+   "fingerprint": null,
+   "urls": [
+    "https://www.custojusto.pt/leiria/veiculos/carros-usados/utilitario/bmw-116-d-sport-line-44996839"
+   ]
+  },
+  "imovirtual:1iz55": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 750,
+   "title": "T1 para arrendamento",
+   "location": "Glória e Vera Cruz",
+   "rooms": 2,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Arrendamento Aveiro",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IjR5NG4wcjkwbzZ0bDMtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.u7OBwkP27GzQYljw3m03aH4kbQ9WrB8dzMfEd5zg8Pk/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/t1-para-arrendamento-ID1iz55"
+   ]
+  },
+  "imovirtual:1iyDE": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 550,
+   "title": "Arrendamento | Aura Curia | Curia – Anadia",
+   "location": "Tamengos, Aguim e Óis do Bairro",
+   "rooms": 2,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Arrendamento Aveiro",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IjI3M2ZlZWhjMGk5NTEtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.QsKUdu2mr5I8EsbaGxUlUbMDpVS5E_UpYQONLtT896I/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/arrendamento-aura-curia-curia-anadia-ID1iyDE"
+   ]
+  },
+  "imovirtual:1iyrk": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 530,
+   "title": "T1 EM ESMORIZ  frente à BP",
+   "location": "Esmoriz",
+   "rooms": 2,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Arrendamento Aveiro",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IncxcGM3eXY3dGhjMTMtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.aSs8CwyESir2wQXrG9Hmh1x_CtfcRHDof0n80pCaOsU/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/t1-em-esmoriz-frente-a-bp-ID1iyrk"
+   ]
+  },
+  "imovirtual:1ixWk": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 800,
+   "title": "Apartamento T1 mobilado- Excelente localização em Aveiro!",
+   "location": "Aradas",
+   "rooms": 2,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Arrendamento Aveiro",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImlhcmQzaWZoeHcxajEtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.XmUKykC735x2HOIMVpSq_uGUJfJppNBTBUCc-nlACro/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/apartamento-t1-mobilado-excelente-localizacao-em-aveiro-ID1ixWk"
+   ]
+  },
+  "imovirtual:1ixRM": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 900,
+   "title": "Apartamento T1 para arrendamento",
+   "location": "Glória e Vera Cruz",
+   "rooms": 2,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Arrendamento Aveiro",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImpxMnlndTIxbWdxYTEtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.CzShb8JAcltUHz_3HXa8LTRvvu2NCC10b49jF7AETrs/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/apartamento-t1-para-arrendamento-ID1ixRM"
+   ]
+  },
+  "imovirtual:1ixHx": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 700,
+   "title": "Apartamento T1 Centro de Oliveira Azemeis | Varanda",
+   "location": "Oliveira de Azeméis, Santiago de Riba-Ul, Ul, Macinhata da Seixa e Madail",
+   "rooms": 2,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Arrendamento Aveiro",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6InIxbnk5MWQ4OXAzaDEtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.R8KmG9OJU6Ob7YR4dHHqJkVE-KkJgAuWwsv5vhLFmbc/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/apartamento-t1-centro-de-oliveira-azemeis-varanda-ID1ixHx"
+   ]
+  },
+  "imovirtual:1ixh5": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 900,
+   "title": "Arrenda-se Apartamento T1 totalmente equipado em Vila Maior - Sta M...",
+   "location": "Canedo, Vale e Vila Maior",
+   "rooms": 2,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Arrendamento Aveiro",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6InZrNG9pYm1zd3c5ZjEtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.b6PN8pPHpKsNLu8yOsGpq70gO2W9ov2QTXIVOfwa6cE/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/arrenda-se-apartamento-t1-totalmente-equipado-em-vila-maior-sta-m-ID1ixh5"
+   ]
+  },
+  "imovirtual:1ix3C": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 800,
+   "title": "Apartamento T1 na zona Histórica de Aveiro",
+   "location": "Glória e Vera Cruz",
+   "rooms": 2,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Arrendamento Aveiro",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IjhsbnlnN29vd3V1eDEtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.gpXZh2ir9BJNtXr4FlBvKk1rKKr5jToA-BmGxgbhHQw/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/apartamento-t1-na-zona-historica-de-aveiro-ID1ix3C"
+   ]
+  },
+  "imovirtual:1iwbB": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 525,
+   "title": "Apartamento T1 para arrendamento",
+   "location": "Arcos e Mogofores",
+   "rooms": 2,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Arrendamento Aveiro",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6InpraGtwdHE5eWlsNzMtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.ukfvaj4MSaeTFXyltOVZo1fIVpGTmTlozl-MfzkIYm4/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/apartamento-t1-para-arrendamento-ID1iwbB"
+   ]
+  },
+  "imovirtual:1itii": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 750,
+   "title": "Apartamento T1 com Terraço e Cozinha Equipada no Centro de Aveiro",
+   "location": "Glória e Vera Cruz",
+   "rooms": 2,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Arrendamento Aveiro",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6InliNHhlMDZ1cnJ6eS1BUFQiLCJ3IjpbeyJmbiI6IjY5bmxwYTdlY3FtNzEtQVBUIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.1wd7Q7Zxz9CJHP6lLUoJfvOU7DM3jd9BMEQXwLb6hHo/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/apartamento-t1-com-terraco-e-cozinha-equipada-no-centro-de-aveiro-ID1itii"
+   ]
+  },
+  "imovirtual:1isXk": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 800,
+   "title": "Aluguer de apartamento T1 Espinho",
+   "location": "Paramos",
+   "rooms": 2,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Arrendamento Aveiro",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImRrMzVuZHcyaG9iZjItRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.LPZnSKrzeTaj8hwyvem3xOTaVkl5hw8D82tjBXFleIU/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/aluguer-de-apartamento-t1-espinho-ID1isXk"
+   ]
+  },
+  "imovirtual:1isHB": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 800,
+   "title": "Arrendamento T1 Espinho centro com garagem na rua 14 junto a estação",
+   "location": "Espinho",
+   "rooms": 2,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Arrendamento Aveiro",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImRoZTA2aG1sN28zeDEtQVBUIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.-3rdD5asKTvyCAGW1N233HKyOqCQaIXPy9Tyb9huEjs/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/arrendamento-t1-espinho-centro-com-garagem-na-rua-14-junto-a-estacao-ID1isHB"
+   ]
+  },
+  "imovirtual:1isj1": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 800,
+   "title": "T1 com varanda e terraço, pronto a habitar em Aveiro",
+   "location": "Glória e Vera Cruz",
+   "rooms": 2,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Arrendamento Aveiro",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Ijd0N3IzYWk5b2E4NTEtQVBUIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.bllFggVeZfaNxA6FfHWL3pj2mejg-Xu3h5LnkP9uGz0/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/t1-com-varanda-e-terraco-pronto-a-habitar-em-aveiro-ID1isj1"
+   ]
+  },
+  "imovirtual:1iqDq": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 700,
+   "title": "Apartamento T1 | Curia Anadia",
+   "location": "Tamengos, Aguim e Óis do Bairro",
+   "rooms": 2,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Arrendamento Aveiro",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Imt0ODN0cHgyOXN2dzItRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.m7Psu-T60TWLbcw6d_mtWDZkm_Nxx4HzJfzDVtKRdG4/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/apartamento-t1-curia-anadia-ID1iqDq"
+   ]
+  },
+  "imovirtual:1iqAs": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 900,
+   "title": "APARTAMENTO T1 DUPLEX - ARRENDAMENTO - CENTRO DE AVEIRO",
+   "location": "Glória e Vera Cruz",
+   "rooms": 2,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Arrendamento Aveiro",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Im85bHJ0ZXB2aXR0Yy1FQ09TWVNURU0iLCJ3IjpbeyJmbiI6IjY5bmxwYTdlY3FtNzEtQVBUIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.8jiTNKdo4Bk6Pb_Y5iLIU3Y-EtfGKmY1oLMZkFZzL-M/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/apartamento-t1-duplex-arrendamento-centro-de-aveiro-ID1iqAs"
+   ]
+  },
+  "imovirtual:1iqn5": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 800,
+   "title": "Apartamento T1+1 Esmoriz - Praia",
+   "location": "Esmoriz",
+   "rooms": 2,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Arrendamento Aveiro",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Iml2bXNxOXAzNXo3dDEtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.1UWF3kcITMqVbnDtUDV92_fWWXJXgUg673BmNLOFf0c/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/apartamento-t1-1-esmoriz-praia-ID1iqn5"
+   ]
+  },
+  "imovirtual:1ipDj": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 560,
+   "title": "Apartamento T1 | Novo | Curia | Para arrendamento",
+   "location": "Tamengos, Aguim e Óis do Bairro",
+   "rooms": 2,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Arrendamento Aveiro",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6InhzM2NoMnVpNHZseTItRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.KTaCaK5Akd7E477s3K-7vCk2tV51N3TjQ4fpDhIgOfE/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/apartamento-t1-novo-curia-para-arrendamento-ID1ipDj"
+   ]
+  },
+  "imovirtual:1ioHi": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 700,
+   "title": "Apartamento T1 | Curia Anadia",
+   "location": "Tamengos, Aguim e Óis do Bairro",
+   "rooms": 2,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Arrendamento Aveiro",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Im5hMW1mdzBwd3p1cTEtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.bopng_ksTOG1Mm3GjHhim9fugkDnXDlFTneHU9GBUYM/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/apartamento-t1-curia-anadia-ID1ioHi"
+   ]
+  },
+  "imovirtual:1ioj4": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 625,
+   "title": "Arrendamento T1 Novo - 2 Andar com elevador",
+   "location": "Tamengos, Aguim e Óis do Bairro",
+   "rooms": 2,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Arrendamento Aveiro",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6InMzNHo0YnBxZDR4MS1FQ09TWVNURU0iLCJ3IjpbeyJmbiI6IjY5bmxwYTdlY3FtNzEtQVBUIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.Bsk-cAKHDViIzt--xp24ctqCwg63bomhtqj8WaafmhA/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/arrendamento-t1-novo-2-andar-com-elevador-ID1ioj4"
+   ]
+  },
+  "imovirtual:1io36": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 550,
+   "title": "Apartamento T1 para arrendamento",
+   "location": "Tamengos, Aguim e Óis do Bairro",
+   "rooms": 2,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Arrendamento Aveiro",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IjZtbmM4NDBrZjFtcC1FQ09TWVNURU0iLCJ3IjpbeyJmbiI6IjY5bmxwYTdlY3FtNzEtQVBUIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.tjiIhegKbCJh64h9rXBPlYVTNY_vZucvWzCuLGM_C54/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/apartamento-t1-para-arrendamento-ID1io36"
+   ]
+  },
+  "imovirtual:1ilWc": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 900,
+   "title": "Apartamento T1 em Glória E Vera Cruz de 88,00 m2",
+   "location": "Esgueira",
+   "rooms": 2,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Arrendamento Aveiro",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Ijk2NzZmdmk1MWtwcDEtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.hh0V7DuDxl4OTVPuT7Do2CcmD1Zn0eP6IKyzfOhAan8/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/apartamento-t1-em-gloria-e-vera-cruz-de-88-00-m2-ID1ilWc"
+   ]
+  },
+  "imovirtual:1il2Z": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 750,
+   "title": "Apartamento T1 Gafanha de Aquém para Arrendamento",
+   "location": "Ílhavo (São Salvador)",
+   "rooms": 2,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Arrendamento Aveiro",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IjNrbzB4dXZ0Zmo2MS1FQ09TWVNURU0iLCJ3IjpbeyJmbiI6IjY5bmxwYTdlY3FtNzEtQVBUIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.v8rLgym48iL9kFpmBYgtsO-CBdNdNjMyuQ40Uwlbhmg/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/apartamento-t1-gafanha-de-aquem-para-arrendamento-ID1il2Z"
+   ]
+  },
+  "imovirtual:1ij6V": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 450,
+   "title": "Alugo t 1 centro de Águeda",
+   "location": "Águeda e Borralha",
+   "rooms": 2,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Arrendamento Aveiro",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IjB4cGNrNnplcXZmbzMtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.KVvgLgOSMAJ9mzJ6JnGENhPEpdGuLf3-Ob_f5ezCJ88/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/alugo-t-1-centro-de-agueda-ID1ij6V"
+   ]
+  },
+  "imovirtual:1ij4D": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 595,
+   "title": "apartamento T1 em Oiã",
+   "location": "Oiã",
+   "rooms": 2,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Arrendamento Aveiro",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Ijc3b3VjYnJzbmRzZzItRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.653H6uIjiOz9lbef_PW1_UL6bs_4byhxa3jGwo0C6d0/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/apartamento-t1-em-oia-ID1ij4D"
+   ]
+  },
+  "imovirtual:1iiYR": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 850,
+   "title": "Apartamento T1 no Centro de Aveiro",
+   "location": "Glória e Vera Cruz",
+   "rooms": 2,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Arrendamento Aveiro",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Im1ycm82bGR6dTV0NjMtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.RAN8ACWiXha2MERazGpqIHSN0J6mVM4ArUxhYL7SjmI/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/apartamento-t1-no-centro-de-aveiro-ID1iiYR"
+   ]
+  },
+  "imovirtual:1ig55": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 900,
+   "title": "Arrenda  T1 em Aveiro",
+   "location": "Glória e Vera Cruz",
+   "rooms": 2,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Arrendamento Aveiro",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Impsbnh6aWN0M3cycjEtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.g_zI-_e8sduYMV9HQBxqFode4ibsTGhDSQGEd2k4mbE/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/arrenda-t1-em-aveiro-ID1ig55"
+   ]
+  },
+  "imovirtual:1ia5X": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 600,
+   "title": "Apartamento T1 para arrendamento",
+   "location": "Torreira",
+   "rooms": 2,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Arrendamento Aveiro",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImprcWZqaHA2M2Y1NzMtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.inHz1ek7s0J63ij5JyweLcbGoEbalhsUkgtnRsTFbnw/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/apartamento-t1-para-arrendamento-ID1ia5X"
+   ]
+  },
+  "imovirtual:1hXdd": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 850,
+   "title": "Apartamento T1 para arrendamento",
+   "location": "Torreira",
+   "rooms": 2,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Arrendamento Aveiro",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IjNxYnF5OXc0NjdkOTEtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.n73z3DKzq4iSnzudww0EMi82NopP5mSE128i6xWOnMo/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/apartamento-t1-para-arrendamento-ID1hXdd"
+   ]
+  },
+  "imovirtual:1930V": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 680,
+   "title": "T1 mobilado na UA vocacionado para estudantes",
+   "location": "Glória e Vera Cruz",
+   "rooms": 2,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Arrendamento Aveiro",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6InZpbG5zZGptam96OTEtQVBUIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.PdOndRvKDuzaRQf7nLYBFVmmDzEKBSGr1DvXeD28ReA/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/t1-mobilado-na-ua-vocacionado-para-estudantes-ID1930V"
+   ]
+  },
+  "imovirtual:16YqP": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 550,
+   "title": "APARTAMENTO T1 KITCHNNETT",
+   "location": "Santa Maria da Feira, Travanca, Sanfins e Espargo",
+   "rooms": 2,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Arrendamento Aveiro",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6InQ3NTM1bjcxNHRjMzItRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.oclct66ZF26BF4yY6RC_ckKvNoWuil8Byyw8B-698BM/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/apartamento-t1-kitchnnett-ID16YqP"
+   ]
+  },
+  "imovirtual:16DOS": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 680,
+   "title": "Apartamento T1 com Lg de garagem - Universidade",
+   "location": "Glória e Vera Cruz",
+   "rooms": 2,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Arrendamento Aveiro",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImM1enZ3djV2Y2FhNi1BUFQiLCJ3IjpbeyJmbiI6IjY5bmxwYTdlY3FtNzEtQVBUIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.3ePBkV87j5qaLeXiljojDmkp2lvTAzkHnn0hfLSoMuE/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/apartamento-t1-com-lg-de-garagem-universidade-ID16DOS"
+   ]
+  },
+  "imovirtual:1699G": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 750,
+   "title": "Apartamento T1 Mobilado e Equipado – Glicínias",
+   "location": "Aradas",
+   "rooms": 2,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Arrendamento Aveiro",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Im92c2FwN283dHY3ei1BUFQiLCJ3IjpbeyJmbiI6IjY5bmxwYTdlY3FtNzEtQVBUIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.MZqTVm2Dxn3zrKw44zMfpmAbxY1tg-UFFF6LVKdvM34/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/apartamento-t1-mobilado-e-equipado-glicinias-ID1699G"
+   ]
+  },
+  "imovirtual:1iyPC": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 620,
+   "title": "Aluga-se moradia t1+1 em cucujaes, rua professor leão",
+   "location": "Vila de Cucujães",
+   "rooms": 2,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Arrendamento Aveiro",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6InI1bnhrcmY2aGxxOC1FQ09TWVNURU0iLCJ3IjpbeyJmbiI6IjY5bmxwYTdlY3FtNzEtQVBUIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.AOF1VTuD2bNYoNR4shcihPUcpP2nTatCSnohoAUOC8g/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/aluga-se-moradia-t1-1-em-cucujaes-rua-professor-leao-ID1iyPC"
+   ]
+  },
+  "imovirtual:1iy2k": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 500,
+   "title": "Aluga-se andar de moradia",
+   "location": "Arouca e Burgo",
+   "rooms": 2,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Arrendamento Aveiro",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Ijk3cXViaHkycDB0My1BUFQiLCJ3IjpbeyJmbiI6IjY5bmxwYTdlY3FtNzEtQVBUIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ._ghCUyU9FibvM0_fgXr02pwH575hNZfFqWF-diM_IXU/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/aluga-se-andar-de-moradia-ID1iy2k"
+   ]
+  },
+  "imovirtual:1ixme": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 650,
+   "title": "Moradia T1 - centro Ilhavo",
+   "location": "Ílhavo (São Salvador)",
+   "rooms": 2,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Arrendamento Aveiro",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Inh6cXRyeWtoajY0cy1FQ09TWVNURU0iLCJ3IjpbeyJmbiI6IjY5bmxwYTdlY3FtNzEtQVBUIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.dhymJi76fut3rcLXp7Z87f-NkImE6AhmD3TR6dTVicE/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/moradia-t1-centro-ilhavo-ID1ixme"
+   ]
+  },
+  "imovirtual:1ipHy": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 750,
+   "title": "T1 inserido em moradia isolada, perto dos passionistas",
+   "location": "Santa Maria da Feira, Travanca, Sanfins e Espargo",
+   "rooms": 2,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Arrendamento Aveiro",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Im0wMWs5cnFjdDFqdDEtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.LgE1kH_qLMPDVMBekpG01TCXOD7j486A5FZqTwB_tok/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/t1-inserido-em-moradia-isolada-perto-dos-passionistas-ID1ipHy"
+   ]
+  },
+  "imovirtual:1iouu": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 670,
+   "title": "Casa T1 Cucujães rua casal de Novo 139",
+   "location": "Vila de Cucujães",
+   "rooms": 2,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Arrendamento Aveiro",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IjJobjU2OWtuaGRtejEtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.xKFSLndgeBA8HDvrvExzxmFcBzy8B4C2JyBRjHnc1HQ/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/casa-t1-cucujaes-rua-casal-de-novo-139-ID1iouu"
+   ]
+  },
+  "imovirtual:1im6K": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 400,
+   "title": "Moradia tipo t1..",
+   "location": "Pessegueiro do Vouga",
+   "rooms": 2,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Arrendamento Aveiro",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImlhMzE3OG1zNml6NDItRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.saYN_QRXmeG93ImaDI29X9r7-GpNcycDE5AfE3Z1HGE/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/moradia-tipo-t1-ID1im6K"
+   ]
+  },
+  "imovirtual:1idUh": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 400,
+   "title": "Moradia para alugar",
+   "location": "Pessegueiro do Vouga",
+   "rooms": 2,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Arrendamento Aveiro",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImR3ZWV2bWJrN2VhMDEtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.I_ZOFoAZxMRqvu-ez6Ga1r_9Q_YydbTt_s1kKr3RdsE/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/moradia-para-alugar-ID1idUh"
+   ]
+  },
+  "imovirtual:1heqj": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 480,
+   "title": "Alugo vivenda tipo T1 mobilada",
+   "location": "Barrô e Aguada de Baixo",
+   "rooms": 2,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Arrendamento Aveiro",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImdiajkxcXdlenR4eTItRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.rvKpkQLs5eIZ5y799SKCJHXv1g8srwtIoU2P82XZsPk/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/alugo-vivenda-tipo-t1-mobilada-ID1heqj"
+   ]
+  },
+  "imovirtual:1h3Vu": {
+   "first_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_seen": "2026-07-06T23:52:17.771102+01:00",
+   "last_price": 480,
+   "title": "Alugo temporariamente vivenda tipo T1 mobilada",
+   "location": "Barrô e Aguada de Baixo",
+   "rooms": 2,
+   "area_m2": null,
+   "source": "imovirtual",
+   "search_name": "Arrendamento Aveiro",
+   "image_url": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Im90ajl0MmZncTRlaTEtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.gNzZ2fuSgmkfOIS9xpHn8hDNahmwtk3PPZuzfU5ySwg/image;s=655x491;q=80",
+   "fingerprint": null,
+   "urls": [
+    "https://www.imovirtual.com/pt/anuncio/alugo-temporariamente-vivenda-tipo-t1-mobilada-ID1h3Vu"
+   ]
+  }
+ },
+ "sources": {
+  "custojusto": {
+   "zero_streak": 0,
+   "last_ok": "2026-07-06T23:52:17.771102+01:00",
+   "last_alert_at": null
+  },
+  "idealista": {
+   "zero_streak": 1,
+   "last_ok": null,
+   "last_alert_at": null
+  },
+  "imovirtual": {
+   "zero_streak": 0,
+   "last_ok": "2026-07-06T23:52:17.771102+01:00",
+   "last_alert_at": null
+  },
+  "supercasa": {
+   "zero_streak": 1,
+   "last_ok": null,
+   "last_alert_at": null
+  }
+ },
+ "runs": [
+  {
+   "at": "2026-07-06T23:52:17.771102+01:00",
+   "seen": {
+    "idealista": 0,
+    "imovirtual": 205,
+    "supercasa": 0,
+    "custojusto": 13
+   },
+   "new": 0,
+   "price_drops": 0,
+   "errors": {
+    "idealista": "idealista: página de captcha DataDome (IP bloqueado)",
+    "supercasa": "supercasa: HTTP 403 em https://supercasa.pt/arrendar-casas/aveiro?ordem=date-desc (bloqueio provável)"
+   }
+  }
+ ],
+ "events": [],
+ "pending": {
+  "new": [],
+  "drops": [],
+  "blocks": []
+ }
+}
