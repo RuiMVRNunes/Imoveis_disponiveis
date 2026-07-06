@@ -1,0 +1,61 @@
+# =====================================================================
+# Casa Radar — configuração das pesquisas (edita à vontade, sem tocar
+# no código; a corrida seguinte lê este ficheiro do zero).
+#
+# Cada pesquisa aceita duas formas, misturáveis:
+#   1) Filtros estruturados (locations, price_max, ...) -> o sistema
+#      constrói o URL de cada portal.
+#   2) start_urls colados do browser (com TODOS os filtros finos) ->
+#      têm PRIORIDADE quando presentes. É a forma mais fiável.
+#
+# Segredos (SMTP, CallMeBot, Telegram) NUNCA aqui — só em variáveis
+# de ambiente / GitHub Secrets (ver .env.example e README).
+# =====================================================================
+
+searches:
+  - name: "Casa Feira"
+    operation: buy                 # buy | rent
+    locations: ["Santa Maria da Feira", "Fiães", "Lourosa"]
+    price_max: 350000
+    typologies: ["T3", "T4"]
+    min_area_m2: 100
+    keywords_exclude: ["trespasse", "leilão", "penhora"]
+    sources: ["idealista", "imovirtual", "supercasa", "custojusto"]
+    # start_urls: cola aqui o URL do portal já filtrado no browser.
+    # Tem prioridade sobre os filtros estruturados para esse portal.
+    start_urls:
+      idealista: "COLA_AQUI_O_URL_JA_FILTRADO"    # opcional
+      # imovirtual: "https://www.imovirtual.com/pt/resultados/..."
+      # supercasa: "https://supercasa.pt/comprar-casas/..."
+      # custojusto: "https://www.custojusto.pt/aveiro/imobiliario/..."
+
+  - name: "Arrendamento Aveiro"
+    operation: rent
+    locations: ["Aveiro"]
+    price_max: 900
+    typologies: ["T2"]
+    sources: ["idealista", "imovirtual", "supercasa", "custojusto"]
+
+# "casasapo" está pronto mas desligado por defeito (partilha backend
+# com o supercasa — daria duplicados). Para o ligar, acrescenta
+# "casasapo" à lista de sources de uma pesquisa.
+
+notifications:
+  email:    { enabled: true,  to: "eu@exemplo.com" }   # EMAIL_TO (secret) tem prioridade
+  whatsapp: { enabled: true,  provider: callmebot }
+  telegram: { enabled: false }
+
+runtime:
+  max_pages_per_source: 2        # só precisamos dos mais recentes
+  request_delay_seconds: [2, 6]  # delay aleatório entre pedidos
+  silent_block_threshold: 3      # corridas seguidas com 0 vistos -> alerta
+  daily_digest_hour: 22          # hora (local) do resumo diário / heartbeat
+  timezone: "Europe/Lisbon"
+  notify_price_drops: true
+  min_price_drop_pct: 1.0        # ignora baixas < 1% (só atualiza o preço em silêncio)
+  history_days: 30               # dias de eventos guardados p/ dashboard
+  max_listings_per_message: 20   # tecto de cards por notificação
+  dashboard_url: ""              # ex: https://<user>.github.io/<repo>/ (aparece nas mensagens)
+  quiet_hours: [0, 7]            # sem alertas entre as 0h e as 7h; acumulam
+                                 # e chegam juntos na primeira corrida da manhã.
+                                 # [0, 0] desliga as horas de silêncio.

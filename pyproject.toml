@@ -1,0 +1,26 @@
+[project]
+name = "casa-radar"
+version = "1.0.0"
+description = "Personal radar for Portuguese real-estate portals: hourly monitoring, dedup, notifications and a static dashboard."
+requires-python = ">=3.11"
+dependencies = [
+    "httpx>=0.27",
+    "selectolax>=0.3.21",
+    "PyYAML>=6.0",
+    'tzdata>=2024.1; sys_platform == "win32"',
+]
+
+[project.optional-dependencies]
+browser = ["playwright>=1.45"]
+dev = ["pytest>=8.0"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["casa_radar*"]

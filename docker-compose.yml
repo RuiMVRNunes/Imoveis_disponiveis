@@ -1,0 +1,16 @@
+# Casa Radar — runner em casa via Docker Compose.
+#   docker compose up -d
+# Corre uma vez por hora num loop simples; o state.json, o dashboard e o
+# contexto do browser ficam persistidos na pasta do projeto (bind mounts).
+services:
+  casa-radar:
+    build: .
+    env_file: .env
+    volumes:
+      - ./config.yaml:/app/config.yaml:ro
+      - ./state.json:/app/state.json
+      - ./docs:/app/docs
+      - ./.cache:/app/.cache
+    command: >
+      sh -c "while true; do python main.py --once; echo 'próxima corrida em 1h'; sleep 3600; done"
+    restart: unless-stopped

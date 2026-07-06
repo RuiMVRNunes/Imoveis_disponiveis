@@ -1,0 +1,100 @@
+# Casa Radar — corre de hora a hora no GitHub Actions (grátis em repo público).
+# Nota: o cron do GitHub pode atrasar 5-20 min e não é 100% pontual — ok para
+# uso pessoal. Corre à mão via "Run workflow" (workflow_dispatch).
+
+name: Casa Radar
+
+on:
+  schedule:
+    - cron: "0 * * * *"
+  workflow_dispatch:
+    inputs:
+      baseline:
+        description: "Reconstruir o baseline (regista tudo, sem alertas)"
+        type: boolean
+        default: false
+      test_notify:
+        description: "Enviar mensagem de teste por todos os canais"
+        type: boolean
+        default: false
+      source:
+        description: "Correr só uma fonte (ex: idealista); vazio = todas"
+        type: string
+        default: ""
+
+permissions:
+  contents: write
+
+# Nunca deixar duas corridas sobrepostas a lutar pelo state.json
+concurrency:
+  group: casa-radar
+  cancel-in-progress: false
+
+jobs:
+  radar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Cache Playwright browsers
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/ms-playwright
+          key: playwright-${{ runner.os }}-${{ hashFiles('requirements.txt') }}
+
+      - name: Install Chromium (idealista)
+        run: playwright install chromium --with-deps
+
+      # O contexto/cookies do idealista persiste entre corridas via cache
+      - name: Cache browser context
+        uses: actions/cache@v4
+        with:
+          path: .cache
+          key: radar-context-${{ github.run_id }}
+          restore-keys: radar-context-
+
+      - name: Run radar
+        env:
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASS: ${{ secrets.SMTP_PASS }}
+          EMAIL_TO: ${{ secrets.EMAIL_TO }}
+          CALLMEBOT_PHONE: ${{ secrets.CALLMEBOT_PHONE }}
+          CALLMEBOT_APIKEY: ${{ secrets.CALLMEBOT_APIKEY }}
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          ARGS="--once"
+          if [ "${{ inputs.baseline }}" = "true" ]; then ARGS="$ARGS --baseline"; fi
+          if [ -n "${{ inputs.source }}" ]; then ARGS="$ARGS --source ${{ inputs.source }}"; fi
+          if [ "${{ inputs.test_notify }}" = "true" ]; then
+            python main.py --test-notify
+          else
+            python main.py $ARGS
+          fi
+
+      - name: Commit state and dashboard
+        if: ${{ inputs.test_notify != true }}
+        run: |
+          git config user.name "casa-radar-bot"
+          git config user.email "actions@github.com"
+          git add state.json docs/
+          if git diff --cached --quiet; then
+            echo "Nada para commitar."
+            exit 0
+          fi
+          git commit -m "chore: update state [skip ci]"
+          # Retry once in case something else pushed meanwhile
+          git push || (git pull --rebase && git push)
