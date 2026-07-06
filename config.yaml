@@ -16,7 +16,7 @@ searches:
   - name: "Casa Feira"
     operation: buy                 # buy | rent
     locations: ["Santa Maria da Feira", "Fiães", "Lourosa"]
-    price_max: 350000
+    price_max: 450000
     typologies: ["T3", "T4"]
     min_area_m2: 100
     keywords_exclude: ["trespasse", "leilão", "penhora"]
@@ -55,7 +55,7 @@ runtime:
   min_price_drop_pct: 1.0        # ignora baixas < 1% (só atualiza o preço em silêncio)
   history_days: 30               # dias de eventos guardados p/ dashboard
   max_listings_per_message: 20   # tecto de cards por notificação
-  dashboard_url: ""              # ex: https://<user>.github.io/<repo>/ (aparece nas mensagens)
-  quiet_hours: [0, 7]            # sem alertas entre as 0h e as 7h; acumulam
+  dashboard_url: "https://ruimvrnunes.github.io/Imoveis_disponiveis/"              # ex: https://<user>.github.io/<repo>/ (aparece nas mensagens)
+  quiet_hours: [1, 8]            # sem alertas entre as 1h e as 8h; acumulam
                                  # e chegam juntos na primeira corrida da manhã.
                                  # [0, 0] desliga as horas de silêncio.
