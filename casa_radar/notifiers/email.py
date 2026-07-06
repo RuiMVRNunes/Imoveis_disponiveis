@@ -20,10 +20,16 @@ class EmailNotifier(Notifier):
 
     def __init__(self, channel: ChannelConfig) -> None:
         self.channel = channel
-        self.host = os.environ.get("SMTP_HOST", "smtp.gmail.com")
-        self.port = int(os.environ.get("SMTP_PORT", "465"))
-        self.user = os.environ.get("SMTP_USER", "")
-        self.password = os.environ.get("SMTP_PASS", "")
+        # GitHub Actions maps missing secrets to EMPTY strings, not unset
+        # vars - "or" fallbacks (never dict defaults) keep that survivable.
+        self.host = os.environ.get("SMTP_HOST") or "smtp.gmail.com"
+        try:
+            self.port = int(os.environ.get("SMTP_PORT") or "465")
+        except ValueError:
+            log.warning("email: SMTP_PORT inválido (%r); a usar 465", os.environ["SMTP_PORT"])
+            self.port = 465
+        self.user = os.environ.get("SMTP_USER") or ""
+        self.password = os.environ.get("SMTP_PASS") or ""
         # The EMAIL_TO secret wins over config.yaml (secrets never in YAML).
         self.to = os.environ.get("EMAIL_TO") or channel.to
 

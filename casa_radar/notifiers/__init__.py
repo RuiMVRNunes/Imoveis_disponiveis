@@ -15,13 +15,20 @@ log = logging.getLogger("casa_radar.notifiers")
 
 
 def build_notifiers(config: AppConfig) -> list[Notifier]:
-    candidates: list[Notifier] = [
-        EmailNotifier(config.notifications.email),
-        WhatsAppNotifier(config.notifications.whatsapp),
-        TelegramNotifier(config.notifications.telegram),
-    ]
+    factories = (
+        lambda: EmailNotifier(config.notifications.email),
+        lambda: WhatsAppNotifier(config.notifications.whatsapp),
+        lambda: TelegramNotifier(config.notifications.telegram),
+    )
     active = []
-    for notifier in candidates:
+    for factory in factories:
+        # Channel isolation starts at construction: bad env for one channel
+        # (e.g. a malformed secret) must never take the others down.
+        try:
+            notifier = factory()
+        except Exception as exc:
+            log.error("notifiers: canal ignorado por configuração inválida: %s", exc)
+            continue
         if notifier.is_enabled():
             active.append(notifier)
         else:

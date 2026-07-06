@@ -115,6 +115,9 @@ Cria estes (só os dos canais que vais usar):
 | `TELEGRAM_TOKEN` | token do bot (passo 6, opcional) | `1234:AAxx...` |
 | `TELEGRAM_CHAT_ID` | id do teu chat (passo 6, opcional) | `987654321` |
 
+(`SMTP_HOST` e `SMTP_PORT` também existem mas são opcionais — sem eles assume-se
+Gmail: `smtp.gmail.com`, porta `465`. Só precisas deles se usares outro provedor.)
+
 Passo a passo no site do GitHub:
 1. Abre o repo → separador **Settings** (o último, à direita).
 2. No menu lateral esquerdo, em "Security": **Secrets and variables → Actions**.
