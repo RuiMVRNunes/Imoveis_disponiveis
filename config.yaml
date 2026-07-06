@@ -24,7 +24,7 @@ searches:
     # start_urls: cola aqui o URL do portal já filtrado no browser.
     # Tem prioridade sobre os filtros estruturados para esse portal.
     start_urls:
-      idealista: "COLA_AQUI_O_URL_JA_FILTRADO"    # opcional
+      idealista: "https://www.idealista.pt/areas/comprar-casas/com-preco-max_500000,preco-min_260000,tamanho-min_120,moradias,t3,t4-t5/?shape=%28%28_ftxFbq%7Cs%40inYw_Cs%40_hd%40j%7CHojCnkFtaBro%40xlDlyDvXxsBst%40%3F%7CgXyw%40tvK%29%29&ordem=atualizado-desc"    # opcional
       # imovirtual: "https://www.imovirtual.com/pt/resultados/..."
       # supercasa: "https://supercasa.pt/comprar-casas/..."
       # custojusto: "https://www.custojusto.pt/aveiro/imobiliario/..."
