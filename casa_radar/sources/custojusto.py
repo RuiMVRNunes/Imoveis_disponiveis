@@ -1,8 +1,10 @@
 """CustoJusto. Level 1: plain HTTP + CSS parsing.
 
-CustoJusto is organised by district; we search the real-estate category and
-apply the fine filters locally. Listing URLs end with a long numeric id, which
-is what we anchor both dedup and card detection on.
+CustoJusto is organised by district, with real-estate categories shaped like
+``/{distrito}/imobiliario/{moradias|apartamentos}-{venda|arrendamento}`` and
+``ps``/``pe`` as price min/max. Listing URLs end with a long numeric id AND
+must live under ``/imobiliario/`` - anchoring on the id alone once let cars
+and furniture from "related ads" widgets into the results.
 """
 
 from __future__ import annotations
@@ -30,8 +32,11 @@ _DISTRICTS = {
     "lisboa": "lisboa",
 }
 
-# Listing URLs end with "-38123456" (or "/38123456"), help pages don't.
-_LISTING_HREF = re.compile(r"[-/](\d{7,10})(?:\?|$)")
+_CATEGORY_SEGMENT = {"moradia": "moradias", "apartamento": "apartamentos"}
+
+# Listing URLs end with "-38123456" (or "/38123456"); the /imobiliario/ check
+# keeps out other categories (cars, furniture) linked from the same page.
+_LISTING_ID = re.compile(r"[-/](\d{7,10})(?:\?|$)")
 
 
 class CustoJustoSource(BaseSource):
@@ -40,14 +45,24 @@ class CustoJustoSource(BaseSource):
     id_pattern = re.compile(r"[-/](\d{7,10})(?:\?|$)")
 
     def build_urls(self, search: SearchConfig) -> list[str]:
+        operation = "venda" if search.operation == "buy" else "arrendamento"
+        property_types = search.property_types or list(_CATEGORY_SEGMENT)
         urls = []
         for location in search.locations or [""]:
             slug = slugify(location)
             district = _DISTRICTS.get(slug, slug)
-            url = f"{self.portal_root}/{district}/imobiliario?o=1"
-            if slug != district:
-                url = set_query_param(url, "q", location)
-            urls.append(url)
+            for prop_type in property_types:
+                segment = _CATEGORY_SEGMENT.get(prop_type)
+                if segment is None:
+                    continue
+                url = f"{self.portal_root}/{district}/imobiliario/{segment}-{operation}"
+                if search.price_min is not None:
+                    url = set_query_param(url, "ps", search.price_min)
+                if search.price_max is not None:
+                    url = set_query_param(url, "pe", search.price_max)
+                if slug != district and location:
+                    url = set_query_param(url, "q", location)
+                urls.append(url)
         return urls
 
     def page_url(self, base_url: str, page: int) -> str:
@@ -59,7 +74,9 @@ class CustoJustoSource(BaseSource):
         seen_hrefs: set[str] = set()
         for link in tree.css("a[href]"):
             href = link.attributes.get("href", "")
-            if not _LISTING_HREF.search(href) or href in seen_hrefs:
+            if "/imobiliario/" not in href:
+                continue  # cars, furniture, help pages... never again
+            if not _LISTING_ID.search(href) or href in seen_hrefs:
                 continue
             seen_hrefs.add(href)
             title_node = link.css_first("h2") or link.css_first("h3")
@@ -71,6 +88,15 @@ class CustoJustoSource(BaseSource):
             image_url = None
             if img is not None:
                 image_url = img.attributes.get("data-src") or img.attributes.get("src")
+            raw: dict = {}
+            if "arrendamento" in href or "/mês" in text or "/mes" in text:
+                raw["operation"] = "rent"
+            elif "venda" in href:
+                raw["operation"] = "buy"
+            if "moradia" in href:
+                raw["property_type"] = "moradia"
+            elif "apartamento" in href:
+                raw["property_type"] = "apartamento"
             listings.append(
                 Listing(
                     id="",
@@ -83,6 +109,7 @@ class CustoJustoSource(BaseSource):
                     rooms=parse_rooms(title) or parse_rooms(text),
                     url=href,
                     image_url=image_url,
+                    raw=raw,
                 )
             )
         if not listings:

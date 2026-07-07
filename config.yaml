@@ -17,8 +17,13 @@ searches:
     operation: buy                 # buy | rent
     locations: ["Santa Maria da Feira", "Fiães", "Lourosa"]
     price_max: 450000
-    typologies: ["T3", "T4"]
-    min_area_m2: 100
+    # NOTA: estes filtros estruturados só se aplicam às fontes SEM start_url
+    # (neste momento: supercasa). Nas fontes com start_url colado, o URL é o
+    # filtro — evita conflitos entre os dois.
+    price_min: 220000
+    typologies: ["T3", "T4", "T5", "T6"]
+    min_area_m2: 120
+    property_types: ["moradia"]    # só moradias (tira esta linha p/ incluir apartamentos)
     keywords_exclude: ["trespasse", "leilão", "penhora"]
     sources: ["idealista", "imovirtual", "supercasa", "custojusto"]
     # start_urls: cola aqui o URL do portal já filtrado no browser.
@@ -29,12 +34,15 @@ searches:
       # supercasa: "https://supercasa.pt/comprar-casas/..."
       custojusto: "https://www.custojusto.pt/aveiro/imobiliario/moradias-venda?ps=220000&pe=500000&ros=6&si=1&ss=130"
 
-  - name: "Arrendamento Aveiro"
-    operation: rent
-    locations: ["Aveiro"]
-    price_max: 900
-    typologies: ["T2"]
-    sources: ["idealista", "imovirtual", "supercasa", "custojusto"]
+  # Exemplo de segunda pesquisa (arrendamento) — descomenta e ajusta se um dia
+  # precisares; cada pesquisa é independente e tem baseline próprio:
+  # - name: "Arrendamento Aveiro"
+  #   operation: rent
+  #   locations: ["Aveiro"]
+  #   price_max: 900
+  #   typologies: ["T2"]
+  #   property_types: ["apartamento"]
+  #   sources: ["imovirtual", "custojusto"]
 
 # "casasapo" está pronto mas desligado por defeito (partilha backend
 # com o supercasa — daria duplicados). Para o ligar, acrescenta

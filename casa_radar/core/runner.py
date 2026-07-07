@@ -75,7 +75,12 @@ def run_once(
     started = time.monotonic()
     result = RunResult(at=now)
     if force_baseline:
+        # Fresh slate: rebuilding the baseline also wipes the event history
+        # (dashboard cards) and any queued quiet-hours alerts, so junk from a
+        # bad config/parser run disappears instead of lingering for 30 days.
         state.clear_baselines()
+        state.data["events"] = []
+        state.data["pending"] = {"new": [], "drops": [], "blocks": []}
 
     seen = defaultdict(int)
     sources_used: set[str] = set()
@@ -99,7 +104,11 @@ def run_once(
                 result.errors_by_source[source_name] = str(exc)
                 listings = []
             seen[source_name] += len(listings)
-            kept = [l for l in listings if passes_filters(l, search)]
+            prefiltered = source_name in search.start_urls
+            kept = [
+                l for l in listings
+                if passes_filters(l, search, portal_prefiltered=prefiltered)
+            ]
             log.info(
                 "runner: %s/'%s': %d vistos, %d após filtros%s",
                 source_name, search.name, len(listings), len(kept),

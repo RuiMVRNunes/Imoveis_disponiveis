@@ -96,9 +96,23 @@ searches:
       idealista: "https://www.idealista.pt/comprar-casas/santa-maria-da-feira/com-preco-max_350000,t3,t4/?ordenado-por=data-publicacao-desc"
 ```
 
+Campos úteis:
+
+- `property_types: ["moradia"]` — só moradias (ou `["apartamento"]`; sem o campo, ambos).
+- `price_min` / `price_max`, `typologies`, `min_area_m2` — filtros estruturados.
+
+**Regra importante:** quando uma fonte tem `start_url`, o URL colado **é** o filtro —
+os filtros estruturados de preço/tipologia/área **não se aplicam a essa fonte** (para
+o YAML nunca cortar às escondidas o que o teu URL pediu). `keywords_exclude`,
+`property_types` e a guarda compra/arrendamento aplicam-se sempre, em todas as fontes.
+
 Se o config tiver um erro (indentação, campo mal escrito), o sistema **avisa qual a
 pesquisa/campo** com problema nos logs e no resumo diário, e continua com as
 pesquisas válidas — nunca rebenta em silêncio.
+
+> 💡 **O repositório mexe sozinho:** cada corrida do Actions commita `state.json` e
+> `docs/` de volta ao repo. Antes de editares localmente, faz sempre `git pull`
+> (ou edita o `config.yaml` diretamente no site do GitHub, que é mais simples).
 
 ### 3. GitHub Secrets
 
@@ -177,7 +191,9 @@ O Gmail não aceita a tua password normal em scripts. Precisas de uma **App Pass
    5–20 min e ocasionalmente saltar — para uso pessoal é irrelevante.)
 
 Se um dia mudares muito as pesquisas e quiseres reconstruir o baseline sem levar uma
-enxurrada de alertas: **Run workflow** com **baseline** marcado.
+enxurrada de alertas: **Run workflow** com **baseline** marcado. Isto também **limpa
+o histórico de eventos do dashboard** — é o botão de "recomeçar limpo" depois de
+mexeres a sério no config.
 
 ### 9. Validar
 
@@ -266,7 +282,8 @@ pip install -r requirements-dev.txt
 python -m pytest
 ```
 
-49 testes cobrem parsers (com fixtures HTML), dedup (3 camadas), filtros tolerantes,
-config inválido, estado, baseline, baixas de preço (com limiar mínimo), horas de
-silêncio, agrupamento cross-portal, deteção de bloqueio silencioso (com cooldown),
-anúncios desaparecidos e o dashboard.
+55 testes cobrem parsers (com fixtures HTML, incluindo lixo de outras categorias),
+dedup (3 camadas), filtros tolerantes (tipo de imóvel, guarda compra/arrendamento,
+start_url como filtro), config inválido, estado, baseline, baixas de preço (com
+limiar mínimo), horas de silêncio, agrupamento cross-portal, deteção de bloqueio
+silencioso (com cooldown), anúncios desaparecidos e o dashboard.

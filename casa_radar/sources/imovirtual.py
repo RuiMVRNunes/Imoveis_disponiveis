@@ -44,11 +44,12 @@ class ImovirtualSource(BaseSource):
 
     def build_urls(self, search: SearchConfig) -> list[str]:
         operation = "comprar" if search.operation == "buy" else "arrendar"
+        estates = search.property_types or ["apartamento", "moradia"]
         urls: list[str] = []
         for location in search.locations or ["portugal"]:
             slug = slugify(location)
             path = _LOCATION_PATHS.get(slug, slug)
-            for estate in ("apartamento", "moradia"):
+            for estate in estates:
                 url = f"{self.portal_root}/pt/resultados/{operation}/{estate}/{path}?by=LATEST&direction=DESC&limit=36"
                 if search.price_max is not None:
                     url = set_query_param(url, "priceMax", search.price_max)
@@ -119,6 +120,17 @@ class ImovirtualSource(BaseSource):
         image_url = None
         if images and isinstance(images[0], dict):
             image_url = images[0].get("medium") or images[0].get("large")
+        raw: dict = {"native_id": item.get("id")}
+        transaction = str(item.get("transaction") or "").upper()
+        if transaction == "SELL":
+            raw["operation"] = "buy"
+        elif transaction == "RENT":
+            raw["operation"] = "rent"
+        estate = str(item.get("estate") or "").upper()
+        if estate in ("HOUSE", "TERRACED_HOUSE"):
+            raw["property_type"] = "moradia"
+        elif estate in ("FLAT", "APARTMENT"):
+            raw["property_type"] = "apartamento"
         return Listing(
             id="",
             source=self.name,
@@ -131,7 +143,7 @@ class ImovirtualSource(BaseSource):
             url=url,
             image_url=image_url,
             published_at=item.get("dateCreated") or item.get("pushedUpAt"),
-            raw={"native_id": item.get("id")},
+            raw=raw,
         )
 
     # -- fallback: CSS ---------------------------------------------------------

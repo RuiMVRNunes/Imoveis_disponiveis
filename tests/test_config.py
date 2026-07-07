@@ -8,6 +8,7 @@ searches:
     price_max: 350000
     typologies: ["T3", "T4"]
     min_area_m2: 100
+    property_types: ["Moradias"]
     keywords_exclude: ["leilão"]
     sources: ["imovirtual", "supercasa"]
     start_urls:
@@ -33,6 +34,7 @@ def test_valid_config_loads(tmp_path):
     assert len(config.searches) == 1
     search = config.searches[0]
     assert search.wanted_rooms == {3, 4}
+    assert search.property_types == ["moradia"]  # "Moradias" normalized
     # placeholder start_url is dropped; the real one is kept
     assert "idealista" not in search.start_urls
     assert "supercasa" in search.start_urls

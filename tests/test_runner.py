@@ -289,9 +289,13 @@ def test_block_alert_cooldown_suppresses_oscillation(env):
 def test_baseline_flag_rebuilds_without_alert_flood(env):
     env.catalog["supercasa"] = [make_listing(1)]
     env.run()
+    env.catalog["supercasa"] = [make_listing(1), make_listing(2)]
+    env.run()  # listing 2 -> a "new" event lands in the dashboard history
+    assert len(env.state.data["events"]) == 1
     env.notifier.sent.clear()
 
-    env.catalog["supercasa"] = [make_listing(1), make_listing(5)]
+    env.catalog["supercasa"] = [make_listing(1), make_listing(2), make_listing(5)]
     result = env.run(force_baseline=True)
     assert result.new_events == []
     assert result.baseline_counts["Casa Feira"] == 1  # only the unseen one registered
+    assert env.state.data["events"] == []  # fresh slate: dashboard junk wiped

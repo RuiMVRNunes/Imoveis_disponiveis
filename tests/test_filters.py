@@ -38,3 +38,35 @@ def test_missing_data_passes_except_price(search):
 def test_within_limits_passes(search):
     assert passes_filters(make_listing(), search)
     assert passes_filters(make_listing(rooms=4, price=350_000, area_m2=100.0), search)
+
+
+def test_operation_hint_blocks_cross_leaks(search):
+    # a 750 EUR rent ad "passes" a 350k buy ceiling - the hint must catch it
+    assert not passes_filters(make_listing(price=750, raw={"operation": "rent"}), search)
+    assert passes_filters(make_listing(raw={"operation": "buy"}), search)
+    assert passes_filters(make_listing(raw={}), search)  # no hint -> golden rule
+
+
+def test_property_types_filter(search):
+    search.property_types = ["moradia"]
+    assert passes_filters(make_listing(title="Moradia T3 em Fiães"), search)
+    assert passes_filters(make_listing(title="Casa / Villa T4 em Oiã"), search)
+    assert not passes_filters(make_listing(title="Apartamento T3 no centro"), search)
+    # explicit source hint beats the title
+    assert not passes_filters(
+        make_listing(title="T3 espetacular", raw={"property_type": "apartamento"}), search
+    )
+    # no evidence either way -> keep (golden rule)
+    assert passes_filters(make_listing(title="T3 com jardim em Fiães"), search)
+
+
+def test_portal_prefiltered_skips_structured_checks(search):
+    # price/typology/area from the YAML must NOT fight a pasted start_url
+    over_budget = make_listing(price=480_000, rooms=5, area_m2=90.0)
+    assert not passes_filters(over_budget, search)
+    assert passes_filters(over_budget, search, portal_prefiltered=True)
+    # keyword excludes and the no-price rule still apply everywhere
+    assert not passes_filters(
+        make_listing(title="Moradia T3 (leilão)"), search, portal_prefiltered=True
+    )
+    assert not passes_filters(make_listing(price=None), search, portal_prefiltered=True)

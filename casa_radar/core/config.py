@@ -16,6 +16,8 @@ from typing import Any
 
 import yaml
 
+from .utils import strip_accents
+
 log = logging.getLogger("casa_radar.config")
 
 VALID_OPERATIONS = {"buy", "rent"}
@@ -28,10 +30,12 @@ KNOWN_SEARCH_FIELDS = {
     "price_max",
     "typologies",
     "min_area_m2",
+    "property_types",
     "keywords_exclude",
     "sources",
     "start_urls",
 }
+KNOWN_PROPERTY_TYPES = ("moradia", "apartamento")
 _URL_PLACEHOLDER_TOKENS = ("COLA_AQUI", "PASTE_HERE")
 
 
@@ -44,6 +48,7 @@ class SearchConfig:
     price_max: int | None = None
     typologies: list[str] = field(default_factory=list)
     min_area_m2: float | None = None
+    property_types: list[str] = field(default_factory=list)  # [] = all types
     keywords_exclude: list[str] = field(default_factory=list)
     sources: list[str] = field(default_factory=list)
     start_urls: dict[str, str] = field(default_factory=dict)
@@ -159,6 +164,18 @@ def _parse_search(raw: Any, index: int, errors: list[str]) -> SearchConfig | Non
                 continue
             start_urls[str(src).lower()] = url
 
+    property_types: list[str] = []
+    for value in _as_list("property_types"):
+        normalized = strip_accents(str(value)).lower().rstrip("s")  # "Moradias" -> "moradia"
+        match = next((t for t in KNOWN_PROPERTY_TYPES if normalized.startswith(t)), None)
+        if match is None:
+            errors.append(
+                f"{label}: property_types '{value}' desconhecido "
+                f"(usa {'/'.join(KNOWN_PROPERTY_TYPES)}); ignorado."
+            )
+        elif match not in property_types:
+            property_types.append(match)
+
     price_max = _as_number("price_max")
     price_min = _as_number("price_min")
     return SearchConfig(
@@ -169,6 +186,7 @@ def _parse_search(raw: Any, index: int, errors: list[str]) -> SearchConfig | Non
         price_max=int(price_max) if price_max is not None else None,
         typologies=_as_list("typologies"),
         min_area_m2=_as_number("min_area_m2"),
+        property_types=property_types,
         keywords_exclude=_as_list("keywords_exclude"),
         sources=sources,
         start_urls=start_urls,

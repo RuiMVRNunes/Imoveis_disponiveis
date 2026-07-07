@@ -48,6 +48,11 @@ def test_imovirtual_next_data_parser(search):
     assert house.rooms == 3
     assert house.area_m2 == 140.0
     assert house.location == "Lourosa"
+    # estate/transaction from the JSON become filter hints
+    assert house.raw["operation"] == "buy"
+    assert house.raw["property_type"] == "moradia"
+    assert listings[1].raw["operation"] == "rent"
+    assert listings[1].raw["property_type"] == "apartamento"
     finalized = source._finalize(house, search)
     assert finalized.id == "imovirtual:1gXbc"
     assert finalized.url.endswith("-ID1gXbc")
@@ -83,13 +88,19 @@ def test_supercasa_parser(search):
 def test_custojusto_parser(search):
     source = CustoJustoSource()
     listings = source.parse_page(load_fixture("custojusto.html"), search)
-    # help-page link (no numeric listing id) must not be scraped
+    # help page (no id) AND the car from the "related" widget must be ignored
     assert len(listings) == 2
+    assert not any("BMW" in l.title for l in listings)
     first = listings[0]
     assert first.title == "Moradia T3 remodelada em Fiães"
     assert first.price == 320_000
     assert first.rooms == 3
     assert first.area_m2 == 150.0
+    # hints extracted from the category path -> feed the buy/rent + type filters
+    assert first.raw["operation"] == "buy"
+    assert first.raw["property_type"] == "moradia"
+    assert listings[1].raw["property_type"] == "apartamento"
+    assert "operation" not in listings[1].raw
     finalized = source._finalize(first, search)
     assert finalized.id == "custojusto:38123456"
     relative = source._finalize(listings[1], search)
