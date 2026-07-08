@@ -95,15 +95,20 @@ def run_once(
         for source_name in search.sources:
             if only_source and source_name != only_source:
                 continue
-            if source_name in METERED_SOURCES and _skip_metered(
-                source_name, search, state, config, now, metered_skip
-            ):
-                continue  # throttled or over monthly cap: not a zero-seen
+            metered_urls: list[str] | None = None
+            if source_name in METERED_SOURCES:
+                metered_urls = _metered_gate(
+                    source_name, search, state, config, now, metered_skip
+                )
+                if metered_urls is None:
+                    continue  # throttled or over monthly cap: not a zero-seen
             sources_used.add(source_name)
             try:
                 scraper = build_source(source_name)
                 if not scraper.is_enabled():
                     continue
+                if metered_urls is not None:
+                    scraper.run_urls = metered_urls
                 listings = scraper.search(search, config.runtime)
             except Exception as exc:  # source isolation: log, count 0, move on
                 log.error("runner: fonte '%s' falhou em '%s': %s", source_name, search.name, exc)
@@ -250,19 +255,20 @@ def _event_from_listing(
 # -- source health / silent-block detection ---------------------------------------
 
 
-def _skip_metered(
+def _metered_gate(
     source_name: str,
     search: Any,
     state: State,
     config: AppConfig,
     now: datetime,
     metered_skip: set[str],
-) -> bool:
-    """Gate a metered source (idealista_api): honour the min interval between
-    calls and the monthly request cap, so a free RapidAPI plan is never blown.
-    A skip here is deliberate rest, NOT a zero-seen block."""
+) -> list[str] | None:
+    """Gate a metered source (idealista_api). Returns the subset of URLs to hit
+    this run (round-robin across the search's URLs so a limited free plan is
+    never blown), or None to skip. Honours the min interval between calls and
+    the monthly request cap. A None here is deliberate rest, NOT a zero-seen."""
     if source_name in metered_skip:
-        return True
+        return None
     health = state.source_health(source_name)
     interval = config.runtime.min_interval_hours.get(source_name)
     last = health.get("last_attempt_at")
@@ -270,19 +276,32 @@ def _skip_metered(
         if now - _parse_iso(last) < timedelta(hours=interval):
             log.info("runner: %s em pausa (intervalo mínimo %sh não cumprido)", source_name, interval)
             metered_skip.add(source_name)
-            return True
-    estimate = max(1, len(IdealistaApiSource._search_urls(search)))
+            return None
+
+    all_urls = IdealistaApiSource._search_urls(search)
+    if not all_urls:
+        health["last_attempt_at"] = now.isoformat()
+        return []  # nothing configured: let the source raise its clear error
+
+    per_run = max(1, config.runtime.idealista_urls_per_run)
+    cursors = state.data["meta"].setdefault("idealista_cursor", {})
+    start = int(cursors.get(search.name, 0)) % len(all_urls)
+    n = min(per_run, len(all_urls))
+    subset = [all_urls[(start + i) % len(all_urls)] for i in range(n)]
+
     month_count = _rapidapi_count(state, now)
-    if month_count + estimate > config.runtime.rapidapi_monthly_cap:
+    if month_count + len(subset) > config.runtime.rapidapi_monthly_cap:
         log.warning(
             "runner: %s ignorado — tecto mensal RapidAPI atingido (%d/%d)",
             source_name, month_count, config.runtime.rapidapi_monthly_cap,
         )
         metered_skip.add(source_name)
-        return True
+        return None
+
     health["last_attempt_at"] = now.isoformat()
-    _add_rapidapi_count(state, now, estimate)
-    return False
+    cursors[search.name] = (start + n) % len(all_urls)
+    _add_rapidapi_count(state, now, len(subset))
+    return subset
 
 
 def _rapidapi_count(state: State, now: datetime) -> int:

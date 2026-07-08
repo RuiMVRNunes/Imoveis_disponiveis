@@ -57,6 +57,10 @@ class IdealistaApiSource(BaseSource):
     # PT /imovel/NNN, ES /inmueble/NNN - extract the native id from the url.
     id_pattern = re.compile(r"/(?:imovel|inmueble)/(\d+)")
     metered = True  # runner applies throttle + monthly cap
+    # The runner sets this to the rotated subset of URLs to hit this run
+    # (round-robin across idealista_urls to fit a limited quota). Empty/unset
+    # -> use all configured URLs.
+    run_urls: list[str] = []
 
     def build_urls(self, search: SearchConfig) -> list[str]:  # pragma: no cover
         return []
@@ -70,7 +74,7 @@ class IdealistaApiSource(BaseSource):
         key = os.environ.get("RAPIDAPI_KEY", "").strip()
         if not key:
             raise SourceError("idealista_api: falta o segredo RAPIDAPI_KEY")
-        search_urls = self._search_urls(search)
+        search_urls = self.run_urls or self._search_urls(search)
         if not search_urls:
             raise SourceError(
                 f"idealista_api: pesquisa '{search.name}' sem URL do idealista.pt "

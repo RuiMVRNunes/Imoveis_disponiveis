@@ -98,6 +98,7 @@ class RuntimeConfig:
     # request cap so a free RapidAPI plan is never blown.
     min_interval_hours: dict[str, float] = field(default_factory=dict)
     rapidapi_monthly_cap: int = 140
+    idealista_urls_per_run: int = 2  # URLs hit per idealista_api run (round-robin)
 
 
 @dataclass
@@ -246,6 +247,7 @@ def _parse_runtime(raw: Any, errors: list[str]) -> RuntimeConfig:
         ("notify_price_drops", bool),
         ("min_price_drop_pct", float),
         ("rapidapi_monthly_cap", int),
+        ("idealista_urls_per_run", int),
     ):
         if key in raw:
             try:

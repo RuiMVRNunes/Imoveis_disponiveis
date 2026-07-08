@@ -52,9 +52,11 @@ def test_property_type_filter_drops_the_flat(search):
 
 
 class _StubApi:
-    """Metered source stub: counts how many times it's actually called."""
+    """Metered source stub: counts calls and records the rotated URL subset."""
 
     calls = 0
+    seen_urls: list[list[str]] = []
+    run_urls: list[str] = []
 
     def __init__(self):
         type(self).calls += 1  # a call == build_source + search below
@@ -65,30 +67,52 @@ class _StubApi:
         return True
 
     def search(self, search, runtime):
+        type(self).seen_urls.append(list(self.run_urls))
         return []
 
 
 @pytest.fixture(autouse=True)
 def _reset_stub():
     _StubApi.calls = 0
+    _StubApi.seen_urls = []
+    _StubApi.run_urls = []
     yield
 
 
-def _env(tmp_path, monkeypatch, *, min_interval=None, cap=140):
+def _env(tmp_path, monkeypatch, *, min_interval=None, cap=140, urls=None, per_run=2):
     monkeypatch.setattr(runner_mod, "build_source", lambda name: _StubApi())
     monkeypatch.setattr(runner_mod, "build_notifiers", lambda config: [])
     monkeypatch.setattr(runner_mod, "METERED_SOURCES", {"idealista_api"})
     config = AppConfig(
         searches=[SearchConfig(name="Casa", sources=["idealista_api"],
-                               idealista_urls=["https://www.idealista.pt/comprar-casas/arouca/"])],
+                               idealista_urls=urls or ["https://www.idealista.pt/comprar-casas/arouca/"])],
         runtime=RuntimeConfig(
             min_interval_hours={"idealista_api": min_interval} if min_interval else {},
             rapidapi_monthly_cap=cap,
+            idealista_urls_per_run=per_run,
             quiet_hours=(0, 0),
         ),
     )
     state = State(tmp_path / "state.json")
     return config, state
+
+
+def test_round_robin_covers_all_urls_one_per_run(tmp_path, monkeypatch):
+    urls = ["u0", "u1", "u2"]
+    config, state = _env(tmp_path, monkeypatch, urls=urls, per_run=1)
+    for _ in range(4):  # 4 runs, 1 URL each, cursor wraps after 3
+        runner_mod.run_once(config, state, dashboard_dir=str(tmp_path / "d"))
+    assert _StubApi.seen_urls == [["u0"], ["u1"], ["u2"], ["u0"]]
+    # one URL per run == one request per run counted
+    assert state.data["meta"]["rapidapi_count"] == 4
+
+
+def test_per_run_two_takes_two_urls(tmp_path, monkeypatch):
+    urls = ["u0", "u1", "u2", "u3"]
+    config, state = _env(tmp_path, monkeypatch, urls=urls, per_run=2)
+    runner_mod.run_once(config, state, dashboard_dir=str(tmp_path / "d"))
+    runner_mod.run_once(config, state, dashboard_dir=str(tmp_path / "d"))
+    assert _StubApi.seen_urls == [["u0", "u1"], ["u2", "u3"]]
 
 
 def test_throttle_skips_within_interval(tmp_path, monkeypatch):

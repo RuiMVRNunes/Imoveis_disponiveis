@@ -178,12 +178,16 @@ radar como as outras fontes.
    - mete `idealista_api` nas `sources` da pesquisa;
    - cola os teus URLs de pesquisa do idealista.pt em **`idealista_urls`**
      (com os filtros/polígono já aplicados no browser).
-5. **Quota:** cada URL custa **1 pedido por corrida**. A fórmula é
-   `pedidos/dia = nº_urls × (24 / min_interval_hours)`. Ajusta em `runtime`:
-   - `min_interval_hours: { idealista_api: 6 }` → cada URL corre 1×/6h;
+5. **Quota:** cada URL custa **1 pedido por corrida**. ⚠️ A API **não aceita
+   URLs de polígono** (`/areas/?shape=`) — têm de ser os URLs normais por
+   localidade. Para vários concelhos caberem numa quota grátis, o sistema **roda
+   entre os URLs** (não bate em todos de cada vez). Ajusta em `runtime`:
+   - `min_interval_hours: { idealista_api: 6 }` → o idealista corre no máx. 1×/6h;
+   - `idealista_urls_per_run: 1` → trata de 1 concelho por corrida, rodando;
    - `rapidapi_monthly_cap: 140` → trava de segurança (mete o teu limite real).
-   - **Dica:** um só URL com um **polígono** a cobrir a tua zona toda gasta muito
-     menos do que vários URLs por concelho.
+   - Conta: `pedidos/dia = idealista_urls_per_run × (24 / min_interval_hours)`.
+     Com 6 concelhos, 1/corrida e 1×/6h → 4 pedidos/dia (~120/mês); cada concelho
+     revisto a cada ~36h. Se o teu plano der mais, sobe estes valores.
 6. Depois de adicionares `idealista_api` a uma pesquisa que **já tem baseline**,
    corre o workflow com **baseline** marcado uma vez — senão os anúncios atuais
    do idealista chegam todos de rajada como "novos".
