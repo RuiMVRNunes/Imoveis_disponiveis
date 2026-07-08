@@ -14,6 +14,7 @@ from ..core.utils import fmt_price
 
 SOURCE_BADGE_COLORS = {
     "idealista": "#c9f24d",
+    "idealista_api": "#a0c400",
     "imovirtual": "#0059b3",
     "supercasa": "#e8452c",
     "custojusto": "#7b2d8b",

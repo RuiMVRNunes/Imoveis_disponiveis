@@ -21,7 +21,9 @@ from .utils import strip_accents
 log = logging.getLogger("casa_radar.config")
 
 VALID_OPERATIONS = {"buy", "rent"}
-KNOWN_SOURCES = {"idealista", "imovirtual", "supercasa", "custojusto", "casasapo"}
+KNOWN_SOURCES = {
+    "idealista", "idealista_api", "imovirtual", "supercasa", "custojusto", "casasapo",
+}
 KNOWN_SEARCH_FIELDS = {
     "name",
     "operation",
@@ -34,6 +36,7 @@ KNOWN_SEARCH_FIELDS = {
     "keywords_exclude",
     "sources",
     "start_urls",
+    "idealista_urls",
 }
 KNOWN_PROPERTY_TYPES = ("moradia", "apartamento")
 _URL_PLACEHOLDER_TOKENS = ("COLA_AQUI", "PASTE_HERE")
@@ -52,6 +55,7 @@ class SearchConfig:
     keywords_exclude: list[str] = field(default_factory=list)
     sources: list[str] = field(default_factory=list)
     start_urls: dict[str, str] = field(default_factory=dict)
+    idealista_urls: list[str] = field(default_factory=list)  # idealista.pt search URLs for idealista_api
 
     @property
     def wanted_rooms(self) -> set[int]:
@@ -90,6 +94,10 @@ class RuntimeConfig:
     max_listings_per_message: int = 20
     dashboard_url: str = ""
     quiet_hours: tuple[int, int] = (0, 7)  # [start, end): queue alerts, deliver in the morning; [0,0] disables
+    # metered sources (idealista_api): min hours between calls + hard monthly
+    # request cap so a free RapidAPI plan is never blown.
+    min_interval_hours: dict[str, float] = field(default_factory=dict)
+    rapidapi_monthly_cap: int = 140
 
 
 @dataclass
@@ -190,6 +198,7 @@ def _parse_search(raw: Any, index: int, errors: list[str]) -> SearchConfig | Non
         keywords_exclude=_as_list("keywords_exclude"),
         sources=sources,
         start_urls=start_urls,
+        idealista_urls=_as_list("idealista_urls"),
     )
 
 
@@ -236,12 +245,25 @@ def _parse_runtime(raw: Any, errors: list[str]) -> RuntimeConfig:
         ("dashboard_url", str),
         ("notify_price_drops", bool),
         ("min_price_drop_pct", float),
+        ("rapidapi_monthly_cap", int),
     ):
         if key in raw:
             try:
                 setattr(cfg, key, caster(raw[key]))
             except (TypeError, ValueError):
                 errors.append(f"runtime.{key}: valor inválido '{raw[key]}'; a usar default.")
+    interval = raw.get("min_interval_hours")
+    if interval is not None:
+        if isinstance(interval, dict):
+            parsed: dict[str, float] = {}
+            for src, hours in interval.items():
+                try:
+                    parsed[str(src)] = float(hours)
+                except (TypeError, ValueError):
+                    errors.append(f"runtime.min_interval_hours.{src}: valor inválido; ignorado.")
+            cfg.min_interval_hours = parsed
+        else:
+            errors.append("runtime.min_interval_hours: devia ser um mapa fonte->horas; ignorado.")
     delay = raw.get("request_delay_seconds")
     if delay is not None:
         try:

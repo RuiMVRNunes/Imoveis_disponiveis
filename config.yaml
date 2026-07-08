@@ -25,11 +25,11 @@ searches:
     min_area_m2: 120
     property_types: ["moradia"]    # só moradias (tira esta linha p/ incluir apartamentos)
     keywords_exclude: ["trespasse", "leilão", "penhora"]
-    # idealista e supercasa bloqueiam os IPs do GitHub Actions (DataDome/403),
-    # por isso estão fora da rotação — só gastavam tempo e enchiam o resumo
-    # de ⚠. Quando um dia isto correr num IP de casa, volta a pô-los aqui;
-    # os start_urls deles ficam guardados em baixo, prontos.
-    sources: ["imovirtual", "custojusto"]
+    # supercasa e o idealista por scraping bloqueiam os IPs do GitHub Actions
+    # (DataDome/403). O idealista entra na mesma, via API (idealista_api, ver
+    # idealista_urls abaixo). O scraping do supercasa/idealista fica para o
+    # dia em que isto corra num IP de casa.
+    sources: ["imovirtual", "custojusto", "idealista_api"]
     # start_urls: cola aqui o URL do portal já filtrado no browser.
     # Tem prioridade sobre os filtros estruturados para esse portal.
     start_urls:
@@ -39,6 +39,21 @@ searches:
       imovirtual: "https://www.imovirtual.com/pt/resultados/comprar/moradia/todo-o-pais?limit=72&ownerTypeSingleSelect=ALL&priceMin=230000&priceMax=500000&areaMin=140&roomsNumber=%5BFOUR%2CFIVE%2CSIX_OR_MORE%5D&by=LATEST&direction=DESC&mapBounds=-8.252593066942879%2C41.075904031835265%2C-8.71831779913139%2C40.85625729852924&geometry=oznyFfwxs%40eVqpWxn%40coIhzAsqDldBiyAjPwDhSbTqZ%7B%40p%7EBo%7C%40fc%40uFtnBjNxkB%7C%60Blm%40j%7E%40v%7EAftHtWthH%3FfdGaL%7CrFkp%40dtEy%7E%40dRw%7EA%3F%7DxAaVgqE%7DWo%7BCgi%40%7BbCgRz%5Era%40"
       # supercasa: "https://supercasa.pt/comprar-casas/..."
       custojusto: "https://www.custojusto.pt/aveiro/imobiliario/moradias-venda?ps=220000&pe=500000&ros=6&si=1&ss=130"
+
+    # idealista via API (idealista17 na RapidAPI). Cola aqui os teus URLs de
+    # pesquisa do idealista.pt (com os filtros/polígono já aplicados no browser).
+    # ATENÇÃO À QUOTA: cada URL = 1 pedido à API por corrida.
+    #   pedidos/dia = (nº de URLs) x (24 / min_interval_hours)
+    # Com plano grátis limitado, o ideal é UM só URL com um polígono a cobrir a
+    # tua zona toda. Se usares vários concelhos (como em baixo), mantém o
+    # min_interval_hours alto (ver runtime) para não estourar o limite mensal.
+    idealista_urls:
+      - "https://www.idealista.pt/comprar-casas/santa-maria-da-feira/com-preco-max_500000,preco-min_220000,tamanho-min_120,moradias,t3,t4-t5,publicado_ultimo-mes/?ordem=atualizado-desc"
+      # - "https://www.idealista.pt/comprar-casas/ovar/com-preco-max_500000,preco-min_220000,tamanho-min_120,moradias,t3,t4-t5,publicado_ultimo-mes/?ordem=atualizado-desc"
+      # - "https://www.idealista.pt/comprar-casas/espinho/com-preco-max_500000,preco-min_220000,tamanho-min_120,moradias,t3,t4-t5,publicado_ultimo-mes/?ordem=atualizado-desc"
+      # - "https://www.idealista.pt/comprar-casas/vila-nova-de-gaia/com-preco-max_500000,preco-min_220000,tamanho-min_120,moradias,t3,t4-t5,publicado_ultimo-mes/?ordem=atualizado-desc"
+      # - "https://www.idealista.pt/comprar-casas/arouca/com-preco-max_500000,preco-min_220000,tamanho-min_120,moradias,t3,t4-t5,publicado_ultimo-mes/?ordem=atualizado-desc"
+      # - "https://www.idealista.pt/comprar-casas/sao-joao-da-madeira/com-preco-max_500000,preco-min_220000,tamanho-min_120,moradias,t3,t4-t5,publicado_ultimo-mes/?ordem=atualizado-desc"
 
   # Exemplo de segunda pesquisa (arrendamento) — descomenta e ajusta se um dia
   # precisares; cada pesquisa é independente e tem baseline próprio:
@@ -73,3 +88,8 @@ runtime:
   quiet_hours: [1, 8]            # sem alertas entre as 1h e as 8h; acumulam
                                  # e chegam juntos na primeira corrida da manhã.
                                  # [0, 0] desliga as horas de silêncio.
+  # Controlo de quota para fontes com API paga (idealista_api):
+  min_interval_hours: { idealista_api: 6 }   # idealista_api corre no máx. 1x/6h
+  rapidapi_monthly_cap: 140                  # tecto mensal de pedidos; ajusta ao
+                                             # limite do teu plano idealista17.
+                                             # 1 URL x (24/6) = 4 pedidos/dia ≈ 120/mês.

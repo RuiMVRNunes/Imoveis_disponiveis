@@ -128,6 +128,7 @@ Cria estes (só os dos canais que vais usar):
 | `CALLMEBOT_APIKEY` | apikey do CallMeBot (passo 5) | `123456` |
 | `TELEGRAM_TOKEN` | token do bot (passo 6, opcional) | `1234:AAxx...` |
 | `TELEGRAM_CHAT_ID` | id do teu chat (passo 6, opcional) | `987654321` |
+| `RAPIDAPI_KEY` | key da RapidAPI para o idealista via API (passo 5b) | `7ffb...ffd9e` |
 
 (`SMTP_HOST` e `SMTP_PORT` também existem mas são opcionais — sem eles assume-se
 Gmail: `smtp.gmail.com`, porta `465`. Só precisas deles se usares outro provedor.)
@@ -161,6 +162,31 @@ O Gmail não aceita a tua password normal em scripts. Precisas de uma **App Pass
 
 > O CallMeBot é um serviço gratuito de terceiros — às vezes está lento ou em baixo.
 > Por isso o **Telegram é recomendado como canal mais fiável** (passo 6); podes ter os dois.
+
+### 5b. idealista via API (RapidAPI idealista17)
+
+O idealista bloqueia scraping a partir da cloud (DataDome). A solução é a API
+**idealista17** na RapidAPI, que aceita o teu URL de pesquisa do idealista.pt e
+devolve os resultados (com fotos) — funciona no GitHub Actions e integra-se no
+radar como as outras fontes.
+
+1. Cria conta em <https://rapidapi.com>, procura **"idealista17"** e subscreve o
+   **plano grátis**. Aponta o **limite de pedidos/mês** que aparece.
+2. Em **Security → App Key** copia a tua key.
+3. Cria o secret **`RAPIDAPI_KEY`** no GitHub (como no passo 3).
+4. No `config.yaml`:
+   - mete `idealista_api` nas `sources` da pesquisa;
+   - cola os teus URLs de pesquisa do idealista.pt em **`idealista_urls`**
+     (com os filtros/polígono já aplicados no browser).
+5. **Quota:** cada URL custa **1 pedido por corrida**. A fórmula é
+   `pedidos/dia = nº_urls × (24 / min_interval_hours)`. Ajusta em `runtime`:
+   - `min_interval_hours: { idealista_api: 6 }` → cada URL corre 1×/6h;
+   - `rapidapi_monthly_cap: 140` → trava de segurança (mete o teu limite real).
+   - **Dica:** um só URL com um **polígono** a cobrir a tua zona toda gasta muito
+     menos do que vários URLs por concelho.
+6. Depois de adicionares `idealista_api` a uma pesquisa que **já tem baseline**,
+   corre o workflow com **baseline** marcado uma vez — senão os anúncios atuais
+   do idealista chegam todos de rajada como "novos".
 
 ### 6. Telegram (opcional, recomendado)
 

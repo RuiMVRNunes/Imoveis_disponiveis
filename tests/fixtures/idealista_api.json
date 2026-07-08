@@ -1,0 +1,47 @@
+{
+  "success": true,
+  "data": {
+    "total": 2,
+    "totalPages": 1,
+    "currentPage": 1,
+    "itemsPerPage": 50,
+    "summary": [],
+    "listings": [
+      {
+        "propertyCode": "33445566",
+        "thumbnail": "https://img4.idealista.com/blur/WEB_LISTING/0/id.pro.pt.image/33445566.jpg",
+        "numPhotos": 21,
+        "price": 315000.0,
+        "priceInfo": {"price": {"amount": 315000.0, "currencySuffix": "€"}},
+        "propertyType": "chalet",
+        "detailedType": {"typology": "chalet"},
+        "operation": "sale",
+        "size": 142.0,
+        "rooms": 3,
+        "bathrooms": 2,
+        "address": "Rua das Flores, Fiães",
+        "municipality": "Santa Maria da Feira",
+        "province": "Aveiro",
+        "latitude": 40.99,
+        "longitude": -8.52,
+        "url": "https://www.idealista.pt/imovel/33445566/",
+        "multimedia": {"images": [{"tag": "facade", "url": "https://img4.idealista.com/x/33445566_1.jpg"}]},
+        "suggestedTexts": {"title": "Moradia em Rua das Flores, Fiães"}
+      },
+      {
+        "propertyCode": "99887766",
+        "numPhotos": 0,
+        "priceInfo": {"price": {"amount": 289000.0, "currencySuffix": "€"}},
+        "propertyType": "flat",
+        "detailedType": {"typology": "flat"},
+        "operation": "sale",
+        "size": 95.0,
+        "rooms": 2,
+        "municipality": "Santa Maria da Feira",
+        "province": "Aveiro",
+        "url": "https://www.idealista.pt/imovel/99887766/",
+        "suggestedTexts": {"title": "Apartamento em Santa Maria da Feira"}
+      }
+    ]
+  }
+}

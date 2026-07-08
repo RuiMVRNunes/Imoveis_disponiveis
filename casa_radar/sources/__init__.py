@@ -8,16 +8,21 @@ from .base import BaseSource
 from .casasapo import CasaSapoSource
 from .custojusto import CustoJustoSource
 from .idealista import IdealistaSource
+from .idealista_api import IdealistaApiSource
 from .imovirtual import ImovirtualSource
 from .supercasa import SupercasaSource
 
 SOURCES: dict[str, type[BaseSource]] = {
     "idealista": IdealistaSource,
+    "idealista_api": IdealistaApiSource,
     "imovirtual": ImovirtualSource,
     "supercasa": SupercasaSource,
     "custojusto": CustoJustoSource,
     "casasapo": CasaSapoSource,
 }
+
+# Sources that cost real API quota per call (throttled + capped by the runner).
+METERED_SOURCES = {"idealista_api"}
 
 
 def build_source(name: str) -> BaseSource:

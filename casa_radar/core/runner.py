@@ -24,7 +24,8 @@ from ..notifiers.messages import (
     build_new_single,
     build_run_digest,
 )
-from ..sources import build_source
+from ..sources import METERED_SOURCES, build_source
+from ..sources.idealista_api import IdealistaApiSource
 from .config import AppConfig
 from .dedup import find_property_match, fingerprint, primary_key
 from .filters import passes_filters
@@ -85,6 +86,7 @@ def run_once(
     seen = defaultdict(int)
     sources_used: set[str] = set()
     baseline_searches: set[str] = set()
+    metered_skip: set[str] = set()  # metered sources throttled/capped this run
 
     for search in config.searches:
         is_baseline = not state.is_baselined(search.name)
@@ -93,6 +95,10 @@ def run_once(
         for source_name in search.sources:
             if only_source and source_name != only_source:
                 continue
+            if source_name in METERED_SOURCES and _skip_metered(
+                source_name, search, state, config, now, metered_skip
+            ):
+                continue  # throttled or over monthly cap: not a zero-seen
             sources_used.add(source_name)
             try:
                 scraper = build_source(source_name)
@@ -242,6 +248,57 @@ def _event_from_listing(
 
 
 # -- source health / silent-block detection ---------------------------------------
+
+
+def _skip_metered(
+    source_name: str,
+    search: Any,
+    state: State,
+    config: AppConfig,
+    now: datetime,
+    metered_skip: set[str],
+) -> bool:
+    """Gate a metered source (idealista_api): honour the min interval between
+    calls and the monthly request cap, so a free RapidAPI plan is never blown.
+    A skip here is deliberate rest, NOT a zero-seen block."""
+    if source_name in metered_skip:
+        return True
+    health = state.source_health(source_name)
+    interval = config.runtime.min_interval_hours.get(source_name)
+    last = health.get("last_attempt_at")
+    if interval and isinstance(last, str):
+        if now - _parse_iso(last) < timedelta(hours=interval):
+            log.info("runner: %s em pausa (intervalo mínimo %sh não cumprido)", source_name, interval)
+            metered_skip.add(source_name)
+            return True
+    estimate = max(1, len(IdealistaApiSource._search_urls(search)))
+    month_count = _rapidapi_count(state, now)
+    if month_count + estimate > config.runtime.rapidapi_monthly_cap:
+        log.warning(
+            "runner: %s ignorado — tecto mensal RapidAPI atingido (%d/%d)",
+            source_name, month_count, config.runtime.rapidapi_monthly_cap,
+        )
+        metered_skip.add(source_name)
+        return True
+    health["last_attempt_at"] = now.isoformat()
+    _add_rapidapi_count(state, now, estimate)
+    return False
+
+
+def _rapidapi_count(state: State, now: datetime) -> int:
+    meta = state.data["meta"]
+    if meta.get("rapidapi_month") != now.strftime("%Y-%m"):
+        return 0  # new month -> counter rolls over
+    return int(meta.get("rapidapi_count", 0))
+
+
+def _add_rapidapi_count(state: State, now: datetime, n: int) -> None:
+    meta = state.data["meta"]
+    month = now.strftime("%Y-%m")
+    if meta.get("rapidapi_month") != month:
+        meta["rapidapi_month"] = month
+        meta["rapidapi_count"] = 0
+    meta["rapidapi_count"] = int(meta.get("rapidapi_count", 0)) + n
 
 
 def _update_source_health(
