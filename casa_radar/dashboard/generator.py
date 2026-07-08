@@ -1,8 +1,12 @@
 """Static dashboard generator -> docs/index.html (GitHub Pages).
 
 Read-only, as fresh as the last run. No JS frameworks, no external assets:
-one self-contained HTML file with inline CSS and a pure-CSS bar chart.
+one self-contained HTML file with inline CSS and a pure-CSS bar chart. The
+provider filter is pure CSS too (radio + :checked sibling selectors).
 User-facing text in Portuguese (per spec).
+
+The main feed is event-based (new listings + price drops), so the baseline run
+lists NOTHING (it creates no events) and later runs show fresh finds first.
 """
 
 from __future__ import annotations
@@ -19,6 +23,20 @@ _ACCENT = "#1a5fb4"
 _OK = "#2e7d32"
 _WARN = "#b45309"
 
+# Provider display names (config/source key -> label on the badge/filter).
+_SOURCE_LABELS = {
+    "idealista_api": "idealista",
+    "idealista": "idealista",
+    "imovirtual": "imovirtual",
+    "supercasa": "supercasa",
+    "custojusto": "custojusto",
+    "casasapo": "casa sapo",
+}
+
+
+def source_label(name: str) -> str:
+    return _SOURCE_LABELS.get(name, name)
+
 
 def generate(
     state: State, config: AppConfig, now: datetime, out_dir: str | Path = "docs"
@@ -32,21 +50,14 @@ def generate(
     return out_path
 
 
-def _tracked_inventory(state: State, now: datetime) -> list[dict]:
-    """Active listings currently being tracked: seen after the last baseline
-    (keeps junk registered by old configs/parsers out) and not flagged as
-    removed. Newest first."""
-    baseline_at = _parse_iso(state.data["meta"].get("last_baseline_at"))
-    cutoff = max(baseline_at, now - timedelta(hours=48))
-    items = [
-        entry
-        for entry in state.listings.values()
-        if "alias_of" not in entry
-        and not entry.get("removed_at")
-        and _parse_iso(entry.get("last_seen") or entry.get("first_seen")) >= cutoff
-    ]
-    items.sort(key=lambda e: str(e.get("first_seen") or ""), reverse=True)
-    return items
+def _ago(at: str, now: datetime) -> str:
+    dt = _parse_iso(at).astimezone(now.tzinfo)
+    minutes = max(0, int((now - dt).total_seconds() // 60))
+    if minutes < 60:
+        return f"há {minutes} min"
+    if minutes < 24 * 60:
+        return f"há {minutes // 60}h{minutes % 60:02d}"
+    return dt.strftime("%d/%m %H:%M")
 
 
 def render(state: State, config: AppConfig, now: datetime) -> str:
@@ -55,14 +66,21 @@ def render(state: State, config: AppConfig, now: datetime) -> str:
     runs_today = state.runs_since(day_start)
     events_today = state.events_since(day_start)
     events_24h = state.events_since(now - timedelta(hours=24))
+    history_days = max(1, config.runtime.history_days)
+    feed_events = sorted(
+        state.events_since(now - timedelta(days=history_days)),
+        key=lambda e: e.get("at", ""),
+        reverse=True,
+    )[:120]
     last_run = state.data["runs"][-1] if state.data["runs"] else None
 
     seen_today = sum(sum(r.get("seen", {}).values()) for r in runs_today)
     new_today = sum(1 for e in events_today if e.get("type") == "new")
     drops_today = sum(1 for e in events_today if e.get("type") == "price_drop")
-    events_30d = state.events_since(now - timedelta(days=30))
-    new_30d = sum(1 for e in events_30d if e.get("type") == "new")
-    inventory = _tracked_inventory(state, now)
+    new_30d = sum(1 for e in state.events_since(now - timedelta(days=30)) if e.get("type") == "new")
+    tracked_total = sum(
+        1 for e in state.listings.values() if "alias_of" not in e and not e.get("removed_at")
+    )
 
     # -- top status ---------------------------------------------------------
     if last_run:
@@ -93,7 +111,7 @@ def render(state: State, config: AppConfig, now: datetime) -> str:
             detail = "provável bloqueio ou mudança no site"
         source_cards.append(
             f"""<div class="scard" style="border-left:4px solid {color}">
-              <div class="sname">{esc(name)}</div>
+              <div class="sname">{esc(source_label(name))}</div>
               <div class="sstatus" style="color:{color}">{'⚠️' if blocked else '●'} {esc(label)}</div>
               <div class="sdetail">{esc(detail)}</div>
             </div>"""
@@ -126,11 +144,15 @@ def render(state: State, config: AppConfig, now: datetime) -> str:
         )
     chart_html = "\n".join(bars)
 
-    # -- today's listings ---------------------------------------------------
+    # -- news feed (events; baseline lists nothing), grouped-filterable ------
+    feed_sources: list[str] = []
+    for event in feed_events:
+        src = event.get("source")
+        if src and src not in feed_sources:
+            feed_sources.append(src)
+
     cards = []
-    for event in sorted(events_today, key=lambda e: e.get("at", ""), reverse=True):
-        minutes = max(0, int((now - _parse_iso(event["at"]).astimezone(now.tzinfo)).total_seconds() // 60))
-        ago = f"há {minutes} min" if minutes < 60 else f"há {minutes // 60}h{minutes % 60:02d}"
+    for event in feed_events:
         is_drop = event.get("type") == "price_drop"
         badge = (
             f"<span class='badge' style='background:{_OK}'>baixa de preço</span>"
@@ -155,12 +177,13 @@ def render(state: State, config: AppConfig, now: datetime) -> str:
             if event.get("image_url")
             else "<div class='thumb thumb-empty'>🏠</div>"
         )
+        src = event.get("source", "")
         cards.append(
-            f"""<a class="card" href="{esc(event.get('url', '#'))}" target="_blank" rel="noopener">
+            f"""<a class="card src-{esc(src)}" href="{esc(event.get('url', '#'))}" target="_blank" rel="noopener">
               {image}
               <div class="card-body">
-                <div>{badge} <span class="badge badge-src">{esc(event.get('source', ''))}</span>
-                     <span class="muted small">{ago}</span></div>
+                <div>{badge} <span class="badge badge-src">{esc(source_label(src))}</span>
+                     <span class="muted small">{_ago(event.get('at', ''), now)}</span></div>
                 <div class="card-title">{esc(event.get('title', 'Sem título'))}</div>
                 <div class="card-price">{price_html}</div>
                 <div class="muted small">{specs}</div>
@@ -171,55 +194,22 @@ def render(state: State, config: AppConfig, now: datetime) -> str:
     cards_html = (
         "\n".join(cards)
         if cards
-        else "<p class='muted'>Nada de novo hoje — o radar continua atento. 🎯</p>"
+        else "<p class='muted'>Nada de novo ainda — o radar está a postos. 🎯</p>"
     )
 
-    # -- tracked inventory ("what is on the market right now") ---------------
-    inventory_cards = []
-    for entry in inventory[:60]:
-        price_html = esc(fmt_price(entry.get("last_price")))
-        specs = " · ".join(
-            part
-            for part in (
-                f"T{entry['rooms']}" if entry.get("rooms") is not None else "",
-                f"{entry['area_m2']:.0f} m²" if entry.get("area_m2") else "",
-                esc(str(entry.get("location") or "")),
+    # Pure-CSS provider filter (only if there's more than one provider to pick).
+    filter_html = ""
+    filter_css = ""
+    if len(feed_sources) > 1:
+        radios = ['<input type="radio" name="prov" id="f-all" class="pf" checked>'
+                  '<label for="f-all" class="pill">Todos</label>']
+        for src in feed_sources:
+            radios.append(
+                f'<input type="radio" name="prov" id="f-{esc(src)}" class="pf">'
+                f'<label for="f-{esc(src)}" class="pill">{esc(source_label(src))}</label>'
             )
-            if part
-        )
-        since = _parse_iso(entry.get("first_seen")).astimezone(now.tzinfo)
-        image = (
-            f"<div class='thumb' style=\"background-image:url('{esc(entry['image_url'])}')\"></div>"
-            if entry.get("image_url")
-            else "<div class='thumb thumb-empty'>🏠</div>"
-        )
-        url = (entry.get("urls") or ["#"])[0]
-        extra_urls = ""
-        if len(entry.get("urls") or []) > 1:
-            extra_urls = f"<span class='muted small'>+{len(entry['urls']) - 1} portal(is)</span>"
-        inventory_cards.append(
-            f"""<a class="card" href="{esc(url)}" target="_blank" rel="noopener">
-              {image}
-              <div class="card-body">
-                <div><span class="badge badge-src">{esc(entry.get('source', ''))}</span>
-                     <span class="muted small">no radar desde {since.strftime('%d/%m')}</span> {extra_urls}</div>
-                <div class="card-title">{esc(entry.get('title', 'Sem título'))}</div>
-                <div class="card-price">{price_html}</div>
-                <div class="muted small">{specs}</div>
-                <div class="muted small">pesquisa: {esc(entry.get('search_name', ''))}</div>
-              </div>
-            </a>"""
-        )
-    inventory_html = (
-        "\n".join(inventory_cards)
-        if inventory_cards
-        else "<p class='muted'>Ainda sem inventário — aparece depois da próxima corrida.</p>"
-    )
-    inventory_note = (
-        f"<p class='muted small'>{len(inventory)} imóveis em seguimento"
-        + (" (a mostrar os 60 mais recentes)" if len(inventory) > 60 else "")
-        + " — vistos nas fontes nas últimas 48h, ordenados do mais recente.</p>"
-    )
+            filter_css += f"#f-{src}:checked ~ .feed .card:not(.src-{src}){{display:none}}\n"
+        filter_html = "".join(radios)
 
     generated = now.strftime("%d/%m/%Y %H:%M")
     return f"""<!DOCTYPE html>
@@ -266,6 +256,11 @@ def render(state: State, config: AppConfig, now: datetime) -> str:
   .bar {{ width: 100%; border-radius: 3px 3px 0 0; min-height: 3px; }}
   .bar-label {{ position: absolute; bottom: -20px; left: 50%; transform: translateX(-50%);
                 font-size: 0.62rem; color: #8b98ab; }}
+  .pf {{ position: absolute; opacity: 0; pointer-events: none; }}
+  .pill {{ display: inline-block; padding: 5px 13px; margin: 0 6px 8px 0; border-radius: 999px;
+           background: #fff; border: 1px solid #d3dae4; color: #46536a; font-size: 0.82rem;
+           cursor: pointer; user-select: none; }}
+  .pf:checked + .pill {{ background: {_ACCENT}; border-color: {_ACCENT}; color: #fff; }}
   .grid {{ display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
            gap: 14px; }}
   .card {{ background: #fff; border: 1px solid #e3e8ef; border-radius: 10px;
@@ -282,6 +277,7 @@ def render(state: State, config: AppConfig, now: datetime) -> str:
             font-weight: 600; }}
   .badge-src {{ background: #46536a; }}
   footer {{ margin-top: 40px; color: #8b98ab; font-size: 0.78rem; text-align: center; }}
+  {filter_css}
 </style>
 </head>
 <body>
@@ -294,7 +290,7 @@ def render(state: State, config: AppConfig, now: datetime) -> str:
     <div class="metric"><b>{new_today}</b><span>novos hoje</span></div>
     <div class="metric"><b>{drops_today}</b><span>baixas de preço hoje</span></div>
     <div class="metric"><b>{new_30d}</b><span>novos (30 dias)</span></div>
-    <div class="metric"><b>{len(inventory)}</b><span>em seguimento</span></div>
+    <div class="metric"><b>{tracked_total}</b><span>em seguimento</span></div>
   </div>
 
   <h2>Estado das fontes</h2>
@@ -303,14 +299,13 @@ def render(state: State, config: AppConfig, now: datetime) -> str:
   <h2>Atividade — novos por hora (24h)</h2>
   <div class="chart">{chart_html}</div>
 
-  <h2>Apareceu hoje</h2>
-  <div class="grid">{cards_html}</div>
-
-  <h2>No mercado agora</h2>
-  {inventory_note}
-  <div class="grid">{inventory_html}</div>
+  <h2>Apareceu recentemente</h2>
+  <div class="feedwrap">
+    {filter_html}
+    <div class="grid feed">{cards_html}</div>
+  </div>
 
   <footer>Gerado pelo Casa Radar às {esc(generated)} ({esc(config.runtime.timezone)}) ·
-    atualiza a cada corrida (~1h)</footer>
+    novidades dos últimos {history_days} dias · atualiza a cada corrida (~1h)</footer>
 </body>
 </html>"""
