@@ -255,6 +255,9 @@ def _event_from_listing(
 # -- source health / silent-block detection ---------------------------------------
 
 
+ANTI_DOUBLE_HOURS = 3  # don't run idealista_api twice within the same schedule window
+
+
 def _metered_gate(
     source_name: str,
     search: Any,
@@ -263,18 +266,32 @@ def _metered_gate(
     now: datetime,
     metered_skip: set[str],
 ) -> list[str] | None:
-    """Gate a metered source (idealista_api). Returns the subset of URLs to hit
-    this run (round-robin across the search's URLs so a limited free plan is
-    never blown), or None to skip. Honours the min interval between calls and
-    the monthly request cap. A None here is deliberate rest, NOT a zero-seen."""
+    """Gate a metered source (idealista_api). Returns the URLs to hit this run
+    (one per distinct token, rotating each token's own URLs) or None to skip.
+
+    Model: every token does at most 1 request per schedule window. So with one
+    token per concelho, all concelhos run each window; with a shared token, its
+    concelhos rotate. run_hours pins the windows (e.g. 8/14/20 -> 3x/day/token).
+    Each token has its own monthly cap. A None here is deliberate rest, NOT a
+    zero-seen block."""
     if source_name in metered_skip:
         return None
+    runtime = config.runtime
     health = state.source_health(source_name)
-    interval = config.runtime.min_interval_hours.get(source_name)
     last = health.get("last_attempt_at")
-    if interval and isinstance(last, str):
-        if now - _parse_iso(last) < timedelta(hours=interval):
-            log.info("runner: %s em pausa (intervalo mínimo %sh não cumprido)", source_name, interval)
+
+    run_hours = runtime.idealista_run_hours
+    if run_hours:
+        if now.hour not in run_hours:
+            metered_skip.add(source_name)
+            return None
+        if isinstance(last, str) and now - _parse_iso(last) < timedelta(hours=ANTI_DOUBLE_HOURS):
+            metered_skip.add(source_name)  # already ran this window
+            return None
+    else:
+        interval = runtime.min_interval_hours.get(source_name)
+        if interval and isinstance(last, str) and now - _parse_iso(last) < timedelta(hours=interval):
+            log.info("runner: %s em pausa (intervalo mínimo %sh)", source_name, interval)
             metered_skip.add(source_name)
             return None
 
@@ -283,41 +300,48 @@ def _metered_gate(
         health["last_attempt_at"] = now.isoformat()
         return []  # nothing configured: let the source raise its clear error
 
-    per_run = max(1, config.runtime.idealista_urls_per_run)
-    cursors = state.data["meta"].setdefault("idealista_cursor", {})
-    start = int(cursors.get(search.name, 0)) % len(all_urls)
-    n = min(per_run, len(all_urls))
-    subset = [all_urls[(start + i) % len(all_urls)] for i in range(n)]
+    # Group URLs by the token that will serve them; each token -> 1 URL this run.
+    groups: dict[str, list[str]] = {}
+    for url in all_urls:
+        token = search.idealista_url_keys.get(url) or "RAPIDAPI_KEY"
+        groups.setdefault(token, []).append(url)
 
-    month_count = _rapidapi_count(state, now)
-    if month_count + len(subset) > config.runtime.rapidapi_monthly_cap:
-        log.warning(
-            "runner: %s ignorado — tecto mensal RapidAPI atingido (%d/%d)",
-            source_name, month_count, config.runtime.rapidapi_monthly_cap,
-        )
+    cursors = state.data["meta"].setdefault("idealista_cursor", {})
+    counts = _rapidapi_counts(state, now)
+    chosen: list[str] = []
+    for token, urls in groups.items():
+        if counts.get(token, 0) >= runtime.rapidapi_monthly_cap:
+            log.warning("runner: token %s no tecto mensal (%d) — concelho(s) saltados",
+                        token, runtime.rapidapi_monthly_cap)
+            continue
+        ckey = f"{search.name}|{token}"
+        idx = int(cursors.get(ckey, 0)) % len(urls)
+        chosen.append(urls[idx])
+        cursors[ckey] = (idx + 1) % len(urls)
+        _add_rapidapi_count(state, now, token, 1)
+
+    if not chosen:
         metered_skip.add(source_name)
         return None
-
     health["last_attempt_at"] = now.isoformat()
-    cursors[search.name] = (start + n) % len(all_urls)
-    _add_rapidapi_count(state, now, len(subset))
-    return subset
+    return chosen
 
 
-def _rapidapi_count(state: State, now: datetime) -> int:
+def _rapidapi_counts(state: State, now: datetime) -> dict[str, int]:
     meta = state.data["meta"]
     if meta.get("rapidapi_month") != now.strftime("%Y-%m"):
-        return 0  # new month -> counter rolls over
-    return int(meta.get("rapidapi_count", 0))
+        return {}  # new month -> counters roll over
+    counts = meta.get("rapidapi_count")
+    return counts if isinstance(counts, dict) else {}
 
 
-def _add_rapidapi_count(state: State, now: datetime, n: int) -> None:
+def _add_rapidapi_count(state: State, now: datetime, token: str, n: int) -> None:
     meta = state.data["meta"]
     month = now.strftime("%Y-%m")
-    if meta.get("rapidapi_month") != month:
+    if meta.get("rapidapi_month") != month or not isinstance(meta.get("rapidapi_count"), dict):
         meta["rapidapi_month"] = month
-        meta["rapidapi_count"] = 0
-    meta["rapidapi_count"] = int(meta.get("rapidapi_count", 0)) + n
+        meta["rapidapi_count"] = {}
+    meta["rapidapi_count"][token] = int(meta["rapidapi_count"].get(token, 0)) + n
 
 
 def _update_source_health(

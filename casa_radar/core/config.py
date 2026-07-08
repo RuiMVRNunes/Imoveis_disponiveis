@@ -56,6 +56,7 @@ class SearchConfig:
     sources: list[str] = field(default_factory=list)
     start_urls: dict[str, str] = field(default_factory=dict)
     idealista_urls: list[str] = field(default_factory=list)  # idealista.pt search URLs for idealista_api
+    idealista_url_keys: dict[str, str] = field(default_factory=dict)  # url -> env var holding its own RapidAPI key
 
     @property
     def wanted_rooms(self) -> set[int]:
@@ -97,8 +98,12 @@ class RuntimeConfig:
     # metered sources (idealista_api): min hours between calls + hard monthly
     # request cap so a free RapidAPI plan is never blown.
     min_interval_hours: dict[str, float] = field(default_factory=dict)
-    rapidapi_monthly_cap: int = 140
-    idealista_urls_per_run: int = 2  # URLs hit per idealista_api run (round-robin)
+    rapidapi_monthly_cap: int = 95  # PER-TOKEN monthly request cap (free plan = 100)
+    # Local hours at which idealista_api may run. Each run, every distinct token
+    # does 1 request (rotating its own URLs), so N tokens -> N concelhos covered
+    # per window. [8,14,20] => each token 3x/day (~90/month). [] -> falls back to
+    # min_interval_hours throttling instead.
+    idealista_run_hours: list[int] = field(default_factory=lambda: [8, 14, 20])
 
 
 @dataclass
@@ -185,6 +190,27 @@ def _parse_search(raw: Any, index: int, errors: list[str]) -> SearchConfig | Non
         elif match not in property_types:
             property_types.append(match)
 
+    # idealista_urls: each item is a URL string, or {url, key} where `key` is
+    # the env var holding that URL's own RapidAPI token (one token per concelho).
+    idealista_urls: list[str] = []
+    idealista_url_keys: dict[str, str] = {}
+    raw_idealista = raw.get("idealista_urls") or []
+    if not isinstance(raw_idealista, list):
+        errors.append(f"{label}: 'idealista_urls' devia ser uma lista; ignorado.")
+        raw_idealista = []
+    for item in raw_idealista:
+        if isinstance(item, str):
+            url = item.strip()
+        elif isinstance(item, dict) and item.get("url"):
+            url = str(item["url"]).strip()
+            if item.get("key"):
+                idealista_url_keys[url] = str(item["key"]).strip()
+        else:
+            errors.append(f"{label}: item de 'idealista_urls' inválido (ignorado): {item!r:.60}")
+            continue
+        if url:
+            idealista_urls.append(url)
+
     price_max = _as_number("price_max")
     price_min = _as_number("price_min")
     return SearchConfig(
@@ -199,7 +225,8 @@ def _parse_search(raw: Any, index: int, errors: list[str]) -> SearchConfig | Non
         keywords_exclude=_as_list("keywords_exclude"),
         sources=sources,
         start_urls=start_urls,
-        idealista_urls=_as_list("idealista_urls"),
+        idealista_urls=idealista_urls,
+        idealista_url_keys=idealista_url_keys,
     )
 
 
@@ -247,7 +274,6 @@ def _parse_runtime(raw: Any, errors: list[str]) -> RuntimeConfig:
         ("notify_price_drops", bool),
         ("min_price_drop_pct", float),
         ("rapidapi_monthly_cap", int),
-        ("idealista_urls_per_run", int),
     ):
         if key in raw:
             try:
@@ -266,6 +292,16 @@ def _parse_runtime(raw: Any, errors: list[str]) -> RuntimeConfig:
             cfg.min_interval_hours = parsed
         else:
             errors.append("runtime.min_interval_hours: devia ser um mapa fonte->horas; ignorado.")
+    run_hours = raw.get("idealista_run_hours")
+    if run_hours is not None:
+        if isinstance(run_hours, list):
+            try:
+                hours = sorted({int(h) for h in run_hours if 0 <= int(h) <= 23})
+                cfg.idealista_run_hours = hours
+            except (TypeError, ValueError):
+                errors.append("runtime.idealista_run_hours: horas inválidas; a usar default.")
+        else:
+            errors.append("runtime.idealista_run_hours: devia ser uma lista de horas (0-23); ignorado.")
     delay = raw.get("request_delay_seconds")
     if delay is not None:
         try:

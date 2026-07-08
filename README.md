@@ -128,7 +128,8 @@ Cria estes (só os dos canais que vais usar):
 | `CALLMEBOT_APIKEY` | apikey do CallMeBot (passo 5) | `123456` |
 | `TELEGRAM_TOKEN` | token do bot (passo 6, opcional) | `1234:AAxx...` |
 | `TELEGRAM_CHAT_ID` | id do teu chat (passo 6, opcional) | `987654321` |
-| `RAPIDAPI_KEY` | key da RapidAPI para o idealista via API (passo 5b) | `7ffb...ffd9e` |
+| `RAPIDAPI_KEY` | key RapidAPI por defeito (idealista via API, passo 5b) | `7ffb...ffd9e` |
+| `RAPIDAPI_KEY_1..6` | um token por concelho (opcional, passo 5b) | `fac8...5de0` |
 
 (`SMTP_HOST` e `SMTP_PORT` também existem mas são opcionais — sem eles assume-se
 Gmail: `smtp.gmail.com`, porta `465`. Só precisas deles se usares outro provedor.)
@@ -173,21 +174,18 @@ radar como as outras fontes.
 1. Cria conta em <https://rapidapi.com>, procura **"idealista17"** e subscreve o
    **plano grátis**. Aponta o **limite de pedidos/mês** que aparece.
 2. Em **Security → App Key** copia a tua key.
-3. Cria o secret **`RAPIDAPI_KEY`** no GitHub (como no passo 3).
-4. No `config.yaml`:
-   - mete `idealista_api` nas `sources` da pesquisa;
-   - cola os teus URLs de pesquisa do idealista.pt em **`idealista_urls`**
-     (com os filtros/polígono já aplicados no browser).
-5. **Quota:** cada URL custa **1 pedido por corrida**. ⚠️ A API **não aceita
-   URLs de polígono** (`/areas/?shape=`) — têm de ser os URLs normais por
-   localidade. Para vários concelhos caberem numa quota grátis, o sistema **roda
-   entre os URLs** (não bate em todos de cada vez). Ajusta em `runtime`:
-   - `min_interval_hours: { idealista_api: 8 }` → o idealista corre no máx. 1×/8h;
-   - `idealista_urls_per_run: 1` → trata de 1 concelho por corrida, rodando;
-   - `rapidapi_monthly_cap: 95` → trava de segurança (plano grátis idealista17 = 100/mês).
-   - Conta: `pedidos/dia = idealista_urls_per_run × (24 / min_interval_hours)`.
-     Com 6 concelhos, 1/corrida e 1×/8h → 3 pedidos/dia (~90/mês, cabe nos 100);
-     cada concelho revisto a cada ~48h. Se o teu plano der mais, sobe estes valores.
+3. No `config.yaml`, mete `idealista_api` nas `sources` da pesquisa e lista os
+   teus URLs de pesquisa do idealista.pt em **`idealista_urls`**, um por concelho,
+   cada um com a sua key: `{ url: "...", key: RAPIDAPI_KEY_1 }`.
+4. **Um token por concelho** (é a chave de tudo). ⚠️ A API **não aceita URLs de
+   polígono** (`/areas/?shape=`) — só URLs normais por localidade. O plano grátis
+   dá **100 pedidos/mês por token**, por isso usa uma conta RapidAPI (um token)
+   por concelho, e cria um secret por cada: `RAPIDAPI_KEY_1`, `RAPIDAPI_KEY_2`, …
+5. **Quota:** com `idealista_run_hours: [8, 14, 20]`, cada token faz **1 pedido
+   por janela** → cada concelho corre 3×/dia (~90/mês, dentro dos 100) e é revisto
+   a cada ~6h. `rapidapi_monthly_cap: 95` é a trava de segurança **por token**.
+   - Se dois concelhos partilharem o mesmo token, esse token **roda** entre eles
+     (1 por janela). Com um só token para os 6, cada concelho seria visto ~a cada 2 dias.
 6. Depois de adicionares `idealista_api` a uma pesquisa que **já tem baseline**,
    corre o workflow com **baseline** marcado uma vez — senão os anúncios atuais
    do idealista chegam todos de rajada como "novos".

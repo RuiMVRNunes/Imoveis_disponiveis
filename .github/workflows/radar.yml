@@ -76,6 +76,12 @@ jobs:
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           RAPIDAPI_KEY: ${{ secrets.RAPIDAPI_KEY }}
+          RAPIDAPI_KEY_1: ${{ secrets.RAPIDAPI_KEY_1 }}
+          RAPIDAPI_KEY_2: ${{ secrets.RAPIDAPI_KEY_2 }}
+          RAPIDAPI_KEY_3: ${{ secrets.RAPIDAPI_KEY_3 }}
+          RAPIDAPI_KEY_4: ${{ secrets.RAPIDAPI_KEY_4 }}
+          RAPIDAPI_KEY_5: ${{ secrets.RAPIDAPI_KEY_5 }}
+          RAPIDAPI_KEY_6: ${{ secrets.RAPIDAPI_KEY_6 }}
         run: |
           ARGS="--once"
           if [ "${{ inputs.baseline }}" = "true" ]; then ARGS="$ARGS --baseline"; fi

@@ -56,10 +56,9 @@ class IdealistaApiSource(BaseSource):
     portal_root = "https://www.idealista.pt"
     # PT /imovel/NNN, ES /inmueble/NNN - extract the native id from the url.
     id_pattern = re.compile(r"/(?:imovel|inmueble)/(\d+)")
-    metered = True  # runner applies throttle + monthly cap
-    # The runner sets this to the rotated subset of URLs to hit this run
-    # (round-robin across idealista_urls to fit a limited quota). Empty/unset
-    # -> use all configured URLs.
+    metered = True  # runner applies scheduling + per-token monthly cap
+    # The runner sets this to the subset of URLs to hit this run (one per token,
+    # per the run-hours schedule). Empty/unset -> use all configured URLs.
     run_urls: list[str] = []
 
     def build_urls(self, search: SearchConfig) -> list[str]:  # pragma: no cover
@@ -71,19 +70,31 @@ class IdealistaApiSource(BaseSource):
     # -- driver -------------------------------------------------------------
 
     def search(self, search: SearchConfig, runtime: RuntimeConfig) -> list[Listing]:
-        key = os.environ.get("RAPIDAPI_KEY", "").strip()
-        if not key:
-            raise SourceError("idealista_api: falta o segredo RAPIDAPI_KEY")
         search_urls = self.run_urls or self._search_urls(search)
         if not search_urls:
             raise SourceError(
                 f"idealista_api: pesquisa '{search.name}' sem URL do idealista.pt "
                 "(mete em idealista_urls ou em start_urls.idealista_api)"
             )
+        default_key = os.environ.get("RAPIDAPI_KEY", "").strip()
         listings: list[Listing] = []
         seen_ids: set[str] = set()
+        responded = 0
         for search_url in search_urls:
-            payload = self._call(key, search_url)
+            key = self._key_for(search, search_url, default_key)
+            if not key:
+                # One concelho's token missing must not kill the others.
+                log.error(
+                    "idealista_api: sem token para %s (env %s / RAPIDAPI_KEY)",
+                    search_url, search.idealista_url_keys.get(search_url, "-"),
+                )
+                continue
+            try:
+                payload = self._call(key, search_url)
+            except SourceError as exc:
+                log.error("idealista_api: %s", exc)
+                continue
+            responded += 1
             data = payload.get("data") or {}
             elements = data.get("listings") or []
             log.info(
@@ -101,6 +112,9 @@ class IdealistaApiSource(BaseSource):
                     continue
                 seen_ids.add(final.id)
                 listings.append(final)
+        if responded == 0:
+            # every target failed (missing token / network) - surface an error
+            raise SourceError("idealista_api: nenhum concelho respondeu (tokens/rede?)")
         return listings
 
     @staticmethod
@@ -110,6 +124,13 @@ class IdealistaApiSource(BaseSource):
         if pasted and pasted not in urls:
             urls.append(pasted)
         return urls
+
+    @staticmethod
+    def _key_for(search: SearchConfig, url: str, default_key: str) -> str:
+        env_name = search.idealista_url_keys.get(url)
+        if env_name:
+            return os.environ.get(env_name, "").strip() or default_key
+        return default_key
 
     def _call(self, key: str, search_url: str) -> dict:
         params = {

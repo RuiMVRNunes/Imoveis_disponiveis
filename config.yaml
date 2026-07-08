@@ -40,20 +40,20 @@ searches:
       # supercasa: "https://supercasa.pt/comprar-casas/..."
       custojusto: "https://www.custojusto.pt/aveiro/imobiliario/moradias-venda?ps=220000&pe=500000&ros=6&si=1&ss=130"
 
-    # idealista via API (idealista17 na RapidAPI). Cola aqui os teus URLs de
-    # pesquisa do idealista.pt (um por concelho, já com os filtros aplicados no
-    # browser). NOTA: a API NÃO aceita URLs de polígono (/areas/?shape=) — têm
-    # de ser os URLs normais por localidade, como estes.
-    # QUOTA: cada URL = 1 pedido. Para não estourar o plano grátis, o sistema
-    # roda entre os URLs (idealista_urls_per_run em runtime) — não bate nos 6 de
-    # cada vez. Ver a conta em runtime.
+    # idealista via API (idealista17 na RapidAPI). Um URL por concelho, cada um
+    # com o SEU token (secret próprio), para caber no plano grátis (100/mês por
+    # token). NOTA: a API NÃO aceita URLs de polígono (/areas/?shape=) — têm de
+    # ser os URLs normais por localidade.
+    # Como corre: a cada janela (idealista_run_hours), cada token faz 1 pedido.
+    # Com 1 token por concelho, os 6 correm em paralelo, cada um 3x/dia (~90/mês).
+    # Se dois concelhos partilharem o mesmo token, esse token roda entre eles.
     idealista_urls:
-      - "https://www.idealista.pt/comprar-casas/santa-maria-da-feira/com-preco-max_500000,preco-min_220000,tamanho-min_120,moradias,t3,t4-t5,publicado_ultimo-mes/?ordem=atualizado-desc"
-      - "https://www.idealista.pt/comprar-casas/ovar/com-preco-max_500000,preco-min_220000,tamanho-min_120,moradias,t3,t4-t5,publicado_ultimo-mes/?ordem=atualizado-desc"
-      - "https://www.idealista.pt/comprar-casas/espinho/com-preco-max_500000,preco-min_220000,tamanho-min_120,moradias,t3,t4-t5,publicado_ultimo-mes/?ordem=atualizado-desc"
-      - "https://www.idealista.pt/comprar-casas/vila-nova-de-gaia/com-preco-max_500000,preco-min_220000,tamanho-min_120,moradias,t3,t4-t5,publicado_ultimo-mes/?ordem=atualizado-desc"
-      - "https://www.idealista.pt/comprar-casas/arouca/com-preco-max_500000,preco-min_220000,tamanho-min_120,moradias,t3,t4-t5,publicado_ultimo-mes/?ordem=atualizado-desc"
-      - "https://www.idealista.pt/comprar-casas/sao-joao-da-madeira/com-preco-max_500000,preco-min_220000,tamanho-min_120,moradias,t3,t4-t5,publicado_ultimo-mes/?ordem=atualizado-desc"
+      - { url: "https://www.idealista.pt/comprar-casas/santa-maria-da-feira/com-preco-max_500000,preco-min_220000,tamanho-min_120,moradias,t3,t4-t5,publicado_ultimo-mes/?ordem=atualizado-desc", key: RAPIDAPI_KEY_1 }
+      - { url: "https://www.idealista.pt/comprar-casas/ovar/com-preco-max_500000,preco-min_220000,tamanho-min_120,moradias,t3,t4-t5,publicado_ultimo-mes/?ordem=atualizado-desc", key: RAPIDAPI_KEY_2 }
+      - { url: "https://www.idealista.pt/comprar-casas/espinho/com-preco-max_500000,preco-min_220000,tamanho-min_120,moradias,t3,t4-t5,publicado_ultimo-mes/?ordem=atualizado-desc", key: RAPIDAPI_KEY_3 }
+      - { url: "https://www.idealista.pt/comprar-casas/vila-nova-de-gaia/com-preco-max_500000,preco-min_220000,tamanho-min_120,moradias,t3,t4-t5,publicado_ultimo-mes/?ordem=atualizado-desc", key: RAPIDAPI_KEY_4 }
+      - { url: "https://www.idealista.pt/comprar-casas/arouca/com-preco-max_500000,preco-min_220000,tamanho-min_120,moradias,t3,t4-t5,publicado_ultimo-mes/?ordem=atualizado-desc", key: RAPIDAPI_KEY_5 }
+      - { url: "https://www.idealista.pt/comprar-casas/sao-joao-da-madeira/com-preco-max_500000,preco-min_220000,tamanho-min_120,moradias,t3,t4-t5,publicado_ultimo-mes/?ordem=atualizado-desc", key: RAPIDAPI_KEY_6 }
 
   # Exemplo de segunda pesquisa (arrendamento) — descomenta e ajusta se um dia
   # precisares; cada pesquisa é independente e tem baseline próprio:
@@ -88,10 +88,8 @@ runtime:
   quiet_hours: [1, 8]            # sem alertas entre as 1h e as 8h; acumulam
                                  # e chegam juntos na primeira corrida da manhã.
                                  # [0, 0] desliga as horas de silêncio.
-  # Controlo de quota do idealista_api (plano grátis idealista17 = 100/mês):
-  min_interval_hours: { idealista_api: 8 }   # só corre no máx. 1x/8h -> 3x/dia
-  idealista_urls_per_run: 1                  # trata de 1 concelho por corrida (roda)
-  rapidapi_monthly_cap: 95                   # trava de segurança, mesmo abaixo dos 100
-  # Conta: 1 URL/corrida x 3 corridas/dia = 3 pedidos/dia ≈ 90/mês (< 100).
-  # Com 6 concelhos, cada um é revisto a cada ~48h.
-  # Fórmula: pedidos/dia = idealista_urls_per_run x (24 / min_interval_hours[idealista_api])
+  # Controlo de quota do idealista_api (plano grátis idealista17 = 100/mês/token):
+  idealista_run_hours: [8, 14, 20]  # janelas (hora local); cada token faz 1 pedido/janela
+  rapidapi_monthly_cap: 95          # tecto POR TOKEN, mesmo abaixo dos 100
+  # Com 1 token por concelho: cada concelho corre às 8h/14h/20h = 3x/dia = ~90/mês
+  # por token. Cada concelho é revisto a cada ~6h (durante o dia).
