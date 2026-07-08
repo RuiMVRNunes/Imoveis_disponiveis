@@ -66,6 +66,20 @@ def test_render_contains_all_sections(tmp_path, app_config):
     assert "<script" not in html                   # no-JS dashboard
 
 
+def test_sources_removed_from_config_are_hidden(tmp_path):
+    from casa_radar.core.config import AppConfig, RuntimeConfig, SearchConfig
+
+    now = datetime.now(timezone.utc)
+    config = AppConfig(
+        searches=[SearchConfig(name="Casa Feira", sources=["supercasa"])],
+        runtime=RuntimeConfig(),
+    )
+    html = render(_populated_state(tmp_path, now), config, now)
+    # idealista health lives in the state but the config dropped the source
+    assert "supercasa" in html
+    assert "0 há 5h" not in html
+
+
 def test_render_empty_state_is_graceful(tmp_path, app_config):
     now = datetime.now(timezone.utc)
     html = render(State(tmp_path / "s.json"), app_config, now)

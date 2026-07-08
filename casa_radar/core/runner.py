@@ -362,8 +362,11 @@ def _heartbeat_message(
 ):
     day_start = now.replace(hour=0, minute=0, second=0, microsecond=0)
     runs_today = state.runs_since(day_start)
+    configured = {s for search in config.searches for s in search.sources}
     status: dict[str, str] = {}
     for name, health in sorted(state.data["sources"].items()):
+        if name not in configured:
+            continue  # source removed from config: old health is stale noise
         if health.get("zero_streak", 0) >= config.runtime.silent_block_threshold:
             last_ok = health.get("last_ok")
             status[name] = f"⚠️ 0 há {health['zero_streak']}h" + (

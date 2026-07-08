@@ -77,8 +77,11 @@ def render(state: State, config: AppConfig, now: datetime) -> str:
 
     # -- source cards -------------------------------------------------------
     threshold = config.runtime.silent_block_threshold
+    configured = {s for search in config.searches for s in search.sources}
     source_cards = []
     for name, health in sorted(state.data["sources"].items()):
+        if name not in configured:
+            continue  # source no longer in config -> stale health, hide it
         streak = int(health.get("zero_streak", 0))
         blocked = streak >= threshold
         color = _WARN if blocked else _OK

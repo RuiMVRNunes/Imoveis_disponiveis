@@ -25,12 +25,18 @@ searches:
     min_area_m2: 120
     property_types: ["moradia"]    # só moradias (tira esta linha p/ incluir apartamentos)
     keywords_exclude: ["trespasse", "leilão", "penhora"]
-    sources: ["idealista", "imovirtual", "supercasa", "custojusto"]
+    # idealista e supercasa bloqueiam os IPs do GitHub Actions (DataDome/403),
+    # por isso estão fora da rotação — só gastavam tempo e enchiam o resumo
+    # de ⚠. Quando um dia isto correr num IP de casa, volta a pô-los aqui;
+    # os start_urls deles ficam guardados em baixo, prontos.
+    sources: ["imovirtual", "custojusto"]
     # start_urls: cola aqui o URL do portal já filtrado no browser.
     # Tem prioridade sobre os filtros estruturados para esse portal.
     start_urls:
       idealista: "https://www.idealista.pt/areas/comprar-casas/com-preco-max_500000,preco-min_260000,tamanho-min_120,moradias,t3,t4-t5/?shape=%28%28_ftxFbq%7Cs%40inYw_Cs%40_hd%40j%7CHojCnkFtaBro%40xlDlyDvXxsBst%40%3F%7CgXyw%40tvK%29%29&ordem=atualizado-desc"    # opcional
-      imovirtual: "https://www.imovirtual.com/pt/resultados/comprar/moradia/todo-o-pais?limit=36&ownerTypeSingleSelect=ALL&priceMin=230000&priceMax=500000&areaMin=140&roomsNumber=%5BFOUR%2CFIVE%2CSIX_OR_MORE%5D&by=DEFAULT&direction=DESC&mapBounds=-8.252593066942879%2C41.075904031835265%2C-8.71831779913139%2C40.85625729852924&geometry=oznyFfwxs%40eVqpWxn%40coIhzAsqDldBiyAjPwDhSbTqZ%7B%40p%7EBo%7C%40fc%40uFtnBjNxkB%7C%60Blm%40j%7E%40v%7EAftHtWthH%3FfdGaL%7CrFkp%40dtEy%7E%40dRw%7EA%3F%7DxAaVgqE%7DWo%7BCgi%40%7BbCgRz%5Era%40"
+      # limit=72 (máximo do portal) e by=LATEST (mais recentes primeiro — crítico,
+      # porque o radar só lê as primeiras páginas em cada corrida)
+      imovirtual: "https://www.imovirtual.com/pt/resultados/comprar/moradia/todo-o-pais?limit=72&ownerTypeSingleSelect=ALL&priceMin=230000&priceMax=500000&areaMin=140&roomsNumber=%5BFOUR%2CFIVE%2CSIX_OR_MORE%5D&by=LATEST&direction=DESC&mapBounds=-8.252593066942879%2C41.075904031835265%2C-8.71831779913139%2C40.85625729852924&geometry=oznyFfwxs%40eVqpWxn%40coIhzAsqDldBiyAjPwDhSbTqZ%7B%40p%7EBo%7C%40fc%40uFtnBjNxkB%7C%60Blm%40j%7E%40v%7EAftHtWthH%3FfdGaL%7CrFkp%40dtEy%7E%40dRw%7EA%3F%7DxAaVgqE%7DWo%7BCgi%40%7BbCgRz%5Era%40"
       # supercasa: "https://supercasa.pt/comprar-casas/..."
       custojusto: "https://www.custojusto.pt/aveiro/imobiliario/moradias-venda?ps=220000&pe=500000&ros=6&si=1&ss=130"
 
@@ -54,7 +60,7 @@ notifications:
   telegram: { enabled: false }
 
 runtime:
-  max_pages_per_source: 2        # só precisamos dos mais recentes
+  max_pages_per_source: 3        # 3 x 72 = 216 anúncios de cobertura no imovirtual
   request_delay_seconds: [2, 6]  # delay aleatório entre pedidos
   silent_block_threshold: 3      # corridas seguidas com 0 vistos -> alerta
   daily_digest_hour: 22          # hora (local) do resumo diário / heartbeat

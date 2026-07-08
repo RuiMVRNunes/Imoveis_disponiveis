@@ -192,6 +192,15 @@ def test_silent_block_alert_fires_once_at_threshold(env):
     assert any("custojusto" in s for s, _ in env.notifier.sent)
 
 
+def test_heartbeat_ignores_sources_removed_from_config(env):
+    env.state.source_health("casasapo")["zero_streak"] = 99  # stale leftover
+    env.state.source_health("supercasa")["zero_streak"] = 0
+    now = datetime.now().astimezone()
+    _, text, _ = runner_mod._heartbeat_message(env.config, env.state, now, [])
+    assert "casasapo" not in text
+    assert "supercasa" in text
+
+
 def test_dry_run_writes_nothing(env, tmp_path):
     env.catalog["supercasa"] = [make_listing(1)]
     env.run(dry_run=True)
