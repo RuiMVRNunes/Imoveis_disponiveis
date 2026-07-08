@@ -82,7 +82,7 @@ def _reset_stub():
     yield
 
 
-def _env(tmp_path, monkeypatch, *, urls, url_keys=None, run_hours=None, cap=95):
+def _env(tmp_path, monkeypatch, *, urls, url_keys=None, run_hours=None, cap=95, baselined=True):
     monkeypatch.setattr(runner_mod, "build_source", lambda name: _StubApi())
     monkeypatch.setattr(runner_mod, "build_notifiers", lambda config: [])
     monkeypatch.setattr(runner_mod, "METERED_SOURCES", {"idealista_api"})
@@ -96,7 +96,10 @@ def _env(tmp_path, monkeypatch, *, urls, url_keys=None, run_hours=None, cap=95):
             quiet_hours=(0, 0),
         ),
     )
-    return config, State(tmp_path / "state.json")
+    state = State(tmp_path / "state.json")
+    if baselined:
+        state.mark_baselined("Casa")  # exercise the normal scheduled path
+    return config, state
 
 
 def _run(config, state, tmp_path):
@@ -152,6 +155,20 @@ def test_anti_double_within_same_window(tmp_path, monkeypatch):
     _run(config, state, tmp_path)
     _run(config, state, tmp_path)  # immediate second run -> same window, skipped
     assert len(_StubApi.seen_urls) == 1
+
+
+def test_baseline_captures_all_concelhos_off_window(tmp_path, monkeypatch):
+    # A baseline must register every concelho regardless of the schedule, so
+    # none floods as "new" later. Force an off-window hour to prove the bypass.
+    off_hour = (datetime.now(LISBON).hour + 5) % 24
+    urls = ["uFeira", "uOvar", "uEspinho"]
+    keys = {"uFeira": "K1", "uOvar": "K2", "uEspinho": "K3"}
+    config, state = _env(tmp_path, monkeypatch, urls=urls, url_keys=keys,
+                         run_hours=[off_hour], baselined=False)
+    _run(config, state, tmp_path)  # first run == baseline
+    assert set(_StubApi.seen_urls[0]) == {"uFeira", "uOvar", "uEspinho"}
+    counts = state.data["meta"]["rapidapi_count"]
+    assert counts == {"K1": 1, "K2": 1, "K3": 1}
 
 
 def test_counter_rolls_over_next_month(tmp_path, monkeypatch):
