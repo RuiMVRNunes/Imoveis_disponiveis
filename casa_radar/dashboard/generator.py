@@ -32,6 +32,23 @@ def generate(
     return out_path
 
 
+def _tracked_inventory(state: State, now: datetime) -> list[dict]:
+    """Active listings currently being tracked: seen after the last baseline
+    (keeps junk registered by old configs/parsers out) and not flagged as
+    removed. Newest first."""
+    baseline_at = _parse_iso(state.data["meta"].get("last_baseline_at"))
+    cutoff = max(baseline_at, now - timedelta(hours=48))
+    items = [
+        entry
+        for entry in state.listings.values()
+        if "alias_of" not in entry
+        and not entry.get("removed_at")
+        and _parse_iso(entry.get("last_seen") or entry.get("first_seen")) >= cutoff
+    ]
+    items.sort(key=lambda e: str(e.get("first_seen") or ""), reverse=True)
+    return items
+
+
 def render(state: State, config: AppConfig, now: datetime) -> str:
     esc = html_lib.escape
     day_start = now.replace(hour=0, minute=0, second=0, microsecond=0)
@@ -45,6 +62,7 @@ def render(state: State, config: AppConfig, now: datetime) -> str:
     drops_today = sum(1 for e in events_today if e.get("type") == "price_drop")
     events_30d = state.events_since(now - timedelta(days=30))
     new_30d = sum(1 for e in events_30d if e.get("type") == "new")
+    inventory = _tracked_inventory(state, now)
 
     # -- top status ---------------------------------------------------------
     if last_run:
@@ -153,6 +171,53 @@ def render(state: State, config: AppConfig, now: datetime) -> str:
         else "<p class='muted'>Nada de novo hoje — o radar continua atento. 🎯</p>"
     )
 
+    # -- tracked inventory ("what is on the market right now") ---------------
+    inventory_cards = []
+    for entry in inventory[:60]:
+        price_html = esc(fmt_price(entry.get("last_price")))
+        specs = " · ".join(
+            part
+            for part in (
+                f"T{entry['rooms']}" if entry.get("rooms") is not None else "",
+                f"{entry['area_m2']:.0f} m²" if entry.get("area_m2") else "",
+                esc(str(entry.get("location") or "")),
+            )
+            if part
+        )
+        since = _parse_iso(entry.get("first_seen")).astimezone(now.tzinfo)
+        image = (
+            f"<div class='thumb' style=\"background-image:url('{esc(entry['image_url'])}')\"></div>"
+            if entry.get("image_url")
+            else "<div class='thumb thumb-empty'>🏠</div>"
+        )
+        url = (entry.get("urls") or ["#"])[0]
+        extra_urls = ""
+        if len(entry.get("urls") or []) > 1:
+            extra_urls = f"<span class='muted small'>+{len(entry['urls']) - 1} portal(is)</span>"
+        inventory_cards.append(
+            f"""<a class="card" href="{esc(url)}" target="_blank" rel="noopener">
+              {image}
+              <div class="card-body">
+                <div><span class="badge badge-src">{esc(entry.get('source', ''))}</span>
+                     <span class="muted small">no radar desde {since.strftime('%d/%m')}</span> {extra_urls}</div>
+                <div class="card-title">{esc(entry.get('title', 'Sem título'))}</div>
+                <div class="card-price">{price_html}</div>
+                <div class="muted small">{specs}</div>
+                <div class="muted small">pesquisa: {esc(entry.get('search_name', ''))}</div>
+              </div>
+            </a>"""
+        )
+    inventory_html = (
+        "\n".join(inventory_cards)
+        if inventory_cards
+        else "<p class='muted'>Ainda sem inventário — aparece depois da próxima corrida.</p>"
+    )
+    inventory_note = (
+        f"<p class='muted small'>{len(inventory)} imóveis em seguimento"
+        + (" (a mostrar os 60 mais recentes)" if len(inventory) > 60 else "")
+        + " — vistos nas fontes nas últimas 48h, ordenados do mais recente.</p>"
+    )
+
     generated = now.strftime("%d/%m/%Y %H:%M")
     return f"""<!DOCTYPE html>
 <html lang="pt">
@@ -226,6 +291,7 @@ def render(state: State, config: AppConfig, now: datetime) -> str:
     <div class="metric"><b>{new_today}</b><span>novos hoje</span></div>
     <div class="metric"><b>{drops_today}</b><span>baixas de preço hoje</span></div>
     <div class="metric"><b>{new_30d}</b><span>novos (30 dias)</span></div>
+    <div class="metric"><b>{len(inventory)}</b><span>em seguimento</span></div>
   </div>
 
   <h2>Estado das fontes</h2>
@@ -236,6 +302,10 @@ def render(state: State, config: AppConfig, now: datetime) -> str:
 
   <h2>Apareceu hoje</h2>
   <div class="grid">{cards_html}</div>
+
+  <h2>No mercado agora</h2>
+  {inventory_note}
+  <div class="grid">{inventory_html}</div>
 
   <footer>Gerado pelo Casa Radar às {esc(generated)} ({esc(config.runtime.timezone)}) ·
     atualiza a cada corrida (~1h)</footer>

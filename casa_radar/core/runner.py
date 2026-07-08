@@ -124,6 +124,10 @@ def run_once(
         result.baseline_counts.setdefault(name, 0)
         if not dry_run:
             state.mark_baselined(name)
+    if baseline_searches and not dry_run:
+        # Stamp used by the dashboard inventory: only listings seen after the
+        # last baseline count as "currently tracked" (keeps pre-fix junk out).
+        state.data["meta"]["last_baseline_at"] = now.isoformat()
 
     _record_history(state, result, now)
 

@@ -6,6 +6,25 @@ from casa_radar.core.state import State
 
 def _populated_state(tmp_path, now):
     state = State(tmp_path / "state.json")
+    state.data["meta"]["last_baseline_at"] = (now - timedelta(days=2)).isoformat()
+    state.add_listing(
+        "supercasa:1",
+        {"first_seen": now.isoformat(), "last_seen": now.isoformat(),
+         "last_price": 320_000, "title": "Moradia T3 em Fiães", "location": "Fiães",
+         "rooms": 3, "area_m2": 150.0, "source": "supercasa",
+         "search_name": "Casa Feira", "image_url": None, "fingerprint": None,
+         "urls": ["https://x.pt/1", "https://y.pt/9"]},
+    )
+    # junk from before the last baseline (e.g. a car) must stay hidden
+    state.add_listing(
+        "custojusto:666",
+        {"first_seen": (now - timedelta(days=9)).isoformat(),
+         "last_seen": (now - timedelta(days=3)).isoformat(),
+         "last_price": 19_500, "title": "BMW 320d Pack M", "location": "",
+         "rooms": None, "area_m2": None, "source": "custojusto",
+         "search_name": "Casa Feira", "image_url": None, "fingerprint": None,
+         "urls": ["https://x.pt/carro"]},
+    )
     state.add_run(
         {"at": now.isoformat(), "seen": {"supercasa": 30, "idealista": 0},
          "new": 1, "price_drops": 1, "errors": {}}
@@ -19,7 +38,7 @@ def _populated_state(tmp_path, now):
          "location": "Fiães", "rooms": 3, "area_m2": 150.0}
     )
     state.add_event(
-        {"type": "price_drop", "at": (now - timedelta(hours=2)).isoformat(),
+        {"type": "price_drop", "at": now.isoformat(),  # "now": today regardless of UTC midnight
          "key": "supercasa:2", "title": "Apartamento T4 em Lourosa",
          "price": 240_000, "old_price": 255_000, "url": "https://x.pt/2",
          "image_url": None, "source": "supercasa", "search_name": "Casa Feira",
@@ -40,6 +59,10 @@ def test_render_contains_all_sections(tmp_path, app_config):
     assert "Moradia T3 em Fiães" in html
     assert "baixa de preço" in html
     assert "320.000 €" in html
+    assert "No mercado agora" in html
+    assert "1 imóveis em seguimento" in html
+    assert "no radar desde" in html
+    assert "BMW" not in html                       # pre-baseline junk stays out
     assert "<script" not in html                   # no-JS dashboard
 
 
