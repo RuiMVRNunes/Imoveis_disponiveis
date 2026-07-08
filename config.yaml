@@ -88,11 +88,10 @@ runtime:
   quiet_hours: [1, 8]            # sem alertas entre as 1h e as 8h; acumulam
                                  # e chegam juntos na primeira corrida da manhã.
                                  # [0, 0] desliga as horas de silêncio.
-  # Controlo de quota do idealista_api (API paga por pedido):
-  min_interval_hours: { idealista_api: 6 }   # só corre no máx. 1x/6h -> 4x/dia
+  # Controlo de quota do idealista_api (plano grátis idealista17 = 100/mês):
+  min_interval_hours: { idealista_api: 8 }   # só corre no máx. 1x/8h -> 3x/dia
   idealista_urls_per_run: 1                  # trata de 1 concelho por corrida (roda)
-  rapidapi_monthly_cap: 140                  # trava de segurança; mete o teu limite real
-  # Conta com estes valores: 1 URL/corrida x 4 corridas/dia = 4 pedidos/dia ≈
-  # 120/mês (cabe em 150). Com 6 concelhos, cada um é revisto a cada ~36h.
-  # Se o teu plano der mais, sobe idealista_urls_per_run ou baixa o intervalo:
-  #   pedidos/dia = idealista_urls_per_run x (24 / min_interval_hours[idealista_api])
+  rapidapi_monthly_cap: 95                   # trava de segurança, mesmo abaixo dos 100
+  # Conta: 1 URL/corrida x 3 corridas/dia = 3 pedidos/dia ≈ 90/mês (< 100).
+  # Com 6 concelhos, cada um é revisto a cada ~48h.
+  # Fórmula: pedidos/dia = idealista_urls_per_run x (24 / min_interval_hours[idealista_api])
