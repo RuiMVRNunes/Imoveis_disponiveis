@@ -72,7 +72,7 @@ searches:
 notifications:
   email:    { enabled: true,  to: "eu@exemplo.com" }   # EMAIL_TO (secret) tem prioridade
   whatsapp: { enabled: true,  provider: callmebot }
-  telegram: { enabled: true }   # precisa de TELEGRAM_TOKEN + TELEGRAM_CHAT_ID (secrets)
+  telegram: { enabled: false }  # (Bot API é grátis; ligar se um dia quiseres)
 
 runtime:
   max_pages_per_source: 3        # 3 x 72 = 216 anúncios de cobertura no imovirtual

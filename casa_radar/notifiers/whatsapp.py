@@ -21,13 +21,21 @@ class WhatsAppNotifier(Notifier):
 
     def __init__(self, channel: ChannelConfig) -> None:
         self.channel = channel
-        self.phone = os.environ.get("CALLMEBOT_PHONE", "")
-        self.apikey = os.environ.get("CALLMEBOT_APIKEY", "")
+        # Several recipients (me + my wife): CALLMEBOT_PHONE and CALLMEBOT_APIKEY
+        # are comma-separated, paired by position (each phone has its own apikey).
+        phones = _split(os.environ.get("CALLMEBOT_PHONE", ""))
+        apikeys = _split(os.environ.get("CALLMEBOT_APIKEY", ""))
+        self.recipients = list(zip(phones, apikeys))
+        if len(phones) != len(apikeys):
+            log.warning(
+                "whatsapp: nº de CALLMEBOT_PHONE (%d) != CALLMEBOT_APIKEY (%d); "
+                "só uso os pares completos", len(phones), len(apikeys)
+            )
 
     def is_enabled(self) -> bool:
         if not self.channel.enabled:
             return False
-        if not self.phone or not self.apikey:
+        if not self.recipients:
             log.warning(
                 "whatsapp: ativo no config mas faltam CALLMEBOT_PHONE/CALLMEBOT_APIKEY"
             )
@@ -42,15 +50,26 @@ class WhatsAppNotifier(Notifier):
         body = f"{subject}\n\n{text}" if subject else text
         if len(body) > MAX_CHARS:
             body = body[: MAX_CHARS - 2].rstrip() + " …"
-        try:
-            response = httpx.get(
-                API_URL,
-                params={"phone": self.phone, "apikey": self.apikey, "text": body},
-                timeout=30.0,
-            )
-            response.raise_for_status()
-            # CallMeBot returns HTTP 200 with an error string on bad keys.
-            if "error" in response.text.lower() and "message queued" not in response.text.lower():
-                raise NotifyError(f"whatsapp: CallMeBot devolveu: {response.text[:200]}")
-        except httpx.HTTPError as exc:
-            raise NotifyError(f"whatsapp: envio falhou: {exc}") from exc
+        errors = []
+        for phone, apikey in self.recipients:
+            try:
+                response = httpx.get(
+                    API_URL,
+                    params={"phone": phone, "apikey": apikey, "text": body},
+                    timeout=30.0,
+                )
+                response.raise_for_status()
+                # CallMeBot returns HTTP 200 with an error string on bad keys.
+                if "error" in response.text.lower() and "message queued" not in response.text.lower():
+                    errors.append(f"{phone}: {response.text[:120]}")
+            except httpx.HTTPError as exc:
+                errors.append(f"{phone}: {exc}")
+        # Only fail if EVERY recipient failed (one bad number shouldn't block the other).
+        if errors and len(errors) == len(self.recipients):
+            raise NotifyError("whatsapp: envio falhou: " + "; ".join(errors)[:200])
+        for err in errors:
+            log.error("whatsapp: um destinatário falhou (%s)", err)
+
+
+def _split(raw: str) -> list[str]:
+    return [x.strip() for x in raw.replace(";", ",").split(",") if x.strip()]

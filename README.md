@@ -152,14 +152,17 @@ O Gmail não aceita a tua password normal em scripts. Precisas de uma **App Pass
 
 ### 5. WhatsApp via CallMeBot (one-time)
 
-1. Guarda o número **+34 611 01 16 37** nos contactos do telemóvel (ex.: "CallMeBot").
+**Cada pessoa** que quer receber (tu, a tua mulher) faz isto no SEU telemóvel:
+1. Guarda o número **+34 611 01 16 37** nos contactos (ex.: "CallMeBot").
    ⚠️ O CallMeBot muda de número de tempos a tempos — se não responder, confirma o
    número atual em <https://www.callmebot.com/blog/free-api-whatsapp-messages/>.
 2. Manda-lhe pelo WhatsApp a mensagem exata: `I allow callmebot to send me messages`.
-3. A resposta com a tua **apikey** chega em ~2 minutos. Se não chegar, o próprio
-   CallMeBot manda esperar 24h antes de tentar outra vez (o serviço é gratuito e
-   às vezes satura) — mais uma razão para teres também o Telegram (passo 6).
-4. `CALLMEBOT_PHONE` = o teu número com indicativo (`+3519...`), `CALLMEBOT_APIKEY` = a apikey.
+3. A resposta com a **apikey** chega em ~2 minutos (senão, esperar 24h — o serviço
+   gratuito às vezes satura).
+4. **Vários destinatários:** mete os números e as apikeys por vírgula, na mesma
+   ordem — `CALLMEBOT_PHONE=+3519AAA,+3519BBB` e `CALLMEBOT_APIKEY=chaveA,chaveB`
+   (o 1º número usa a 1ª chave, o 2º a 2ª). Todos recebem cada alerta; se um número
+   falhar, os outros recebem na mesma.
 
 > O CallMeBot é um serviço gratuito de terceiros — às vezes está lento ou em baixo.
 > Por isso o **Telegram é recomendado como canal mais fiável** (passo 6); podes ter os dois.

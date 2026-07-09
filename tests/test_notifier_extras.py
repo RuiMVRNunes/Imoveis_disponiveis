@@ -36,6 +36,35 @@ def test_whatsapp_strips_dashboard_line(monkeypatch):
     assert "Moradia T3" in sent["text"]
 
 
+def test_whatsapp_sends_to_every_recipient(monkeypatch):
+    monkeypatch.setenv("CALLMEBOT_PHONE", "+351111,+351222")   # me + wife
+    monkeypatch.setenv("CALLMEBOT_APIKEY", "keyA,keyB")
+    calls = []
+
+    def fake_get(url, params, timeout):
+        calls.append((params["phone"], params["apikey"]))
+        return httpx.Response(200, text="Message queued.", request=httpx.Request("GET", url))
+
+    monkeypatch.setattr(httpx, "get", fake_get)
+    notifier = WhatsAppNotifier(ChannelConfig(enabled=True))
+    assert notifier.is_enabled()
+    notifier.send("Novo", "texto")
+    assert calls == [("+351111", "keyA"), ("+351222", "keyB")]
+
+
+def test_whatsapp_one_bad_number_does_not_block_the_other(monkeypatch):
+    monkeypatch.setenv("CALLMEBOT_PHONE", "+351111,+351222")
+    monkeypatch.setenv("CALLMEBOT_APIKEY", "keyA,keyB")
+
+    def fake_get(url, params, timeout):
+        text = "APIKey invalid" if params["phone"] == "+351111" else "Message queued."
+        return httpx.Response(200, text=text, request=httpx.Request("GET", url))
+
+    monkeypatch.setattr(httpx, "get", fake_get)
+    # first fails, second succeeds -> must NOT raise
+    WhatsAppNotifier(ChannelConfig(enabled=True)).send("Novo", "texto")
+
+
 def test_telegram_sends_to_every_chat_id(monkeypatch):
     monkeypatch.setenv("TELEGRAM_TOKEN", "tok")
     monkeypatch.setenv("TELEGRAM_CHAT_ID", "111, 222")  # me + wife
