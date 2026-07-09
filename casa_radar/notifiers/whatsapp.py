@@ -21,10 +21,16 @@ class WhatsAppNotifier(Notifier):
 
     def __init__(self, channel: ChannelConfig) -> None:
         self.channel = channel
-        # Several recipients (me + my wife): CALLMEBOT_PHONE and CALLMEBOT_APIKEY
-        # are comma-separated, paired by position (each phone has its own apikey).
+        # Several recipients (me + my wife). Each phone has its OWN apikey.
+        # Two ways to add people, both supported and combined:
+        #  - comma-separated in CALLMEBOT_PHONE / CALLMEBOT_APIKEY, or
+        #  - numbered extras CALLMEBOT_PHONE_2/_3 + CALLMEBOT_APIKEY_2/_3
+        #    (lets you add someone without touching the existing secrets).
         phones = _split(os.environ.get("CALLMEBOT_PHONE", ""))
         apikeys = _split(os.environ.get("CALLMEBOT_APIKEY", ""))
+        for n in (2, 3, 4):
+            phones += _split(os.environ.get(f"CALLMEBOT_PHONE_{n}", ""))
+            apikeys += _split(os.environ.get(f"CALLMEBOT_APIKEY_{n}", ""))
         self.recipients = list(zip(phones, apikeys))
         if len(phones) != len(apikeys):
             log.warning(

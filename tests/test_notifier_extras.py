@@ -65,6 +65,37 @@ def test_whatsapp_one_bad_number_does_not_block_the_other(monkeypatch):
     WhatsAppNotifier(ChannelConfig(enabled=True)).send("Novo", "texto")
 
 
+def test_whatsapp_numbered_extra_recipient(monkeypatch):
+    # add the wife via CALLMEBOT_*_2 without touching the existing secrets
+    monkeypatch.setenv("CALLMEBOT_PHONE", "+351111")
+    monkeypatch.setenv("CALLMEBOT_APIKEY", "keyA")
+    monkeypatch.setenv("CALLMEBOT_PHONE_2", "+351222")
+    monkeypatch.setenv("CALLMEBOT_APIKEY_2", "keyB")
+    calls = []
+
+    def fake_get(url, params, timeout):
+        calls.append((params["phone"], params["apikey"]))
+        return httpx.Response(200, text="Message queued.", request=httpx.Request("GET", url))
+
+    monkeypatch.setattr(httpx, "get", fake_get)
+    WhatsAppNotifier(ChannelConfig(enabled=True)).send("Novo", "texto")
+    assert calls == [("+351111", "keyA"), ("+351222", "keyB")]
+
+
+def test_email_cc_added_to_recipients(monkeypatch):
+    from casa_radar.notifiers.email import EmailNotifier
+
+    for k in ("SMTP_HOST", "SMTP_PORT"):
+        monkeypatch.delenv(k, raising=False)
+    monkeypatch.setenv("SMTP_USER", "me@gmail.com")
+    monkeypatch.setenv("SMTP_PASS", "pw")
+    monkeypatch.setenv("EMAIL_TO", "me@gmail.com")
+    monkeypatch.setenv("EMAIL_CC", "wife@hotmail.com")
+    n = EmailNotifier(ChannelConfig(enabled=True))
+    assert n.is_enabled()
+    assert n.recipients == ["me@gmail.com", "wife@hotmail.com"]
+
+
 def test_telegram_sends_to_every_chat_id(monkeypatch):
     monkeypatch.setenv("TELEGRAM_TOKEN", "tok")
     monkeypatch.setenv("TELEGRAM_CHAT_ID", "111, 222")  # me + wife

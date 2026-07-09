@@ -31,7 +31,13 @@ class EmailNotifier(Notifier):
         self.user = os.environ.get("SMTP_USER") or ""
         self.password = os.environ.get("SMTP_PASS") or ""
         # The EMAIL_TO secret wins over config.yaml (secrets never in YAML).
-        self.to = os.environ.get("EMAIL_TO") or channel.to
+        # EMAIL_TO / EMAIL_CC may hold several addresses (comma separated).
+        self.to_list = _split(os.environ.get("EMAIL_TO") or channel.to)
+        self.cc_list = _split(os.environ.get("EMAIL_CC") or "")
+
+    @property
+    def recipients(self) -> list[str]:
+        return self.to_list + self.cc_list
 
     def is_enabled(self) -> bool:
         if not self.channel.enabled:
@@ -41,7 +47,7 @@ class EmailNotifier(Notifier):
             for name, value in (
                 ("SMTP_USER", self.user),
                 ("SMTP_PASS", self.password),
-                ("EMAIL_TO/notifications.email.to", self.to),
+                ("EMAIL_TO/notifications.email.to", self.to_list),
             )
             if not value
         ]
@@ -54,7 +60,9 @@ class EmailNotifier(Notifier):
         message = MIMEMultipart("alternative")
         message["Subject"] = subject
         message["From"] = self.user
-        message["To"] = self.to
+        message["To"] = ", ".join(self.to_list)
+        if self.cc_list:
+            message["Cc"] = ", ".join(self.cc_list)
         message.attach(MIMEText(text, "plain", "utf-8"))
         if html:
             message.attach(MIMEText(html, "html", "utf-8"))
@@ -64,11 +72,15 @@ class EmailNotifier(Notifier):
                     self.host, self.port, context=ssl.create_default_context(), timeout=30
                 ) as server:
                     server.login(self.user, self.password)
-                    server.sendmail(self.user, [self.to], message.as_string())
+                    server.sendmail(self.user, self.recipients, message.as_string())
             else:
                 with smtplib.SMTP(self.host, self.port, timeout=30) as server:
                     server.starttls(context=ssl.create_default_context())
                     server.login(self.user, self.password)
-                    server.sendmail(self.user, [self.to], message.as_string())
+                    server.sendmail(self.user, self.recipients, message.as_string())
         except (smtplib.SMTPException, OSError) as exc:
             raise NotifyError(f"email: envio falhou: {exc}") from exc
+
+
+def _split(raw: str) -> list[str]:
+    return [x.strip() for x in (raw or "").replace(";", ",").split(",") if x.strip()]
