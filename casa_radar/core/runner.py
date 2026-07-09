@@ -57,6 +57,7 @@ class RunResult:
     new_events: list[dict[str, Any]] = field(default_factory=list)
     drop_events: list[dict[str, Any]] = field(default_factory=list)
     removed_events: list[dict[str, Any]] = field(default_factory=list)
+    idealista_detail: dict[str, int] = field(default_factory=dict)  # concelho -> seen
     baseline_counts: dict[str, int] = field(default_factory=dict)  # search -> registered
     block_alerts: list[tuple[str, int]] = field(default_factory=list)  # (source, hours)
     duration_s: float = 0.0
@@ -110,6 +111,8 @@ def run_once(
                 if metered_urls is not None:
                     scraper.run_urls = metered_urls
                 listings = scraper.search(search, config.runtime)
+                for url, count in getattr(scraper, "run_detail", {}).items():
+                    result.idealista_detail[_concelho_label(url)] = count
             except Exception as exc:  # source isolation: log, count 0, move on
                 log.error("runner: fonte '%s' falhou em '%s': %s", source_name, search.name, exc)
                 result.errors_by_source[source_name] = str(exc)
@@ -379,6 +382,14 @@ def _update_source_health(
 # -- history / notifications / dashboard -------------------------------------------
 
 
+def _concelho_label(url: str) -> str:
+    """Human label for an idealista search URL, e.g. 'santa-maria-da-feira'."""
+    for marker in ("comprar-casas/", "arrendar-casas/"):
+        if marker in url:
+            return url.split(marker, 1)[1].split("/")[0].split("?")[0] or url
+    return url
+
+
 def _record_history(state: State, result: RunResult, now: datetime) -> None:
     state.add_run(
         {
@@ -387,6 +398,7 @@ def _record_history(state: State, result: RunResult, now: datetime) -> None:
             "new": len(result.new_events),
             "price_drops": len(result.drop_events),
             "errors": result.errors_by_source,
+            "idealista": result.idealista_detail,  # concelho -> anúncios obtidos
         }
     )
     for event in result.new_events + result.drop_events:

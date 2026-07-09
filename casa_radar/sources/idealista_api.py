@@ -60,6 +60,8 @@ class IdealistaApiSource(BaseSource):
     # The runner sets this to the subset of URLs to hit this run (one per token,
     # per the run-hours schedule). Empty/unset -> use all configured URLs.
     run_urls: list[str] = []
+    # Populated by search(): url -> number of listings returned (dashboard log).
+    run_detail: dict[str, int] = {}
 
     def build_urls(self, search: SearchConfig) -> list[str]:  # pragma: no cover
         return []
@@ -80,6 +82,7 @@ class IdealistaApiSource(BaseSource):
         listings: list[Listing] = []
         seen_ids: set[str] = set()
         responded = 0
+        self.run_detail = {}  # url -> listings returned (for the dashboard run log)
         for search_url in search_urls:
             key = self._key_for(search, search_url, default_key)
             if not key:
@@ -97,6 +100,7 @@ class IdealistaApiSource(BaseSource):
             responded += 1
             data = payload.get("data") or {}
             elements = data.get("listings") or []
+            self.run_detail[search_url] = len(elements)
             log.info(
                 "idealista_api: %s -> %d anúncios (total %s)",
                 search.name, len(elements), data.get("total"),

@@ -90,6 +90,23 @@ def test_provider_filter_appears_with_multiple_sources(tmp_path, app_config):
     assert "card src-imovirtual" in html             # cards tagged per provider
 
 
+def test_run_log_shows_concelho_detail(tmp_path, app_config):
+    now = datetime.now(timezone.utc)
+    state = State(tmp_path / "state.json")
+    state.add_run(
+        {"at": now.isoformat(),
+         "seen": {"imovirtual": 219, "custojusto": 4, "idealista_api": 33},
+         "new": 2, "price_drops": 0, "errors": {},
+         "idealista": {"arouca": 2, "ovar": 31}}
+    )
+    html = render(state, app_config, now)
+    assert "Últimas corridas" in html
+    assert "imovirtual 219" in html
+    assert "idealista →" in html
+    assert "arouca 2" in html and "ovar 31" in html   # which link ran, what it got
+    assert "2 novo(s)" in html
+
+
 def test_sources_removed_from_config_are_hidden(tmp_path):
     from casa_radar.core.config import AppConfig, RuntimeConfig, SearchConfig
 

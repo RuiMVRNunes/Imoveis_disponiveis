@@ -211,6 +211,39 @@ def render(state: State, config: AppConfig, now: datetime) -> str:
             filter_css += f"#f-{src}:checked ~ .feed .card:not(.src-{src}){{display:none}}\n"
         filter_html = "".join(radios)
 
+    # -- run log ("what ran, which concelho, when, what it got") ------------
+    run_rows = []
+    for run in reversed(state.data["runs"][-48:]):
+        at = _parse_iso(run.get("at")).astimezone(now.tzinfo).strftime("%d/%m %H:%M")
+        seen = run.get("seen") or {}
+        ideal = run.get("idealista") or {}
+        chips = []
+        for src in sorted(seen):
+            if src == "idealista_api" and ideal:
+                detail = " · ".join(f"{c} {n}" for c, n in sorted(ideal.items()))
+                chips.append(f"idealista → {detail}")
+            else:
+                chips.append(f"{source_label(src)} {seen[src]}")
+        ran = esc(" | ".join(chips) or "—")
+        got = []
+        if run.get("new"):
+            got.append(f"{run['new']} novo(s)")
+        if run.get("price_drops"):
+            got.append(f"{run['price_drops']} baixa(s)")
+        got_txt = ", ".join(got) or "—"
+        errs = run.get("errors") or {}
+        err_txt = ("⚠️ " + ", ".join(source_label(s) for s in errs)) if errs else ""
+        run_rows.append(
+            f"<tr><td class='muted'>{at}</td><td>{ran}</td>"
+            f"<td>{got_txt}</td><td style='color:{_WARN}'>{esc(err_txt)}</td></tr>"
+        )
+    runs_table = (
+        "<div class='tablewrap'><table class='runs'><thead><tr>"
+        "<th>Hora</th><th>Correu (anúncios vistos)</th><th>Obteve</th><th>Notas</th>"
+        "</tr></thead><tbody>" + "\n".join(run_rows) + "</tbody></table></div>"
+        if run_rows else "<p class='muted'>Sem corridas ainda.</p>"
+    )
+
     generated = now.strftime("%d/%m/%Y %H:%M")
     return f"""<!DOCTYPE html>
 <html lang="pt">
@@ -276,6 +309,13 @@ def render(state: State, config: AppConfig, now: datetime) -> str:
   .badge {{ color: #fff; border-radius: 4px; padding: 2px 7px; font-size: 0.7rem;
             font-weight: 600; }}
   .badge-src {{ background: #46536a; }}
+  .tablewrap {{ overflow-x: auto; border: 1px solid #e3e8ef; border-radius: 10px; background: #fff; }}
+  table.runs {{ width: 100%; border-collapse: collapse; font-size: 0.82rem; }}
+  table.runs th, table.runs td {{ text-align: left; padding: 8px 12px; white-space: nowrap;
+                                  border-bottom: 1px solid #eef1f5; }}
+  table.runs th {{ font-size: 0.68rem; text-transform: uppercase; letter-spacing: 0.05em;
+                   color: #8b98ab; font-weight: 600; }}
+  table.runs tbody tr:last-child td {{ border-bottom: none; }}
   footer {{ margin-top: 40px; color: #8b98ab; font-size: 0.78rem; text-align: center; }}
   {filter_css}
 </style>
@@ -304,6 +344,9 @@ def render(state: State, config: AppConfig, now: datetime) -> str:
     {filter_html}
     <div class="grid feed">{cards_html}</div>
   </div>
+
+  <h2>Últimas corridas</h2>
+  {runs_table}
 
   <footer>Gerado pelo Casa Radar às {esc(generated)} ({esc(config.runtime.timezone)}) ·
     novidades dos últimos {history_days} dias · atualiza a cada corrida (~1h)</footer>
