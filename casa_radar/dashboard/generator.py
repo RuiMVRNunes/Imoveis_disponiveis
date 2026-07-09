@@ -17,7 +17,7 @@ from pathlib import Path
 
 from ..core.config import AppConfig
 from ..core.state import State, _parse_iso
-from ..core.utils import fmt_price
+from ..core.utils import fmt_price, fmt_source_date
 
 _ACCENT = "#1a5fb4"
 _OK = "#2e7d32"
@@ -178,12 +178,14 @@ def render(state: State, config: AppConfig, now: datetime) -> str:
             else "<div class='thumb thumb-empty'>🏠</div>"
         )
         src = event.get("source", "")
+        published = fmt_source_date(event.get("published_at"))
+        pub_txt = f" · publicado {esc(published)}" if published else ""
         cards.append(
             f"""<a class="card src-{esc(src)}" href="{esc(event.get('url', '#'))}" target="_blank" rel="noopener">
               {image}
               <div class="card-body">
                 <div>{badge} <span class="badge badge-src">{esc(source_label(src))}</span>
-                     <span class="muted small">{_ago(event.get('at', ''), now)}</span></div>
+                     <span class="muted small">visto {_ago(event.get('at', ''), now)}{pub_txt}</span></div>
                 <div class="card-title">{esc(event.get('title', 'Sem título'))}</div>
                 <div class="card-price">{price_html}</div>
                 <div class="muted small">{specs}</div>

@@ -78,3 +78,22 @@ def fmt_price(price: int | None) -> str:
     if price is None:
         return "sob consulta"
     return f"{price:,.0f}".replace(",", ".") + " €"
+
+
+def fmt_source_date(value: str | None) -> str | None:
+    """Format a portal's publish/update date ('2026-07-04 16:20:11' or ISO) as
+    'DD/MM'. Returns None when there is no parseable date."""
+    from datetime import datetime
+
+    if not value or not isinstance(value, str):
+        return None
+    text = value.strip()
+    try:
+        return datetime.fromisoformat(text).strftime("%d/%m")
+    except ValueError:
+        pass
+    # tolerate a bare date at the start ("2026-07-04 ...")
+    try:
+        return datetime.fromisoformat(text[:10]).strftime("%d/%m")
+    except ValueError:
+        return None

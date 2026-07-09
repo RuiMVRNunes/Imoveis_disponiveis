@@ -252,6 +252,7 @@ def _event_from_listing(
         "location": listing.location,
         "rooms": listing.rooms,
         "area_m2": listing.area_m2,
+        "published_at": listing.published_at,
     }
 
 

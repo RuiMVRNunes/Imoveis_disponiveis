@@ -10,7 +10,7 @@ import html as html_lib
 from collections import defaultdict
 from typing import Any
 
-from ..core.utils import fmt_price
+from ..core.utils import fmt_price, fmt_source_date
 
 SOURCE_BADGE_COLORS = {
     "idealista": "#c9f24d",
@@ -41,7 +41,9 @@ def _event_line(event: dict[str, Any]) -> str:
     line = f"• {event.get('title', 'Sem título')} — {price}"
     if specs:
         line += f"\n  {specs}"
-    line += f" ({event.get('source', '?')})\n  {event.get('url', '')}"
+    published = fmt_source_date(event.get("published_at"))
+    date_txt = f" · publicado {published}" if published else ""
+    line += f" ({event.get('source', '?')}{date_txt})\n  {event.get('url', '')}"
     return line
 
 
@@ -189,6 +191,9 @@ def _card(event: dict[str, Any]) -> str:
             "style='width:100%;max-width:560px;border-radius:8px 8px 0 0;display:block;object-fit:cover;max-height:260px'>"
         )
     specs = esc(_specs(event))
+    published = fmt_source_date(event.get("published_at"))
+    if published:
+        specs = f"{specs} · publicado {published}" if specs else f"publicado {published}"
     return f"""
     <div style="border:1px solid #e0e0e0;border-radius:8px;margin:0 0 16px 0;overflow:hidden;background:#fff">
       {image}

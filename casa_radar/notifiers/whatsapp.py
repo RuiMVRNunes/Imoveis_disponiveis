@@ -35,6 +35,10 @@ class WhatsAppNotifier(Notifier):
         return True
 
     def send(self, subject: str, text: str, html: str | None = None) -> None:
+        # WhatsApp stays compact: drop the dashboard link line (user preference).
+        text = "\n".join(
+            ln for ln in text.splitlines() if not ln.strip().startswith("Dashboard:")
+        ).strip()
         body = f"{subject}\n\n{text}" if subject else text
         if len(body) > MAX_CHARS:
             body = body[: MAX_CHARS - 2].rstrip() + " …"

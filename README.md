@@ -196,10 +196,16 @@ radar como as outras fontes.
 ### 6. Telegram (opcional, recomendado)
 
 1. No Telegram, fala com **@BotFather** → `/newbot` → dá-lhe um nome → recebes o **token**.
-2. Abre conversa com o teu bot novo e manda-lhe qualquer mensagem (ex.: "olá").
-3. Abre no browser: `https://api.telegram.org/bot<TOKEN>/getUpdates` → procura
-   `"chat":{"id":123456789` → esse número é o teu `TELEGRAM_CHAT_ID`.
-4. No `config.yaml`, muda `telegram: { enabled: false }` para `true`.
+2. **Cada** pessoa que quer receber (tu, a tua mulher) abre conversa com o bot novo e
+   manda-lhe qualquer mensagem (ex.: "olá"). É obrigatório — o bot não pode escrever
+   a quem nunca lhe falou.
+3. Abre no browser: `https://api.telegram.org/bot<TOKEN>/getUpdates` → vais ver um
+   `"chat":{"id":...}` por cada pessoa que mandou mensagem. Aponta os dois números.
+4. Secrets: `TELEGRAM_TOKEN` = o token; `TELEGRAM_CHAT_ID` = os ids **separados por
+   vírgula** (ex.: `111111111,222222222`). Todos recebem cada alerta.
+   - Alternativa: cria um **grupo**, adiciona o bot, e usa o `id` do grupo (negativo);
+     aí é um só id e ambos recebem por ali.
+5. `telegram: { enabled: true }` no `config.yaml` (já está).
 
 ### 7. Ativar o GitHub Pages (dashboard)
 
