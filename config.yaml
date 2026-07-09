@@ -89,7 +89,11 @@ runtime:
                                  # e chegam juntos na primeira corrida da manhã.
                                  # [0, 0] desliga as horas de silêncio.
   # Controlo de quota do idealista_api (plano grátis idealista17 = 100/mês/token):
-  idealista_run_hours: [8, 14, 20]  # janelas (hora local); cada token faz 1 pedido/janela
-  rapidapi_monthly_cap: 95          # tecto POR TOKEN, mesmo abaixo dos 100
-  # Com 1 token por concelho: cada concelho corre às 8h/14h/20h = 3x/dia = ~90/mês
-  # por token. Cada concelho é revisto a cada ~6h (durante o dia).
+  # NOTA: o cron do GitHub NÃO dispara a horas certas (corre de 2-3 em 2-3h e
+  # salta execuções). Por isso NÃO usamos horas fixas (falhavam-se as janelas);
+  # usamos "de X em X horas", que é robusto ao cron irregular.
+  idealista_run_hours: []                    # [] = usar o intervalo abaixo
+  min_interval_hours: { idealista_api: 8 }   # idealista corre no máx. 1x/8h -> <=3x/dia
+  rapidapi_monthly_cap: 95                   # tecto POR TOKEN (plano grátis = 100)
+  # Com 1 token por concelho: cada concelho corre <=3x/dia (~90/mês) e é revisto
+  # a cada ~8h. O imovirtual/custojusto continuam a cada corrida (2-3h).

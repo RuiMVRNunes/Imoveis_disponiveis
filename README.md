@@ -181,11 +181,14 @@ radar como as outras fontes.
    polígono** (`/areas/?shape=`) — só URLs normais por localidade. O plano grátis
    dá **100 pedidos/mês por token**, por isso usa uma conta RapidAPI (um token)
    por concelho, e cria um secret por cada: `RAPIDAPI_KEY_1`, `RAPIDAPI_KEY_2`, …
-5. **Quota:** com `idealista_run_hours: [8, 14, 20]`, cada token faz **1 pedido
-   por janela** → cada concelho corre 3×/dia (~90/mês, dentro dos 100) e é revisto
-   a cada ~6h. `rapidapi_monthly_cap: 95` é a trava de segurança **por token**.
+5. **Quota:** cada token faz **1 pedido por corrida elegível**. ⚠️ O cron do
+   GitHub **não é de hora a hora** (corre de 2-3 em 2-3h e salta execuções), por
+   isso **não uses horas fixas** — usa um intervalo: `min_interval_hours: { idealista_api: 8 }`
+   (com `idealista_run_hours: []`). Assim o idealista corre no máximo 1×/8h →
+   ≤3×/dia por token (~90/mês, dentro dos 100), robusto ao cron irregular.
+   `rapidapi_monthly_cap: 95` é a trava de segurança **por token**.
    - Se dois concelhos partilharem o mesmo token, esse token **roda** entre eles
-     (1 por janela). Com um só token para os 6, cada concelho seria visto ~a cada 2 dias.
+     (1 por corrida). Com um só token para os 6, cada concelho seria visto ~a cada 2 dias.
 6. Depois de adicionares `idealista_api` a uma pesquisa que **já tem baseline**,
    corre o workflow com **baseline** marcado uma vez — senão os anúncios atuais
    do idealista chegam todos de rajada como "novos".
