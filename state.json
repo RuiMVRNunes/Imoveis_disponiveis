@@ -12416,7 +12416,7 @@
  "sources": {
   "custojusto": {
    "zero_streak": 0,
-   "last_ok": "2026-08-04T10:33:07.911247+01:00",
+   "last_ok": "2026-08-04T12:55:12.503572+01:00",
    "last_alert_at": null
   },
   "idealista": {
@@ -12425,7 +12425,7 @@
    "last_alert_at": "2026-07-07T00:15:55.367511+01:00"
   },
   "imovirtual": {
-   "zero_streak": 0,
+   "zero_streak": 1,
    "last_ok": "2026-08-04T10:33:07.911247+01:00",
    "last_alert_at": null
   },
@@ -16741,6 +16741,19 @@
    "new": 0,
    "price_drops": 0,
    "errors": {},
+   "idealista": {}
+  },
+  {
+   "at": "2026-08-04T12:55:12.503572+01:00",
+   "seen": {
+    "imovirtual": 0,
+    "custojusto": 122
+   },
+   "new": 0,
+   "price_drops": 0,
+   "errors": {
+    "imovirtual": "imovirtual: HTTP 403 em https://www.imovirtual.com/pt/resultados/comprar/moradia/todo-o-pais?limit=72&ownerTypeSingleSelect=ALL&priceMin=230000&priceMax=500000&areaMin=140&roomsNumber=%5BFOUR%2CFIVE%2CSIX_OR_MORE%5D&by=LATEST&direction=DESC&mapBounds=-8.252593066942879%2C41.075904031835265%2C-8.71831779913139%2C40.85625729852924&geometry=oznyFfwxs%40eVqpWxn%40coIhzAsqDldBiyAjPwDhSbTqZ%7B%40p%7EBo%7C%40fc%40uFtnBjNxkB%7C%60Blm%40j%7E%40v%7EAftHtWthH%3FfdGaL%7CrFkp%40dtEy%7E%40dRw%7EA%3F%7DxAaVgqE%7DWo%7BCgi%40%7BbCgRz%5Era%40 (bloqueio provável)"
+   },
    "idealista": {}
   }
  ],
