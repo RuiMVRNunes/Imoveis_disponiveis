@@ -350,7 +350,7 @@
    "urls": [
     "https://www.imovirtual.com/pt/anuncio/apartamento-t3-em-travanca-ID1itYR"
    ],
-   "removal_check_at": "2026-07-21T22:54:20.012648+01:00"
+   "removal_check_at": "2026-08-08T22:19:59.960396+01:00"
   },
   "imovirtual:1itFj": {
    "first_seen": "2026-07-06T23:52:17.771102+01:00",
@@ -367,7 +367,7 @@
    "urls": [
     "https://www.imovirtual.com/pt/anuncio/apartamento-t2-1-venda-em-sao-paio-de-oleiros-santa-maria-da-feira-ID1itFj"
    ],
-   "removal_check_at": "2026-07-21T22:54:20.012648+01:00"
+   "removal_check_at": "2026-08-08T22:19:59.960396+01:00"
   },
   "imovirtual:1isHT": {
    "first_seen": "2026-07-06T23:52:17.771102+01:00",
@@ -402,7 +402,7 @@
    "urls": [
     "https://www.imovirtual.com/pt/anuncio/t3-sao-joao-de-ver-ID1ispD"
    ],
-   "removal_check_at": "2026-07-21T22:54:20.012648+01:00"
+   "removal_check_at": "2026-08-08T22:19:59.960396+01:00"
   },
   "imovirtual:1is1E": {
    "first_seen": "2026-07-06T23:52:17.771102+01:00",
@@ -437,7 +437,7 @@
    "urls": [
     "https://www.imovirtual.com/pt/anuncio/apartamento-t2-vista-castelo-a-sul-ampla-varanda-feira-ID1irNN"
    ],
-   "removal_check_at": "2026-07-21T22:54:20.012648+01:00"
+   "removal_check_at": "2026-08-08T22:19:59.960396+01:00"
   },
   "imovirtual:1irj9": {
    "first_seen": "2026-07-06T23:52:17.771102+01:00",
@@ -454,7 +454,8 @@
    "urls": [
     "https://www.imovirtual.com/pt/anuncio/apartamento-t3-em-arrifana-ID1irj9"
    ],
-   "removal_check_at": "2026-07-21T22:54:20.012648+01:00"
+   "removal_check_at": "2026-08-08T22:19:59.960396+01:00",
+   "removed_at": "2026-08-08T22:19:59.960396+01:00"
   },
   "imovirtual:1iqZO": {
    "first_seen": "2026-07-06T23:52:17.771102+01:00",
@@ -506,7 +507,8 @@
    "urls": [
     "https://www.imovirtual.com/pt/anuncio/t3-num-condominio-fechado-em-sao-joao-de-ver-ID1iqvq"
    ],
-   "removal_check_at": "2026-07-20T22:00:56.583490+01:00"
+   "removal_check_at": "2026-08-08T22:19:59.960396+01:00",
+   "removed_at": "2026-08-08T22:19:59.960396+01:00"
   },
   "imovirtual:1ipN5": {
    "first_seen": "2026-07-06T23:52:17.771102+01:00",
@@ -1387,7 +1389,7 @@
    "urls": [
     "https://www.imovirtual.com/pt/anuncio/moradia-banda-v3-s-joao-de-ver-ID1iuPE"
    ],
-   "removal_check_at": "2026-07-22T22:57:00.183413+01:00"
+   "removal_check_at": "2026-08-08T22:19:59.960396+01:00"
   },
   "imovirtual:1ium6": {
    "first_seen": "2026-07-06T23:52:17.771102+01:00",
@@ -1440,7 +1442,7 @@
    "urls": [
     "https://www.imovirtual.com/pt/anuncio/moradia-v3-outeiro-arrifana-santa-maria-da-feira-ID1it4H"
    ],
-   "removal_check_at": "2026-07-21T22:54:20.012648+01:00"
+   "removal_check_at": "2026-08-08T22:19:59.960396+01:00"
   },
   "imovirtual:1is4s": {
    "first_seen": "2026-07-06T23:52:17.771102+01:00",
@@ -1457,7 +1459,8 @@
    "urls": [
     "https://www.imovirtual.com/pt/anuncio/moradia-em-banda-v3-em-sao-joao-de-ver-santa-maria-da-feira-ID1is4s"
    ],
-   "removal_check_at": "2026-07-21T22:54:20.012648+01:00"
+   "removal_check_at": "2026-08-08T22:19:59.960396+01:00",
+   "removed_at": "2026-08-08T22:19:59.960396+01:00"
   },
   "imovirtual:1irng": {
    "first_seen": "2026-07-06T23:52:17.771102+01:00",
@@ -1474,11 +1477,11 @@
    "urls": [
     "https://www.imovirtual.com/pt/anuncio/moradia-t2-terrea-guisande-ID1irng"
    ],
-   "removal_check_at": "2026-07-21T22:54:20.012648+01:00"
+   "removal_check_at": "2026-08-08T22:19:59.960396+01:00"
   },
   "imovirtual:1ippZ": {
    "first_seen": "2026-07-06T23:52:17.771102+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 330000,
    "title": "Moradia T3 para venda",
    "location": "Canedo, Vale e Vila Maior",
@@ -1495,7 +1498,7 @@
   },
   "imovirtual:1ioU9": {
    "first_seen": "2026-07-06T23:52:17.771102+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 349500,
    "title": "Moradia T3+1 em construção com excelente localização - Exclusivo",
    "location": "Santa Maria da Feira, Travanca, Sanfins e Espargo",
@@ -1566,7 +1569,7 @@
   },
   "imovirtual:1iolg": {
    "first_seen": "2026-07-06T23:52:17.771102+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 235000,
    "title": "Moradia em lote de 600 m2 em Rio Meão Santa Maria da Feira",
    "location": "Rio Meão",
@@ -1618,7 +1621,7 @@
   },
   "imovirtual:1inGM": {
    "first_seen": "2026-07-06T23:52:17.771102+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 270000,
    "title": "Moradia T3+1 Zona Histórica: Investimento Prime com Charme Ribeirinho",
    "location": "Santa Maria da Feira, Travanca, Sanfins e Espargo",
@@ -1703,7 +1706,7 @@
   },
   "imovirtual:1il3z": {
    "first_seen": "2026-07-06T23:52:17.771102+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 280000,
    "title": "moradia individual usada, perto do pingo doce- FEIRA",
    "location": "Santa Maria da Feira, Travanca, Sanfins e Espargo",
@@ -1720,7 +1723,7 @@
   },
   "imovirtual:1ikVA": {
    "first_seen": "2026-07-06T23:52:17.771102+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 335000,
    "title": "Moradia T3 Independente c/ Jardim & Excelente Espaço Exterior –...",
    "location": "Romariz",
@@ -1737,7 +1740,7 @@
   },
   "imovirtual:1ik8H": {
    "first_seen": "2026-07-06T23:52:17.771102+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 275000,
    "title": "Exelente moradia Germinada Milheiros de Poiares",
    "location": "Milheirós de Poiares",
@@ -1754,7 +1757,7 @@
   },
   "imovirtual:1ijHQ": {
    "first_seen": "2026-07-06T23:52:17.771102+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 265000,
    "title": "Moradia T3 para venda",
    "location": "Caldas de São Jorge e Pigeiros",
@@ -1858,7 +1861,7 @@
   },
   "imovirtual:1icGK": {
    "first_seen": "2026-07-06T23:52:17.771102+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 325000,
    "title": "Moradia T3 para venda",
    "location": "Santa Maria da Feira, Travanca, Sanfins e Espargo",
@@ -1892,7 +1895,7 @@
   },
   "imovirtual:1ibho": {
    "first_seen": "2026-07-06T23:52:17.771102+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 275000,
    "title": "Conjunto de 3 Moradias em Lobão",
    "location": "Lobão, Gião, Louredo e Guisande",
@@ -2012,7 +2015,7 @@
   },
   "imovirtual:1i0tk": {
    "first_seen": "2026-07-06T23:52:17.771102+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 285000,
    "title": "Moradia T3 em fase de acabamento - Vila Maior",
    "location": "Canedo, Vale e Vila Maior",
@@ -2063,7 +2066,7 @@
   },
   "imovirtual:1hVPs": {
    "first_seen": "2026-07-06T23:52:17.771102+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 350000,
    "title": "FANTÁSTICO NEGÓCIO - MORADIA V3 | Lobão",
    "location": "Lobão, Gião, Louredo e Guisande",
@@ -2166,7 +2169,7 @@
   },
   "imovirtual:1hJmS": {
    "first_seen": "2026-07-06T23:52:17.771102+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 350000,
    "title": "Exclusivo Andar-Moradia T3+3 com terreno de + 1.850 m², Argoncilhe -",
    "location": "Argoncilhe",
@@ -2770,7 +2773,8 @@
    "urls": [
     "https://www.imovirtual.com/pt/anuncio/arrendamento-t1-espinho-centro-com-garagem-na-rua-14-junto-a-estacao-ID1isHB"
    ],
-   "removal_check_at": "2026-07-21T22:54:20.012648+01:00"
+   "removal_check_at": "2026-08-08T22:19:59.960396+01:00",
+   "removed_at": "2026-08-08T22:19:59.960396+01:00"
   },
   "imovirtual:1isj1": {
    "first_seen": "2026-07-06T23:52:17.771102+01:00",
@@ -3296,7 +3300,7 @@
    "urls": [
     "https://www.imovirtual.com/pt/anuncio/apartamento-t2-novo-alameda-510-ID1itHX"
    ],
-   "removal_check_at": "2026-07-21T22:54:20.012648+01:00"
+   "removal_check_at": "2026-08-08T22:19:59.960396+01:00"
   },
   "imovirtual:1itxU": {
    "first_seen": "2026-07-07T00:08:27.710491+01:00",
@@ -3313,7 +3317,7 @@
    "urls": [
     "https://www.imovirtual.com/pt/anuncio/apartamento-t2-santa-maria-da-feira-ID1itxU"
    ],
-   "removal_check_at": "2026-07-21T22:54:20.012648+01:00"
+   "removal_check_at": "2026-08-08T22:19:59.960396+01:00"
   },
   "imovirtual:1itxN": {
    "first_seen": "2026-07-07T00:08:27.710491+01:00",
@@ -3330,7 +3334,7 @@
    "urls": [
     "https://www.imovirtual.com/pt/anuncio/apartamento-t2-santa-maria-da-feira-ID1itxN"
    ],
-   "removal_check_at": "2026-07-21T22:54:20.012648+01:00"
+   "removal_check_at": "2026-08-08T22:19:59.960396+01:00"
   },
   "imovirtual:1isvt": {
    "first_seen": "2026-07-07T00:08:27.710491+01:00",
@@ -3347,7 +3351,7 @@
    "urls": [
     "https://www.imovirtual.com/pt/anuncio/t3-espetacular-perto-gaia-e-feira-ID1isvt"
    ],
-   "removal_check_at": "2026-07-21T22:54:20.012648+01:00"
+   "removal_check_at": "2026-08-08T22:19:59.960396+01:00"
   },
   "imovirtual:1ireF": {
    "first_seen": "2026-07-07T00:08:27.710491+01:00",
@@ -3364,7 +3368,7 @@
    "urls": [
     "https://www.imovirtual.com/pt/anuncio/apartamento-t3-centro-santa-maria-da-feira-ID1ireF"
    ],
-   "removal_check_at": "2026-07-21T22:54:20.012648+01:00"
+   "removal_check_at": "2026-08-08T22:19:59.960396+01:00"
   },
   "imovirtual:1iiFx": {
    "first_seen": "2026-07-07T00:08:27.710491+01:00",
@@ -3489,7 +3493,7 @@
   },
   "imovirtual:1iyIJ": {
    "first_seen": "2026-07-07T00:08:27.710491+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 450000,
    "title": "Moradia T3 - Santa Maria da Feira",
    "location": "Escapães",
@@ -3574,7 +3578,7 @@
   },
   "imovirtual:1ivaZ": {
    "first_seen": "2026-07-07T00:08:27.710491+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 430000,
    "title": "Moradia isolada T3 ás portas da cidade Santa Maria da Feira",
    "location": "Fornos",
@@ -3643,7 +3647,7 @@
   },
   "imovirtual:1itrL": {
    "first_seen": "2026-07-07T00:08:27.710491+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 395000,
    "title": "Moradia T3 para venda",
    "location": "Sanguedo",
@@ -3656,7 +3660,7 @@
    "urls": [
     "https://www.imovirtual.com/pt/anuncio/moradia-t3-para-venda-ID1itrL"
    ],
-   "removal_check_at": "2026-07-21T22:54:20.012648+01:00"
+   "removal_check_at": "2026-08-08T22:19:59.960396+01:00"
   },
   "imovirtual:1itl0": {
    "first_seen": "2026-07-07T00:08:27.710491+01:00",
@@ -3691,7 +3695,7 @@
    "urls": [
     "https://www.imovirtual.com/pt/anuncio/moradia-v3-isolada-santa-maria-da-feira-ID1itgP"
    ],
-   "removal_check_at": "2026-07-21T22:54:20.012648+01:00"
+   "removal_check_at": "2026-08-08T22:19:59.960396+01:00"
   },
   "imovirtual:1iszE": {
    "first_seen": "2026-07-07T00:08:27.710491+01:00",
@@ -3708,11 +3712,11 @@
    "urls": [
     "https://www.imovirtual.com/pt/anuncio/moradia-terrea-t3-fantastica-exposicao-solar-ID1iszE"
    ],
-   "removal_check_at": "2026-07-21T22:54:20.012648+01:00"
+   "removal_check_at": "2026-08-08T22:19:59.960396+01:00"
   },
   "imovirtual:1isyJ": {
    "first_seen": "2026-07-07T00:08:27.710491+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 379000,
    "title": "Moradia T3 para venda",
    "location": "Lobão, Gião, Louredo e Guisande",
@@ -3725,11 +3729,11 @@
    "urls": [
     "https://www.imovirtual.com/pt/anuncio/moradia-t3-para-venda-ID1isyJ"
    ],
-   "removal_check_at": "2026-07-21T22:54:20.012648+01:00"
+   "removal_check_at": "2026-08-08T22:19:59.960396+01:00"
   },
   "imovirtual:1isfj": {
    "first_seen": "2026-07-07T00:08:27.710491+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 430000,
    "title": "Moradia T3 em Lobão, muita luz e amplitude",
    "location": "Lobão, Gião, Louredo e Guisande",
@@ -3742,7 +3746,7 @@
    "urls": [
     "https://www.imovirtual.com/pt/anuncio/moradia-t3-em-lobao-muita-luz-e-amplitude-ID1isfj"
    ],
-   "removal_check_at": "2026-07-21T22:54:20.012648+01:00"
+   "removal_check_at": "2026-08-08T22:19:59.960396+01:00"
   },
   "imovirtual:1irRX": {
    "first_seen": "2026-07-07T00:08:27.710491+01:00",
@@ -3759,7 +3763,7 @@
    "urls": [
     "https://www.imovirtual.com/pt/anuncio/moradia-t3-lobao-ID1irRX"
    ],
-   "removal_check_at": "2026-07-21T22:54:20.012648+01:00"
+   "removal_check_at": "2026-08-08T22:19:59.960396+01:00"
   },
   "imovirtual:1irRV": {
    "first_seen": "2026-07-07T00:08:27.710491+01:00",
@@ -3776,7 +3780,7 @@
    "urls": [
     "https://www.imovirtual.com/pt/anuncio/moradia-t3-lobao-ID1irRV"
    ],
-   "removal_check_at": "2026-07-21T22:54:20.012648+01:00"
+   "removal_check_at": "2026-08-08T22:19:59.960396+01:00"
   },
   "imovirtual:1irOb": {
    "first_seen": "2026-07-07T00:08:27.710491+01:00",
@@ -3793,7 +3797,8 @@
    "urls": [
     "https://www.imovirtual.com/pt/anuncio/moradia-terrea-com-jardim-zona-tranquila-ID1irOb"
    ],
-   "removal_check_at": "2026-07-21T22:54:20.012648+01:00"
+   "removal_check_at": "2026-08-08T22:19:59.960396+01:00",
+   "removed_at": "2026-08-08T22:19:59.960396+01:00"
   },
   "imovirtual:1irNl": {
    "first_seen": "2026-07-07T00:08:27.710491+01:00",
@@ -3810,7 +3815,7 @@
    "urls": [
     "https://www.imovirtual.com/pt/anuncio/moradia-terrea-c-barbecue-junto-centro-feira-ID1irNl"
    ],
-   "removal_check_at": "2026-07-21T22:54:20.012648+01:00"
+   "removal_check_at": "2026-08-08T22:19:59.960396+01:00"
   },
   "imovirtual:1irNa": {
    "first_seen": "2026-07-07T00:08:27.710491+01:00",
@@ -3827,11 +3832,11 @@
    "urls": [
     "https://www.imovirtual.com/pt/anuncio/moradia-geminada-t3-qualidade-construtiva-ID1irNa"
    ],
-   "removal_check_at": "2026-07-21T22:54:20.012648+01:00"
+   "removal_check_at": "2026-08-08T22:19:59.960396+01:00"
   },
   "imovirtual:1irN8": {
    "first_seen": "2026-07-07T00:08:27.710491+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 395000,
    "title": "Moradia Geminada T3 em Paços de Brandão",
    "location": "Paços de Brandão",
@@ -3844,7 +3849,7 @@
    "urls": [
     "https://www.imovirtual.com/pt/anuncio/moradia-geminada-t3-em-pacos-de-brandao-ID1irN8"
    ],
-   "removal_check_at": "2026-07-20T22:00:56.583490+01:00"
+   "removal_check_at": "2026-08-08T22:19:59.960396+01:00"
   },
   "imovirtual:1irKU": {
    "first_seen": "2026-07-07T00:08:27.710491+01:00",
@@ -3861,11 +3866,11 @@
    "urls": [
     "https://www.imovirtual.com/pt/anuncio/moradia-terrea-com-jardim-proxima-s-m-feira-ID1irKU"
    ],
-   "removal_check_at": "2026-07-20T22:00:56.583490+01:00"
+   "removal_check_at": "2026-08-08T22:19:59.960396+01:00"
   },
   "imovirtual:1irfT": {
    "first_seen": "2026-07-07T00:08:27.710491+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 450000,
    "title": "Moradia T3 para venda",
    "location": "Canedo, Vale e Vila Maior",
@@ -3878,7 +3883,7 @@
    "urls": [
     "https://www.imovirtual.com/pt/anuncio/moradia-t3-para-venda-ID1irfT"
    ],
-   "removal_check_at": "2026-07-21T22:54:20.012648+01:00"
+   "removal_check_at": "2026-08-08T22:19:59.960396+01:00"
   },
   "imovirtual:1ioSV": {
    "first_seen": "2026-07-07T00:08:27.710491+01:00",
@@ -3899,7 +3904,7 @@
   },
   "imovirtual:1ioCw": {
    "first_seen": "2026-07-07T00:08:27.710491+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 400000,
    "title": "Moradia T3 + Anexo T1– Rio Meão, Santa Maria da Feira",
    "location": "Rio Meão",
@@ -3933,7 +3938,7 @@
   },
   "imovirtual:1imZh": {
    "first_seen": "2026-07-07T00:08:27.710491+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 450000,
    "title": "Moradia T3 para venda",
    "location": "São João de Ver",
@@ -3950,7 +3955,7 @@
   },
   "imovirtual:1imlE": {
    "first_seen": "2026-07-07T00:08:27.710491+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 450000,
    "title": "Moradia Geminada T3+1 Venda em Santa Maria da Feira, Travanca, Sanfins",
    "location": "Santa Maria da Feira, Travanca, Sanfins e Espargo",
@@ -3967,7 +3972,7 @@
   },
   "imovirtual:1imko": {
    "first_seen": "2026-07-07T00:08:27.710491+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 389900,
    "title": "Moradia T3 para venda",
    "location": "Nogueira da Regedoura",
@@ -3984,7 +3989,7 @@
   },
   "imovirtual:1ilJH": {
    "first_seen": "2026-07-07T00:08:27.710491+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 395000,
    "title": "Moradia T3 Nova com jardim e garagem!",
    "location": "Argoncilhe",
@@ -4001,7 +4006,7 @@
   },
   "imovirtual:1ilaZ": {
    "first_seen": "2026-07-07T00:08:27.710491+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 375000,
    "title": "Moradia GRANDE + Cave Independente + Garagem 6 carros + Anexo T2 + ...",
    "location": "Mozelos",
@@ -4086,7 +4091,7 @@
   },
   "imovirtual:1igD5": {
    "first_seen": "2026-07-07T00:08:27.710491+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 425000,
    "title": "Moradia T3 Térrea - São João de Ver",
    "location": "São João de Ver",
@@ -4103,7 +4108,7 @@
   },
   "imovirtual:1ifDS": {
    "first_seen": "2026-07-07T00:08:27.710491+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 395000,
    "title": "Moradia Isolada - Santa Maria de Lamas",
    "location": "Santa Maria de Lamas",
@@ -4120,7 +4125,7 @@
   },
   "imovirtual:1ietx": {
    "first_seen": "2026-07-07T00:08:27.710491+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 449000,
    "title": "Moradia nova t3 | Argoncilhe",
    "location": "Argoncilhe",
@@ -4154,7 +4159,7 @@
   },
   "imovirtual:1hPCi": {
    "first_seen": "2026-07-07T00:08:27.710491+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 394900,
    "title": "Casa de Ramil - Moradia T3",
    "location": "Argoncilhe",
@@ -4171,7 +4176,7 @@
   },
   "imovirtual:1heHB": {
    "first_seen": "2026-07-07T00:08:27.710491+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 440000,
    "title": "Moradia de Alta Qualidade em Lobão, Santa Maria da Feira",
    "location": "Lobão, Gião, Louredo e Guisande",
@@ -4257,7 +4262,7 @@
   },
   "imovirtual:1hPCL": {
    "first_seen": "2026-07-07T00:08:27.710491+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 360000,
    "title": "Moradia Isolada c/ terreno em Lourosa",
    "location": "Lourosa",
@@ -4274,7 +4279,7 @@
   },
   "imovirtual:1hj8H": {
    "first_seen": "2026-07-07T00:08:27.710491+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 420000,
    "title": "Moradia Isolada V3 em Lourosa (Sta. Maria da Feira)",
    "location": "Lourosa",
@@ -5091,7 +5096,7 @@
   },
   "imovirtual:1hEpc": {
    "first_seen": "2026-07-07T21:23:57.689937+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 285000,
    "title": "Moradia T3 para venda",
    "location": "Silvalde",
@@ -5126,7 +5131,7 @@
   },
   "imovirtual:1i5I7": {
    "first_seen": "2026-07-07T21:23:57.689937+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 395000,
    "title": "Moradia Isolada Bifamiliar V3 em São João de Ver",
    "location": "Caldas de São Jorge e Pigeiros",
@@ -5143,7 +5148,7 @@
   },
   "imovirtual:1iyx0": {
    "first_seen": "2026-07-07T21:23:57.689937+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 237500,
    "title": "MORADIA GEMINADA COM EELENTE POTENCIAL",
    "location": "Silvalde",
@@ -5160,7 +5165,7 @@
   },
   "imovirtual:1iyfO": {
    "first_seen": "2026-07-07T21:23:57.689937+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 400000,
    "title": "Moradia Térrea na Praia de Espinho",
    "location": "Silvalde",
@@ -5177,7 +5182,7 @@
   },
   "imovirtual:1iy8o": {
    "first_seen": "2026-07-07T21:23:57.689937+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 395000,
    "title": "Fantástica Moradia T3 com Jardim, Churrasqueira e Garagem para 2 Ca...",
    "location": "Cortegaça",
@@ -5194,7 +5199,7 @@
   },
   "imovirtual:1hJ6G": {
    "first_seen": "2026-07-07T21:23:57.689937+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 345000,
    "title": "QUINTA CENTENÁRIA PARA EVENTOS Para Remodelar",
    "location": "Lobão, Gião, Louredo e Guisande",
@@ -5211,7 +5216,7 @@
   },
   "imovirtual:1i4pi": {
    "first_seen": "2026-07-07T21:23:57.689937+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 398000,
    "title": "MORADIA EM BANDA T3",
    "location": "Santa Maria da Feira, Travanca, Sanfins e Espargo",
@@ -5228,7 +5233,7 @@
   },
   "imovirtual:1hUjJ": {
    "first_seen": "2026-07-07T21:23:57.689937+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 440000,
    "title": "Moradia V3 Isolada em Lobão",
    "location": "Lobão, Gião, Louredo e Guisande",
@@ -5262,7 +5267,7 @@
   },
   "imovirtual:1hTgH": {
    "first_seen": "2026-07-07T21:23:57.689937+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 449000,
    "title": "Moradia para venda em Argoncilhe, Stª Mª da Feira",
    "location": "Argoncilhe",
@@ -5279,7 +5284,7 @@
   },
   "imovirtual:1iuMD": {
    "first_seen": "2026-07-07T21:23:57.689937+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 425000,
    "title": "Moradia T3 para venda",
    "location": "São Felix da Marinha",
@@ -5292,11 +5297,11 @@
    "urls": [
     "https://www.imovirtual.com/pt/anuncio/moradia-t3-para-venda-ID1iuMD"
    ],
-   "removal_check_at": "2026-07-22T22:57:00.183413+01:00"
+   "removal_check_at": "2026-08-08T22:19:59.960396+01:00"
   },
   "imovirtual:1hV5L": {
    "first_seen": "2026-07-07T21:23:57.689937+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 395000,
    "title": "Moradias T3 Novas em Paços de Brandão – Modernidade, Conforto e Qu",
    "location": "Paços de Brandão",
@@ -5330,7 +5335,7 @@
   },
   "imovirtual:1izgs": {
    "first_seen": "2026-07-07T23:01:08.513418+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 470000,
    "title": "Moradia T3 +1 de 3 Frentes, com Jardim e Garagem",
    "location": "Argoncilhe",
@@ -5347,7 +5352,7 @@
   },
   "imovirtual:1izcl": {
    "first_seen": "2026-07-07T23:01:08.513418+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 495000,
    "title": "MORADIA T3+1 INDEPENDENTE CANEDO",
    "location": "Canedo, Vale e Vila Maior",
@@ -5364,7 +5369,7 @@
   },
   "imovirtual:1iz9X": {
    "first_seen": "2026-07-07T23:01:08.513418+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 298500,
    "title": "Moradia isolada T7 em Paramos de 232 m2",
    "location": "Paramos",
@@ -5381,7 +5386,7 @@
   },
   "imovirtual:1iyIS": {
    "first_seen": "2026-07-07T23:01:08.513418+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 475000,
    "title": "Moradia T3 - Santa Maria da Feira",
    "location": "Escapães",
@@ -5398,7 +5403,7 @@
   },
   "imovirtual:1iyHg": {
    "first_seen": "2026-07-07T23:01:08.513418+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 470000,
    "title": "Moradia T4 para venda",
    "location": "Canedo, Vale e Vila Maior",
@@ -5415,7 +5420,7 @@
   },
   "imovirtual:1iywH": {
    "first_seen": "2026-07-07T23:01:08.513418+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 495000,
    "title": "Onde o espaço encontra a tranquilidade",
    "location": "Canedo, Vale e Vila Maior",
@@ -5432,7 +5437,7 @@
   },
   "imovirtual:1i9lP": {
    "first_seen": "2026-07-07T23:01:08.513418+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 240000,
    "title": "Quinta com Casa Rural | Argoncilhe, SMF-Gaia/Porto/Espinho",
    "location": "Argoncilhe",
@@ -5449,7 +5454,7 @@
   },
   "imovirtual:1iygw": {
    "first_seen": "2026-07-07T23:01:08.513418+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 495000,
    "title": "Moradia de 4 frentes de rés do chão e 1º andar inserida em terreno de",
    "location": "Santa Maria de Lamas",
@@ -5466,7 +5471,7 @@
   },
   "imovirtual:1iybZ": {
    "first_seen": "2026-07-07T23:01:08.513418+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 495000,
    "title": "Moradia térrea de 4 frentes inserida em terreno de 1020m2",
    "location": "Canedo, Vale e Vila Maior",
@@ -5483,7 +5488,7 @@
   },
   "imovirtual:1iy65": {
    "first_seen": "2026-07-07T23:01:08.513418+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 495000,
    "title": "Moradia T4 para venda",
    "location": "Canedo, Vale e Vila Maior",
@@ -5500,7 +5505,7 @@
   },
   "imovirtual:1istZ": {
    "first_seen": "2026-07-07T23:01:08.513418+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 439000,
    "title": "Moradia em Banda T4 Venda em Grijó e Sermonde,Vila Nova de Gaia",
    "location": "Grijó e Sermonde",
@@ -5513,11 +5518,11 @@
    "urls": [
     "https://www.imovirtual.com/pt/anuncio/moradia-em-banda-t4-venda-em-grijo-e-sermonde-vila-nova-de-gaia-ID1istZ"
    ],
-   "removal_check_at": "2026-07-21T22:54:20.012648+01:00"
+   "removal_check_at": "2026-08-08T22:19:59.960396+01:00"
   },
   "imovirtual:1iy3Q": {
    "first_seen": "2026-07-07T23:01:08.513418+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 495000,
    "title": "Moradia Unifamiliar em Canedo Santa Maria da Feira",
    "location": "Canedo, Vale e Vila Maior",
@@ -5534,7 +5539,7 @@
   },
   "imovirtual:1ixUf": {
    "first_seen": "2026-07-07T23:01:08.513418+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 495000,
    "title": "Moradia T3 - Canedo",
    "location": "Canedo, Vale e Vila Maior",
@@ -5551,7 +5556,7 @@
   },
   "imovirtual:1ivPX": {
    "first_seen": "2026-07-07T23:01:08.513418+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 495000,
    "title": "Moradia V3+1 - Santa Maria da Feira (Com Terreno e opção Piscina!)",
    "location": "Canedo, Vale e Vila Maior",
@@ -5587,7 +5592,7 @@
   },
   "imovirtual:1ivCp": {
    "first_seen": "2026-07-07T23:01:08.513418+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 370000,
    "title": "Moradia T4, no centro de Nogueira da Regedoura",
    "location": "Nogueira da Regedoura",
@@ -5604,7 +5609,7 @@
   },
   "imovirtual:1ivBN": {
    "first_seen": "2026-07-07T23:01:08.513418+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 495000,
    "title": "Moradia T3 com Sótão Habitável, Terraço, Garagem para 6 Carros | Sa...",
    "location": "Canedo, Vale e Vila Maior",
@@ -5621,7 +5626,7 @@
   },
   "imovirtual:1ivx6": {
    "first_seen": "2026-07-07T23:01:08.513418+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 495000,
    "title": "Moradia T3 localizada a 4 minutos do Centro!",
    "location": "Canedo, Vale e Vila Maior",
@@ -5638,7 +5643,7 @@
   },
   "imovirtual:1ivs3": {
    "first_seen": "2026-07-07T23:01:08.513418+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 495000,
    "title": "Moradia Isolada T3 Venda em Canedo, Vale e Vila Maior,Santa Maria da F",
    "location": "Canedo, Vale e Vila Maior",
@@ -5655,7 +5660,7 @@
   },
   "imovirtual:1ivrh": {
    "first_seen": "2026-07-07T23:01:08.513418+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 495000,
    "title": "Vivenda com 1 000 m2 terreno e divisões espaçosas 15 minutos do Porto",
    "location": "Canedo, Vale e Vila Maior",
@@ -5672,7 +5677,7 @@
   },
   "imovirtual:1ivga": {
    "first_seen": "2026-07-07T23:01:08.513418+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 329000,
    "title": "Moradia T5 Remodelada em Escapães",
    "location": "São Martinho da Gândara",
@@ -5689,7 +5694,7 @@
   },
   "imovirtual:1iv0Z": {
    "first_seen": "2026-07-07T23:01:08.513418+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 420000,
    "title": "Moradia T4 com Jardim, Pátio, Ótimas Áreas & Excelente...",
    "location": "Argoncilhe",
@@ -5706,7 +5711,7 @@
   },
   "imovirtual:1iwMD": {
    "first_seen": "2026-07-07T23:01:08.513418+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 495000,
    "title": "Moradia P/ Habitação – Santa Maria da Feira",
    "location": "Canedo, Vale e Vila Maior",
@@ -5723,7 +5728,7 @@
   },
   "imovirtual:1iftu": {
    "first_seen": "2026-07-07T23:01:08.513418+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 390000,
    "title": "CASA C/ TERRENO|| S. FELIX DA MARINHA",
    "location": "São Felix da Marinha",
@@ -5741,7 +5746,7 @@
   },
   "imovirtual:1iwEJ": {
    "first_seen": "2026-07-07T23:01:08.513418+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 495000,
    "title": "V3 Independente com Potencial Premium: Escolha o seu estilo de vida!",
    "location": "Canedo, Vale e Vila Maior",
@@ -5758,7 +5763,7 @@
   },
   "imovirtual:1hV5u": {
    "first_seen": "2026-07-07T23:01:08.513418+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 460000,
    "title": "Moradia Geminada T3 Santa Maria de Lamas",
    "location": "Paços de Brandão",
@@ -5793,7 +5798,7 @@
   },
   "imovirtual:1isDf": {
    "first_seen": "2026-07-07T23:01:08.513418+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 495000,
    "title": "Moradia T3 em remodelação em Santa Maria de Lamas, Santa Maria da Feir",
    "location": "Santa Maria de Lamas",
@@ -5806,7 +5811,7 @@
    "urls": [
     "https://www.imovirtual.com/pt/anuncio/moradia-t3-em-remodelacao-em-santa-maria-de-lamas-santa-maria-da-feir-ID1isDf"
    ],
-   "removal_check_at": "2026-07-21T22:54:20.012648+01:00"
+   "removal_check_at": "2026-08-08T22:19:59.960396+01:00"
   },
   "imovirtual:1gRIO": {
    "first_seen": "2026-07-07T23:01:08.513418+01:00",
@@ -5844,7 +5849,7 @@
   },
   "imovirtual:1hqL8": {
    "first_seen": "2026-07-07T23:01:08.513418+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 495000,
    "title": "Moradia isolada com 3.000 m2 de terreno para venda em Santa Maria d...",
    "location": "Santa Maria de Lamas",
@@ -5861,7 +5866,7 @@
   },
   "imovirtual:1isya": {
    "first_seen": "2026-07-07T23:01:08.513418+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 410000,
    "title": "Quinta T4 Venda em Lobão, Gião, Louredo e Guisande,Santa Maria da Feir",
    "location": "Lobão, Gião, Louredo e Guisande",
@@ -5874,7 +5879,7 @@
    "urls": [
     "https://www.imovirtual.com/pt/anuncio/quinta-t4-venda-em-lobao-giao-louredo-e-guisande-santa-maria-da-feir-ID1isya"
    ],
-   "removal_check_at": "2026-07-21T22:54:20.012648+01:00"
+   "removal_check_at": "2026-08-08T22:19:59.960396+01:00"
   },
   "imovirtual:1isdp": {
    "first_seen": "2026-07-07T23:01:08.513418+01:00",
@@ -5896,7 +5901,7 @@
   },
   "imovirtual:1is4o": {
    "first_seen": "2026-07-07T23:01:08.513418+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 475000,
    "title": "Moradia Térrea T4 de 4 Frentes em Santa Maria da Feira",
    "location": "Santa Maria da Feira, Travanca, Sanfins e Espargo",
@@ -5909,11 +5914,11 @@
    "urls": [
     "https://www.imovirtual.com/pt/anuncio/moradia-terrea-t4-de-4-frentes-em-santa-maria-da-feira-ID1is4o"
    ],
-   "removal_check_at": "2026-07-21T22:54:20.012648+01:00"
+   "removal_check_at": "2026-08-08T22:19:59.960396+01:00"
   },
   "imovirtual:1imad": {
    "first_seen": "2026-07-07T23:01:08.513418+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 345000,
    "title": "Moradia V4 Isolada - São Paio de Oleiros",
    "location": "São Paio de Oleiros",
@@ -5930,7 +5935,7 @@
   },
   "imovirtual:1i2I1": {
    "first_seen": "2026-07-07T23:01:08.513418+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 435000,
    "title": "Moradia T4 para venda",
    "location": "Rio Meão",
@@ -5947,7 +5952,7 @@
   },
   "imovirtual:1hEco": {
    "first_seen": "2026-07-07T23:01:08.513418+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 437500,
    "title": "Moradia T4 para venda",
    "location": "Santa Maria de Lamas",
@@ -5964,7 +5969,7 @@
   },
   "imovirtual:1ibIx": {
    "first_seen": "2026-07-07T23:01:08.513418+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 475000,
    "title": "Moradia T3+1 em banda a 5 min do Centro da Cidade de Espinho",
    "location": "Anta e Guetim",
@@ -5981,7 +5986,7 @@
   },
   "imovirtual:1iqbk": {
    "first_seen": "2026-07-07T23:01:08.513418+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 424600,
    "title": "Moradia T4 para venda",
    "location": "Anta e Guetim",
@@ -5998,7 +6003,7 @@
   },
   "imovirtual:1i78Q": {
    "first_seen": "2026-07-07T23:01:08.513418+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 490000,
    "title": "Moradia em condomínio privado em Grijó",
    "location": "Grijó e Sermonde",
@@ -6084,7 +6089,7 @@
   },
   "imovirtual:1ioTd": {
    "first_seen": "2026-07-08T16:09:02.700792+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 500000,
    "title": "Moradia T5 Restaurada a 3 km da Praia de Esmoriz",
    "location": "Esmoriz",
@@ -6119,7 +6124,7 @@
   },
   "imovirtual:1inl3": {
    "first_seen": "2026-07-08T16:09:02.700792+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 349900,
    "title": "Não é apenas uma casa, são duas casas e muito terreno, zona sossega...",
    "location": "Romariz",
@@ -6171,7 +6176,7 @@
   },
   "imovirtual:1imlD": {
    "first_seen": "2026-07-08T16:09:02.700792+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 460000,
    "title": "Moradia Geminada T3+1 Venda em Santa Maria da Feira, Travanca, Sanfins",
    "location": "Santa Maria da Feira, Travanca, Sanfins e Espargo",
@@ -6188,7 +6193,7 @@
   },
   "imovirtual:1imkB": {
    "first_seen": "2026-07-08T16:09:02.700792+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 400000,
    "title": "Moradia em Grijó",
    "location": "Grijó e Sermonde",
@@ -6205,7 +6210,7 @@
   },
   "imovirtual:1im4h": {
    "first_seen": "2026-07-08T16:09:02.700792+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 495000,
    "title": "Moradia Isolada T3 Nova em São Felix da Marinha, a 3km da praia",
    "location": "São Felix da Marinha",
@@ -6240,7 +6245,7 @@
   },
   "imovirtual:1ikzi": {
    "first_seen": "2026-07-08T16:09:02.700792+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 275000,
    "title": "Moradia T3 | Silvalde | Espinho",
    "location": "Silvalde",
@@ -6257,7 +6262,7 @@
   },
   "imovirtual:1ihHE": {
    "first_seen": "2026-07-08T16:09:02.700792+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 320000,
    "title": "Moradia T6 para Recuperar em Romariz, Santa Maria da Feira",
    "location": "Romariz",
@@ -6274,7 +6279,7 @@
   },
   "imovirtual:1ifBw": {
    "first_seen": "2026-07-08T16:09:02.700792+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 295000,
    "title": "Andar Moradia T3 Venda em São Félix da Marinha,Vila Nova de Gaia",
    "location": "São Felix da Marinha",
@@ -6291,7 +6296,7 @@
   },
   "imovirtual:1ifiA": {
    "first_seen": "2026-07-08T16:09:02.700792+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 499900,
    "title": "Moradia T4 para venda",
    "location": "Santa Maria de Lamas",
@@ -6326,7 +6331,7 @@
   },
   "imovirtual:1idBG": {
    "first_seen": "2026-07-08T16:09:02.700792+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 475000,
    "title": "Moradia T3 com piscina em Fiães, Santa Maria da Feira",
    "location": "Fiães",
@@ -6343,7 +6348,7 @@
   },
   "imovirtual:1idnq": {
    "first_seen": "2026-07-08T16:09:02.700792+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 424900,
    "title": "Fantástica Moradia T3 em Sanguedo",
    "location": "Sanguedo",
@@ -6360,7 +6365,7 @@
   },
   "imovirtual:1ibXV": {
    "first_seen": "2026-07-08T16:09:02.700792+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 440000,
    "title": "Moradia independente Santa Maria da Feira",
    "location": "Santa Maria da Feira, Travanca, Sanfins e Espargo",
@@ -6378,7 +6383,7 @@
   },
   "imovirtual:1iafE": {
    "first_seen": "2026-07-08T16:09:02.700792+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 445000,
    "title": "Moradia em Banda T3 Venda em Nogueira da Regedoura,Santa Maria da Feir",
    "location": "Nogueira da Regedoura",
@@ -6395,7 +6400,7 @@
   },
   "imovirtual:1i9dE": {
    "first_seen": "2026-07-08T16:09:02.700792+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 495000,
    "title": "Moradia Isolada e totalmente renovada Sta Maria Lamas",
    "location": "Santa Maria de Lamas",
@@ -6447,7 +6452,7 @@
   },
   "imovirtual:1i859": {
    "first_seen": "2026-07-08T16:09:02.700792+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 460000,
    "title": "Moradia Independente T5 de Arquitetura Única c/ Jardim Integrado...",
    "location": "São João de Ver",
@@ -6464,7 +6469,7 @@
   },
   "imovirtual:1i7Lz": {
    "first_seen": "2026-07-08T16:09:02.700792+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 430000,
    "title": "Moradia T3 Venda em Lobão, Gião, Louredo e Guisande,Santa Maria da Fei",
    "location": "Lobão, Gião, Louredo e Guisande",
@@ -6481,7 +6486,7 @@
   },
   "imovirtual:1i7Ly": {
    "first_seen": "2026-07-08T16:09:02.700792+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 430000,
    "title": "Moradia T3 Venda em Lobão, Gião, Louredo e Guisande,Santa Maria da Fei",
    "location": "Lobão, Gião, Louredo e Guisande",
@@ -6498,7 +6503,7 @@
   },
   "imovirtual:1i66J": {
    "first_seen": "2026-07-08T16:09:02.700792+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 330000,
    "title": "Moradia T3 para venda",
    "location": "Pedroso e Seixezelo",
@@ -6515,7 +6520,7 @@
   },
   "imovirtual:1i4cX": {
    "first_seen": "2026-07-08T16:09:02.700792+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 255000,
    "title": "Moradia T5 com terreno e anexos em Sanfins",
    "location": "Santa Maria da Feira, Travanca, Sanfins e Espargo",
@@ -6532,7 +6537,7 @@
   },
   "imovirtual:1i3Ju": {
    "first_seen": "2026-07-08T16:09:02.700792+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 360000,
    "title": "Fantástico Moradia T3 Independente em Lourosa",
    "location": "Lourosa",
@@ -6549,7 +6554,7 @@
   },
   "imovirtual:1i2Jo": {
    "first_seen": "2026-07-08T16:09:02.700792+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 395000,
    "title": "Moradias T3 de 3 frentes",
    "location": "Paços de Brandão",
@@ -6566,7 +6571,7 @@
   },
   "imovirtual:1i2jl": {
    "first_seen": "2026-07-08T16:09:02.700792+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 360000,
    "title": "Moradia T4 em Lourosa",
    "location": "Lourosa",
@@ -6583,7 +6588,7 @@
   },
   "imovirtual:1i0Hv": {
    "first_seen": "2026-07-08T16:09:02.700792+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 370000,
    "title": "Moradia Geminada T3+1 Venda em Argoncilhe,Santa Maria da Feira",
    "location": "Argoncilhe",
@@ -6600,7 +6605,7 @@
   },
   "imovirtual:1i0eV": {
    "first_seen": "2026-07-08T16:09:02.700792+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 449000,
    "title": "Moradia em banda T3+1 com terraço, perto da praia - para comprar em...",
    "location": "São Felix da Marinha",
@@ -6617,7 +6622,7 @@
   },
   "imovirtual:1i0dD": {
    "first_seen": "2026-07-08T16:09:02.700792+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 410000,
    "title": "Moradia T3 geminada em Rio Meão - Sta. Maria da Feira  – O início de u",
    "location": "Rio Meão",
@@ -6651,7 +6656,7 @@
   },
   "imovirtual:1hYP7": {
    "first_seen": "2026-07-08T16:09:02.700792+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 449000,
    "title": "Moradia em Banda T3+1 Venda em São Félix da Marinha,Vila Nova de Gaia",
    "location": "São Felix da Marinha",
@@ -6704,7 +6709,7 @@
   },
   "imovirtual:1hVxZ": {
    "first_seen": "2026-07-08T16:09:02.700792+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 398000,
    "title": "Moradia em Banda T3 com 261m2 na zona dos Passionistas – Santa Maria d",
    "location": "Santa Maria da Feira, Travanca, Sanfins e Espargo",
@@ -6721,7 +6726,7 @@
   },
   "imovirtual:1hVup": {
    "first_seen": "2026-07-08T16:09:02.700792+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 450000,
    "title": "Moradia T5 - São João de Ver",
    "location": "São João de Ver",
@@ -6738,7 +6743,7 @@
   },
   "imovirtual:1hVfx": {
    "first_seen": "2026-07-08T16:09:02.700792+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 495000,
    "title": "Moradia bi-familiar com 2860m2 de terreno",
    "location": "Santa Maria de Lamas",
@@ -6755,7 +6760,7 @@
   },
   "imovirtual:1hV5X": {
    "first_seen": "2026-07-08T16:09:02.700792+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 430000,
    "title": "Moradia em Lobão, moderna, luminosa e pensada para o conforto da fam?",
    "location": "Lobão, Gião, Louredo e Guisande",
@@ -6772,7 +6777,7 @@
   },
   "imovirtual:1hV5N": {
    "first_seen": "2026-07-08T16:09:02.700792+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 455000,
    "title": "Moradias T3 Novas em Paços de Brandão – Modernidade, Conforto e Qu",
    "location": "Paços de Brandão",
@@ -6789,7 +6794,7 @@
   },
   "imovirtual:1hV5M": {
    "first_seen": "2026-07-08T16:09:02.700792+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 440000,
    "title": "Moradia em Lobão, moderna, luminosa e pensada para o conforto da fam?",
    "location": "Lobão, Gião, Louredo e Guisande",
@@ -6806,7 +6811,7 @@
   },
   "imovirtual:1hV5t": {
    "first_seen": "2026-07-08T16:09:02.700792+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 440000,
    "title": "Moradia Geminada T3 Santa Maria de Lamas com piscina",
    "location": "Paços de Brandão",
@@ -6823,7 +6828,7 @@
   },
   "imovirtual:1hWb1": {
    "first_seen": "2026-07-08T16:09:02.700792+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 450000,
    "title": "Moradia Isolada T4 Venda em Nogueira da Regedoura,Santa Maria da Feira",
    "location": "Nogueira da Regedoura",
@@ -6840,7 +6845,7 @@
   },
   "imovirtual:1hUYi": {
    "first_seen": "2026-07-08T16:09:02.700792+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 440000,
    "title": "MORADIA NOVA T3 EM LOBÃO",
    "location": "Lobão, Gião, Louredo e Guisande",
@@ -6857,7 +6862,7 @@
   },
   "imovirtual:1hUYh": {
    "first_seen": "2026-07-08T16:09:02.700792+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 430000,
    "title": "MORADIA NOVA T3 EM LOBÃO",
    "location": "Lobão, Gião, Louredo e Guisande",
@@ -6891,7 +6896,7 @@
   },
   "imovirtual:1hTDc": {
    "first_seen": "2026-07-08T16:09:02.700792+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 420000,
    "title": "Moradia 4 frentes em Sanfins Santa maria da Feira",
    "location": "Santa Maria da Feira, Travanca, Sanfins e Espargo",
@@ -6908,7 +6913,7 @@
   },
   "imovirtual:1hTC9": {
    "first_seen": "2026-07-08T16:09:02.700792+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 300000,
    "title": "Moradias T3 e T4, térrea, com terreno em Grijó, Vila Nova de Gaia",
    "location": "Grijó e Sermonde",
@@ -6925,7 +6930,7 @@
   },
   "imovirtual:1hSIS": {
    "first_seen": "2026-07-08T16:09:02.700792+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 395000,
    "title": "MORADIA T3 PAÇOS DE BRANDÃO - FRACÇÃO E",
    "location": "Paços de Brandão",
@@ -6942,7 +6947,7 @@
   },
   "imovirtual:1hSIE": {
    "first_seen": "2026-07-08T16:09:02.700792+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 435000,
    "title": "MORADIA T3 PAÇOS DE BRANDÃO - FRACÇÃO C",
    "location": "Paços de Brandão",
@@ -6959,7 +6964,7 @@
   },
   "imovirtual:1hSuv": {
    "first_seen": "2026-07-08T16:09:02.700792+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 500000,
    "title": "Moradia T5 Totalmente Restaurada com Garagem e Terreno  Próxima da ...",
    "location": "Esmoriz",
@@ -6976,7 +6981,7 @@
   },
   "imovirtual:1hSjc": {
    "first_seen": "2026-07-08T16:09:02.700792+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 495000,
    "title": "Moradia T3 RENOVADA - 2.860m2 de Terreno",
    "location": "Santa Maria de Lamas",
@@ -7046,7 +7051,7 @@
   },
   "imovirtual:1hPcL": {
    "first_seen": "2026-07-08T16:09:02.700792+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 449000,
    "title": "Moradia Geminada V3 Nova c/ Garagem em Argoncilhe",
    "location": "Santa Maria da Feira, Travanca, Sanfins e Espargo",
@@ -7063,7 +7068,7 @@
   },
   "imovirtual:1hODZ": {
    "first_seen": "2026-07-08T16:09:02.700792+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 320000,
    "title": "Moradia Isolada T4 Venda em Santa Maria de Lamas,Santa Maria da Feira",
    "location": "Santa Maria de Lamas",
@@ -7080,7 +7085,7 @@
   },
   "imovirtual:1hNyc": {
    "first_seen": "2026-07-08T16:09:02.700792+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 449000,
    "title": "Moradia Geminada em Argoncilhe",
    "location": "Argoncilhe",
@@ -7097,7 +7102,7 @@
   },
   "imovirtual:1hNf9": {
    "first_seen": "2026-07-08T16:09:02.700792+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 399000,
    "title": "Moradia para Reabilitação com Terreno de 2.649 m² | Um Refúgio de Tran",
    "location": "Grijó e Sermonde",
@@ -7114,7 +7119,7 @@
   },
   "imovirtual:1hN7Y": {
    "first_seen": "2026-07-08T16:09:02.700792+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 395000,
    "title": "Moradias 3 Frts",
    "location": "Paços de Brandão",
@@ -7149,7 +7154,7 @@
   },
   "imovirtual:1hMkk": {
    "first_seen": "2026-07-08T16:09:02.700792+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 495000,
    "title": "Moradia bi-familiar em remodelação - Santa Maria de Lamas",
    "location": "Santa Maria de Lamas",
@@ -7166,7 +7171,7 @@
   },
   "imovirtual:1hM2l": {
    "first_seen": "2026-07-08T16:09:02.700792+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 495000,
    "title": "Moradia Isolada T3 em Santa Maria de Lamas",
    "location": "Santa Maria de Lamas",
@@ -7183,7 +7188,7 @@
   },
   "imovirtual:1hLjC": {
    "first_seen": "2026-07-08T16:09:02.700792+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 445000,
    "title": "Moradia para Restaurar T4 Venda em Espinho,Espinho",
    "location": "Espinho",
@@ -7200,7 +7205,7 @@
   },
   "imovirtual:1hLg9": {
    "first_seen": "2026-07-08T16:09:02.700792+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 375000,
    "title": "Moradia Isolada T4+1 Venda em Anta e Guetim,Espinho",
    "location": "Anta e Guetim",
@@ -7217,7 +7222,7 @@
   },
   "imovirtual:1hJfE": {
    "first_seen": "2026-07-08T16:09:02.700792+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 445000,
    "title": "Moradia T3 para venda",
    "location": "Arrifana",
@@ -7252,7 +7257,7 @@
   },
   "imovirtual:1hJ2k": {
    "first_seen": "2026-07-08T16:09:02.700792+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 450000,
    "title": "Moradia Geminada T4 Venda em Santa Maria da Feira, Travanca, Sanfins e",
    "location": "Santa Maria da Feira, Travanca, Sanfins e Espargo",
@@ -7269,7 +7274,7 @@
   },
   "imovirtual:1hJ1E": {
    "first_seen": "2026-07-08T16:09:02.700792+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 470000,
    "title": "Moradia T6 Venda em Lobão, Gião, Louredo e Guisande,Santa Maria da Fei",
    "location": "Lobão, Gião, Louredo e Guisande",
@@ -7286,7 +7291,7 @@
   },
   "imovirtual:1hJ1e": {
    "first_seen": "2026-07-08T16:09:02.700792+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 440000,
    "title": "Moradia T3 Venda em Lobão, Gião, Louredo e Guisande,Santa Maria da Fei",
    "location": "Lobão, Gião, Louredo e Guisande",
@@ -7303,7 +7308,7 @@
   },
   "imovirtual:1hJ17": {
    "first_seen": "2026-07-08T16:09:02.700792+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 430000,
    "title": "Moradia T3 Venda em Lobão, Gião, Louredo e Guisande,Santa Maria da Fei",
    "location": "Lobão, Gião, Louredo e Guisande",
@@ -7320,7 +7325,7 @@
   },
   "imovirtual:1hIxU": {
    "first_seen": "2026-07-08T16:09:02.700792+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 450000,
    "title": "Antiga Casa de Lavrador - 30 minutos do Porto",
    "location": "Lobão, Gião, Louredo e Guisande",
@@ -7354,7 +7359,7 @@
   },
   "imovirtual:1hIf0": {
    "first_seen": "2026-07-08T16:09:02.700792+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 445000,
    "title": "Moradia V3 + 2 - Santa Maria da Feira - 445.000€",
    "location": "Santa Maria da Feira, Travanca, Sanfins e Espargo",
@@ -7389,7 +7394,7 @@
   },
   "imovirtual:1hHLr": {
    "first_seen": "2026-07-08T16:09:02.700792+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 285000,
    "title": "Moradia T6 Venda em Fiães,Santa Maria da Feira",
    "location": "Fiães",
@@ -7406,7 +7411,7 @@
   },
   "imovirtual:1hE5I": {
    "first_seen": "2026-07-08T16:09:02.700792+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 420000,
    "title": "Moradia Isolada >=T10 Venda em Silvalde,Espinho",
    "location": "Silvalde",
@@ -7423,7 +7428,7 @@
   },
   "imovirtual:1hDx8": {
    "first_seen": "2026-07-08T16:09:02.700792+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 430000,
    "title": "Moradia T6 para venda",
    "location": "Santa Maria da Feira, Travanca, Sanfins e Espargo",
@@ -7440,7 +7445,7 @@
   },
   "imovirtual:1hCDh": {
    "first_seen": "2026-07-08T16:09:02.700792+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 370000,
    "title": "Habitação no centro de Escapães",
    "location": "Escapães",
@@ -7457,7 +7462,7 @@
   },
   "imovirtual:1hzJk": {
    "first_seen": "2026-07-08T16:09:02.700792+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 429900,
    "title": "Moradia T3 em Banda — Construção Nova em Lobão, Santa Maria da Feira",
    "location": "Lobão, Gião, Louredo e Guisande",
@@ -7474,7 +7479,7 @@
   },
   "imovirtual:1hzGF": {
    "first_seen": "2026-07-08T16:09:02.700792+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 439900,
    "title": "Moradia T3 em Banda — Construção Nova em Lobão, Santa Maria da Feira",
    "location": "Lobão, Gião, Louredo e Guisande",
@@ -7491,7 +7496,7 @@
   },
   "imovirtual:1hzvL": {
    "first_seen": "2026-07-08T16:09:02.700792+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 435000,
    "title": "'OPORTUNIDADE ÚNICA: Adquira a Sua Nova Moradia T3 em Paços de Bran...",
    "location": "Paços de Brandão",
@@ -7526,7 +7531,7 @@
   },
   "imovirtual:1hyTE": {
    "first_seen": "2026-07-08T16:09:02.700792+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 395000,
    "title": "'OPORTUNIDADE ÚNICA: Adquira a Sua Nova Moradia T3 em Paços de Bran...",
    "location": "Paços de Brandão",
@@ -7543,7 +7548,7 @@
   },
   "imovirtual:1hyRg": {
    "first_seen": "2026-07-08T16:09:02.700792+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 440000,
    "title": "Moradia V3 Nova em Lobão",
    "location": "Lobão, Gião, Louredo e Guisande",
@@ -7578,7 +7583,7 @@
   },
   "imovirtual:1hyrJ": {
    "first_seen": "2026-07-08T16:09:02.700792+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 485000,
    "title": "Moradia T3 - Travanca",
    "location": "Santa Maria da Feira, Travanca, Sanfins e Espargo",
@@ -7595,7 +7600,7 @@
   },
   "imovirtual:1hv7q": {
    "first_seen": "2026-07-08T16:09:02.700792+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 395000,
    "title": "Excelentes moradias T3 novas em Paços de Brandão",
    "location": "Paços de Brandão",
@@ -7612,7 +7617,7 @@
   },
   "imovirtual:1huos": {
    "first_seen": "2026-07-08T16:09:02.700792+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 395000,
    "title": "Moradia geminada em Paços de Brandão",
    "location": "Paços de Brandão",
@@ -7629,7 +7634,7 @@
   },
   "imovirtual:1hujp": {
    "first_seen": "2026-07-08T16:09:02.700792+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 395000,
    "title": "Moradia T3 - Paços de Brandão",
    "location": "Paços de Brandão",
@@ -7646,7 +7651,7 @@
   },
   "imovirtual:1hqEt": {
    "first_seen": "2026-07-08T16:09:02.700792+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 395000,
    "title": "Moradias em Paços de Brandão",
    "location": "Paços de Brandão",
@@ -7663,7 +7668,7 @@
   },
   "imovirtual:1hqjJ": {
    "first_seen": "2026-07-08T16:09:02.700792+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 480000,
    "title": "EXCLUSIVO FANTÁSTICO NEGÓCIO - MORADIA V4 com piscina | Lobão",
    "location": "Lobão, Gião, Louredo e Guisande",
@@ -7697,7 +7702,7 @@
   },
   "imovirtual:1hp6I": {
    "first_seen": "2026-07-08T16:09:02.700792+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 450000,
    "title": "MORADIA ISOLADA - LOUREDO",
    "location": "Lobão, Gião, Louredo e Guisande",
@@ -7714,7 +7719,7 @@
   },
   "imovirtual:1ho8h": {
    "first_seen": "2026-07-08T16:09:02.700792+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 495000,
    "title": "Moradia Isolada Renovada, Santa Maria de Lamas",
    "location": "Santa Maria de Lamas",
@@ -7731,7 +7736,7 @@
   },
   "imovirtual:1hnLy": {
    "first_seen": "2026-07-08T16:09:02.700792+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 380000,
    "title": "Moradia T4 para venda",
    "location": "Rio Meão",
@@ -7748,7 +7753,7 @@
   },
   "imovirtual:1hm31": {
    "first_seen": "2026-07-08T16:09:02.700792+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 415000,
    "title": "Moradia Geminada V3 Térrea em Travanca, Santa Maria da Feira",
    "location": "Santa Maria da Feira, Travanca, Sanfins e Espargo",
@@ -7765,7 +7770,7 @@
   },
   "imovirtual:1hlZQ": {
    "first_seen": "2026-07-08T16:09:02.700792+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 380000,
    "title": "Moradia T4 com Armazém e Potencial de Negócio",
    "location": "Rio Meão",
@@ -7782,7 +7787,7 @@
   },
   "imovirtual:1hlFP": {
    "first_seen": "2026-07-08T16:09:02.700792+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 360000,
    "title": "Moradia T4 Isolada com Jardim e Terraço",
    "location": "Lourosa",
@@ -7799,7 +7804,7 @@
   },
   "imovirtual:1hlBS": {
    "first_seen": "2026-07-08T16:09:02.700792+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 360000,
    "title": "Moradia T4 - Lourosa",
    "location": "Lourosa",
@@ -7834,7 +7839,7 @@
   },
   "imovirtual:1hlc3": {
    "first_seen": "2026-07-08T16:09:02.700792+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 430000,
    "title": "MORADIA - LOBÃO",
    "location": "Lobão, Gião, Louredo e Guisande",
@@ -7851,7 +7856,7 @@
   },
   "imovirtual:1hkQF": {
    "first_seen": "2026-07-08T16:09:02.700792+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 470000,
    "title": "Moradia T8 em Escapães",
    "location": "Escapães",
@@ -7885,7 +7890,7 @@
   },
   "imovirtual:1hkLc": {
    "first_seen": "2026-07-08T16:09:02.700792+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 335000,
    "title": "Moradia T4 para venda",
    "location": "Argoncilhe",
@@ -7902,7 +7907,7 @@
   },
   "imovirtual:1hkKZ": {
    "first_seen": "2026-07-08T16:09:02.700792+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 440000,
    "title": "Excelentes moradias térreas T3 em Santa Maria da Feira",
    "location": "Santa Maria da Feira, Travanca, Sanfins e Espargo",
@@ -7919,7 +7924,7 @@
   },
   "imovirtual:1hjqr": {
    "first_seen": "2026-07-08T16:09:02.700792+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 440000,
    "title": "T3 + salão zona de Santa Maria de Lamas",
    "location": "Santa Maria de Lamas",
@@ -7936,7 +7941,7 @@
   },
   "imovirtual:1hfSC": {
    "first_seen": "2026-07-08T16:09:02.700792+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 495000,
    "title": "V3 Sta Maria de Lamas  Isolada com ou sem Piscina  – Espaço, Confor...",
    "location": "Santa Maria de Lamas",
@@ -7953,7 +7958,7 @@
   },
   "imovirtual:1heEW": {
    "first_seen": "2026-07-08T16:09:02.700792+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 450000,
    "title": "Moradia T5 Nogueira da Regedoura",
    "location": "Nogueira da Regedoura",
@@ -7970,7 +7975,7 @@
   },
   "imovirtual:1heDZ": {
    "first_seen": "2026-07-08T16:09:02.700792+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 430000,
    "title": "Magníficas moradias T3 novas em Lobão",
    "location": "Lobão, Gião, Louredo e Guisande",
@@ -7987,7 +7992,7 @@
   },
   "imovirtual:1heBs": {
    "first_seen": "2026-07-08T16:09:02.700792+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 430000,
    "title": "Moradia em Banda T3 - Lobão - S. M. Feira.",
    "location": "Lobão, Gião, Louredo e Guisande",
@@ -9673,7 +9678,7 @@
   },
   "imovirtual:1izSe": {
    "first_seen": "2026-07-09T10:31:09.678670+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 495000,
    "title": "MORADIA T3 INDEPENDENTE S.M.LAMAS",
    "location": "Santa Maria de Lamas",
@@ -10189,7 +10194,7 @@
   },
   "imovirtual:1hHmU": {
    "first_seen": "2026-07-10T13:19:42.018190+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 385000,
    "title": "Moradia em banda à venda na Rua Nossa Senhora das Necessidades, 593",
    "location": "São Felix da Marinha",
@@ -10912,7 +10917,7 @@
   },
   "imovirtual:1iAM5": {
    "first_seen": "2026-07-13T12:51:23.474312+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 480000,
    "title": "Moradia T3 para venda",
    "location": "Nogueira da Regedoura",
@@ -10929,7 +10934,7 @@
   },
   "imovirtual:1iAVk": {
    "first_seen": "2026-07-13T18:06:01.327470+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 440000,
    "title": "Excelentes moradias T3 de 2 frentes em Santa Maria da Feira",
    "location": "Santa Maria da Feira, Travanca, Sanfins e Espargo",
@@ -10978,7 +10983,7 @@
   },
   "imovirtual:1iB0I": {
    "first_seen": "2026-07-14T10:46:05.446876+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 475000,
    "title": "Moradia em Banda T3 Venda em Santa Maria da Feira, Travanca, Sanfins e",
    "location": "Santa Maria da Feira, Travanca, Sanfins e Espargo",
@@ -10995,7 +11000,7 @@
   },
   "imovirtual:1iB0J": {
    "first_seen": "2026-07-14T10:46:05.446876+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 440000,
    "title": "Moradia em Banda T3 Venda em Santa Maria da Feira, Travanca, Sanfins e",
    "location": "Santa Maria da Feira, Travanca, Sanfins e Espargo",
@@ -11044,7 +11049,7 @@
   },
   "imovirtual:1iB3W": {
    "first_seen": "2026-07-14T12:17:34.101364+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 430000,
    "title": "Moradia no Centro Histórico de Santa Maria da Feira",
    "location": "Santa Maria da Feira, Travanca, Sanfins e Espargo",
@@ -11061,7 +11066,7 @@
   },
   "imovirtual:1iBsA": {
    "first_seen": "2026-07-14T16:16:04.156937+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 495000,
    "title": "MORADIA UNIFAMILIAR T3+1 COM JARDIM EM CANEDO",
    "location": "Canedo, Vale e Vila Maior",
@@ -11078,7 +11083,7 @@
   },
   "imovirtual:1iBr6": {
    "first_seen": "2026-07-14T16:16:04.156937+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 350000,
    "title": "Moradia Geminada T3 Venda em São Paio de Oleiros,Santa Maria da Feira",
    "location": "São Paio de Oleiros",
@@ -11095,7 +11100,7 @@
   },
   "imovirtual:1iBws": {
    "first_seen": "2026-07-14T18:02:40.380037+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 400000,
    "title": "Moradia T3 para venda",
    "location": "Santa Maria da Feira, Travanca, Sanfins e Espargo",
@@ -11192,7 +11197,7 @@
   },
   "imovirtual:1iBGQ": {
    "first_seen": "2026-07-15T10:50:09.048106+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 425000,
    "title": "Moradia com Piscina em S. Joao de Ver",
    "location": "São João de Ver",
@@ -11209,7 +11214,7 @@
   },
   "imovirtual:1iBJc": {
    "first_seen": "2026-07-15T12:21:24.691084+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 380000,
    "title": "Moradia T3 + 1 Santa Maria da Feira",
    "location": "Santa Maria da Feira, Travanca, Sanfins e Espargo",
@@ -11274,7 +11279,7 @@
   },
   "imovirtual:1iBQb": {
    "first_seen": "2026-07-15T16:17:57.720473+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 341000,
    "title": "Moradia T4 no Centro de Fiães",
    "location": "Fiães",
@@ -11308,7 +11313,7 @@
   },
   "imovirtual:1iBZ9": {
    "first_seen": "2026-07-15T19:54:40.010528+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 440000,
    "title": "Moradia T3 minimalista e apelativa, acabamentos de excelência",
    "location": "Santa Maria da Feira, Travanca, Sanfins e Espargo",
@@ -11325,7 +11330,7 @@
   },
   "imovirtual:1iCaa": {
    "first_seen": "2026-07-16T14:18:45.282299+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 495000,
    "title": "Moradia T3 em Canedo",
    "location": "São João de Ver",
@@ -11550,7 +11555,7 @@
   },
   "imovirtual:1iCjn": {
    "first_seen": "2026-07-16T19:55:24.994992+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 465000,
    "title": "MORADIA T3 NOVA - CANEDO (EXCLUSIVO)",
    "location": "Canedo, Vale e Vila Maior",
@@ -11567,7 +11572,7 @@
   },
   "imovirtual:1iCjj": {
    "first_seen": "2026-07-16T19:55:24.994992+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 495000,
    "title": "MORADIA T3 NOVA - CANEDO (EXCLUSIVO)",
    "location": "Canedo, Vale e Vila Maior",
@@ -11602,7 +11607,7 @@
   },
   "imovirtual:1iCDU": {
    "first_seen": "2026-07-17T16:05:20.262595+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 395000,
    "title": "Moradia T3 isolada com suite e garagem em São João de Ver - Exclusivo",
    "location": "São João de Ver",
@@ -11619,7 +11624,7 @@
   },
   "imovirtual:1iCHZ": {
    "first_seen": "2026-07-17T17:59:09.890994+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 320000,
    "title": "Moradia geminada para venda em São João de Vêr, Santa Maria da Feira",
    "location": "São João de Ver",
@@ -11700,7 +11705,7 @@
   },
   "imovirtual:1iD77": {
    "first_seen": "2026-07-20T16:44:50.463662+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 439000,
    "title": "Moradia T3 - Esmoriz",
    "location": "Esmoriz",
@@ -11829,7 +11834,7 @@
   },
   "imovirtual:1iDu9": {
    "first_seen": "2026-07-21T15:55:26.249531+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 495000,
    "title": "Moradia nova V3 São Félix da Marinha - Gaia",
    "location": "São Felix da Marinha",
@@ -11842,11 +11847,11 @@
    "urls": [
     "https://www.imovirtual.com/pt/anuncio/moradia-nova-v3-sao-felix-da-marinha-gaia-ID1iDu9"
    ],
-   "removal_check_at": "2026-07-21T22:54:20.012648+01:00"
+   "removal_check_at": "2026-08-08T22:19:59.960396+01:00"
   },
   "imovirtual:1iDtd": {
    "first_seen": "2026-07-21T15:55:26.249531+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 495000,
    "title": "Moradia T3 em São Felix da Marinha, a 3km da praia!",
    "location": "São Felix da Marinha",
@@ -11859,11 +11864,11 @@
    "urls": [
     "https://www.imovirtual.com/pt/anuncio/moradia-t3-em-sao-felix-da-marinha-a-3km-da-praia-ID1iDtd"
    ],
-   "removal_check_at": "2026-07-21T22:54:20.012648+01:00"
+   "removal_check_at": "2026-08-08T22:19:59.960396+01:00"
   },
   "imovirtual:1iDOn": {
    "first_seen": "2026-07-22T13:21:49.672323+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 435000,
    "title": "Moradia T4 para venda",
    "location": "Silvalde",
@@ -11876,11 +11881,11 @@
    "urls": [
     "https://www.imovirtual.com/pt/anuncio/moradia-t4-para-venda-ID1iDOn"
    ],
-   "removal_check_at": "2026-07-22T22:57:00.183413+01:00"
+   "removal_check_at": "2026-08-08T22:19:59.960396+01:00"
   },
   "imovirtual:1hUyh": {
    "first_seen": "2026-07-22T15:55:46.978906+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 475000,
    "title": "Moradia t3+1 Espargo",
    "location": "Santa Maria da Feira, Travanca, Sanfins e Espargo",
@@ -11893,11 +11898,11 @@
    "urls": [
     "https://www.imovirtual.com/pt/anuncio/moradia-t3-1-espargo-ID1hUyh"
    ],
-   "removal_check_at": "2026-07-22T22:57:00.183413+01:00"
+   "removal_check_at": "2026-08-08T22:19:59.960396+01:00"
   },
   "imovirtual:1hJhQ": {
    "first_seen": "2026-07-22T15:55:46.978906+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 495000,
    "title": "Moradia Geminada T4 Venda em Paramos,Espinho",
    "location": "Paramos",
@@ -11910,7 +11915,7 @@
    "urls": [
     "https://www.imovirtual.com/pt/anuncio/moradia-geminada-t4-venda-em-paramos-espinho-ID1hJhQ"
    ],
-   "removal_check_at": "2026-07-22T22:57:00.183413+01:00"
+   "removal_check_at": "2026-08-08T22:19:59.960396+01:00"
   },
   "imovirtual:1iDX4": {
    "first_seen": "2026-07-22T19:01:41.345812+01:00",
@@ -11927,7 +11932,8 @@
    "urls": [
     "https://www.imovirtual.com/pt/anuncio/moradia-geminada-em-argoncilhe-chave-na-mao-ID1iDX4"
    ],
-   "removal_check_at": "2026-07-22T22:57:00.183413+01:00"
+   "removal_check_at": "2026-08-08T22:19:59.960396+01:00",
+   "removed_at": "2026-08-08T22:19:59.960396+01:00"
   },
   "idealista_api:35192199": {
    "first_seen": "2026-07-22T21:06:25.792709+01:00",
@@ -11947,7 +11953,7 @@
   },
   "imovirtual:1iE62": {
    "first_seen": "2026-07-23T13:24:52.510813+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 425000,
    "title": "Moradia T4 para venda",
    "location": "Rio Meão",
@@ -12012,7 +12018,7 @@
   },
   "imovirtual:1iEqn": {
    "first_seen": "2026-07-24T13:12:25.290512+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 299500,
    "title": "Uma Joia dos Anos 20 Pronta para Renascer em Santa Maria da Feira",
    "location": "Santa Maria da Feira, Travanca, Sanfins e Espargo",
@@ -12061,7 +12067,7 @@
   },
   "imovirtual:1iEOt": {
    "first_seen": "2026-07-25T18:50:01.243362+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 420000,
    "title": "Moradia T3 para venda",
    "location": "Canedo, Vale e Vila Maior",
@@ -12110,7 +12116,7 @@
   },
   "imovirtual:1iF34": {
    "first_seen": "2026-07-27T16:37:02.535074+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 495000,
    "title": "Moradia T3+1 com possibilidade de piscina",
    "location": "Canedo, Vale e Vila Maior",
@@ -12127,7 +12133,7 @@
   },
   "imovirtual:1i0cz": {
    "first_seen": "2026-07-27T18:29:16.236715+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 499000,
    "title": "Venda Moradia",
    "location": "Nogueira da Regedoura",
@@ -12176,7 +12182,7 @@
   },
   "imovirtual:1iFZp": {
    "first_seen": "2026-07-30T00:52:49.467854+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 450000,
    "title": "Quinta de Canedinho",
    "location": "Lobão, Gião, Louredo e Guisande",
@@ -12193,7 +12199,7 @@
   },
   "imovirtual:1hG7A": {
    "first_seen": "2026-07-30T16:01:55.940900+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 495000,
    "title": "Moradia Isolada T4 Venda em Santa Maria de Lamas,Santa Maria da Feira",
    "location": "Santa Maria de Lamas",
@@ -12210,7 +12216,7 @@
   },
   "imovirtual:1iGkJ": {
    "first_seen": "2026-07-30T20:08:30.080745+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 397500,
    "title": "Moradia T3 para venda",
    "location": "Serzedo e Perosinho",
@@ -12227,7 +12233,7 @@
   },
   "imovirtual:1iGmw": {
    "first_seen": "2026-07-30T21:55:09.025234+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 495000,
    "title": "Moradia T3+1 Renovada c/ Garagem 6+ Carros | Terreno 1.080 m2 - Canedo",
    "location": "Canedo, Vale e Vila Maior",
@@ -12292,7 +12298,7 @@
   },
   "imovirtual:1iGIv": {
    "first_seen": "2026-07-31T23:53:32.920769+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 399000,
    "title": "Moradia T3 para venda",
    "location": "Sanguedo",
@@ -12325,7 +12331,7 @@
   },
   "imovirtual:1iGPH": {
    "first_seen": "2026-08-01T17:47:43.520041+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 350000,
    "title": "Moradia T12 para venda",
    "location": "Grijó e Sermonde",
@@ -12374,7 +12380,7 @@
   },
   "imovirtual:1iH4Z": {
    "first_seen": "2026-08-03T16:37:33.246369+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 440000,
    "title": "Moradia Nova T3 com 2 frentes em Espargo, Santa Maria Feira",
    "location": "Santa Maria da Feira, Travanca, Sanfins e Espargo",
@@ -12423,7 +12429,7 @@
   },
   "imovirtual:1iHnt": {
    "first_seen": "2026-08-04T14:46:31.384560+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 265000,
    "title": "Moradia T4 para venda",
    "location": "Maceda",
@@ -12440,7 +12446,7 @@
   },
   "imovirtual:1iHhW": {
    "first_seen": "2026-08-04T14:46:31.384560+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 350000,
    "title": "Moradia térrea com 4 frentes, garagem, anexos, jardim e bons acessos",
    "location": "Nogueira da Regedoura",
@@ -12473,7 +12479,7 @@
   },
   "imovirtual:1iHvu": {
    "first_seen": "2026-08-04T19:22:40.283210+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 340000,
    "title": "Moradia T3 para venda",
    "location": "Serzedo e Perosinho",
@@ -12523,7 +12529,7 @@
   },
   "imovirtual:1iIg9": {
    "first_seen": "2026-08-06T13:51:08.349053+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 448000,
    "title": "Moradia geminada T3 em Esmoriz de 250,8 m2",
    "location": "Esmoriz",
@@ -12540,7 +12546,7 @@
   },
   "imovirtual:1iImZ": {
    "first_seen": "2026-08-06T16:08:24.536688+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 450000,
    "title": "Moradia >=T10 Venda em Espinho,Espinho",
    "location": "Espinho",
@@ -12557,7 +12563,7 @@
   },
   "imovirtual:1iItF": {
    "first_seen": "2026-08-07T00:49:56.108966+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 450000,
    "title": "Moradias T3 Novas em Santa Maria da Feira",
    "location": "Escapães",
@@ -12590,7 +12596,7 @@
   },
   "imovirtual:1iICC": {
    "first_seen": "2026-08-07T12:37:55.820290+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 495000,
    "title": "Moradia V3+1 com Ampla Garagem, Terraço e Terreno Rústico em Canedo...",
    "location": "Canedo, Vale e Vila Maior",
@@ -12607,7 +12613,7 @@
   },
   "imovirtual:1iIAV": {
    "first_seen": "2026-08-07T12:37:55.820290+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 495000,
    "title": "Moradia V3+1 com Amplo Terreno em Canedo – Santa Maria da Feira",
    "location": "Canedo, Vale e Vila Maior",
@@ -12625,7 +12631,7 @@
   },
   "imovirtual:1iII3": {
    "first_seen": "2026-08-07T16:43:49.793425+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 495000,
    "title": "Moradia T3 Isolada com Amplo Terreno em Santa Maria de Lamas – Sant...",
    "location": "Santa Maria de Lamas",
@@ -12642,7 +12648,7 @@
   },
   "imovirtual:1iIHi": {
    "first_seen": "2026-08-07T16:43:49.793425+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 495000,
    "title": "Moradia Isolada T3 com 2.860 m² de Terreno e Garagem em Santa Maria...",
    "location": "Santa Maria de Lamas",
@@ -12659,7 +12665,7 @@
   },
   "imovirtual:1iISh": {
    "first_seen": "2026-08-07T19:39:17.015059+01:00",
-   "last_seen": "2026-08-08T21:17:09.111832+01:00",
+   "last_seen": "2026-08-08T22:19:59.960396+01:00",
    "last_price": 448000,
    "title": "Moradia em Banda T3+1 Venda em Esmoriz,Ovar",
    "location": "Esmoriz",
@@ -12710,7 +12716,7 @@
  "sources": {
   "custojusto": {
    "zero_streak": 0,
-   "last_ok": "2026-08-08T21:17:09.111832+01:00",
+   "last_ok": "2026-08-08T22:19:59.960396+01:00",
    "last_alert_at": null
   },
   "idealista": {
@@ -12720,7 +12726,7 @@
   },
   "imovirtual": {
    "zero_streak": 0,
-   "last_ok": "2026-08-08T21:17:09.111832+01:00",
+   "last_ok": "2026-08-08T22:19:59.960396+01:00",
    "last_alert_at": null
   },
   "supercasa": {
@@ -12736,16 +12742,6 @@
   }
  },
  "runs": [
-  {
-   "at": "2026-07-09T00:10:51.460658+01:00",
-   "seen": {
-    "imovirtual": 219,
-    "custojusto": 4
-   },
-   "new": 0,
-   "price_drops": 0,
-   "errors": {}
-  },
   {
    "at": "2026-07-09T00:17:43.578677+01:00",
    "seen": {
@@ -17418,89 +17414,20 @@
    "price_drops": 0,
    "errors": {},
    "idealista": {}
+  },
+  {
+   "at": "2026-08-08T22:19:59.960396+01:00",
+   "seen": {
+    "imovirtual": 219,
+    "custojusto": 123
+   },
+   "new": 0,
+   "price_drops": 0,
+   "errors": {},
+   "idealista": {}
   }
  ],
  "events": [
-  {
-   "type": "new",
-   "at": "2026-07-09T22:12:49.782938+01:00",
-   "key": "idealista_api:35144399",
-   "title": "Andar de moradia na Rua da Torre, São Vicente de Pereira Jusã",
-   "price": 285000,
-   "old_price": null,
-   "url": "https://www.idealista.pt/imovel/35144399/",
-   "image_url": "https://img4.idealista.pt/s/v1/yLv6QcFavuQ-ndqtd3fIzjn3dwgl4inLwTLLMiVSd6Ml4khBqGDIaJvI4s5m5JvBdww-dwijdz6bd_d6BoCABveAJcj1m6jL?Expires=1783717998&Signature=MEYCIQD8tqAS1Z4fhMFoZnZ~K3PSXMSkv~S0wj-Q1IDzLzZ4swIhAOwknjtuZ8jSp0WSvLB6vl3tl9URxhAkhlDs6brkboQ3&Key-Pair-Id=K1LQZLVUB8AUIN",
-   "source": "idealista_api",
-   "search_name": "Casa Feira",
-   "location": "Andar de moradia na Rua da Torre, São Vicente de Pereira Jusã",
-   "rooms": 3,
-   "area_m2": 240.0,
-   "published_at": null
-  },
-  {
-   "type": "new",
-   "at": "2026-07-09T22:12:49.782938+01:00",
-   "key": "idealista_api:35144394",
-   "title": "Andar de moradia na Rua da Torre, São Vicente de Pereira Jusã",
-   "price": 275000,
-   "old_price": null,
-   "url": "https://www.idealista.pt/imovel/35144394/",
-   "image_url": "https://img4.idealista.pt/s/v1/yLv6QcFavuQ-ndqtd3fIzjn3dwgl4inLwTLLMiVSd6Ml4khBqGDIaJvI4s5m5JvBd4DOd4CAdwuod_d6BoCABnoIDMj1m6jL?Expires=1783717998&Signature=MEUCIBUqZnOrCEjxBb4SSudErAXbO43nF~TuFn66rPFXGAaUAiEA4vN0mqDFp0ak4hnBdypzIP77NgEg7Dr6jOSXZkKoSeg_&Key-Pair-Id=K1LQZLVUB8AUIN",
-   "source": "idealista_api",
-   "search_name": "Casa Feira",
-   "location": "Andar de moradia na Rua da Torre, São Vicente de Pereira Jusã",
-   "rooms": 3,
-   "area_m2": 230.0,
-   "published_at": null
-  },
-  {
-   "type": "new",
-   "at": "2026-07-09T22:12:49.782938+01:00",
-   "key": "idealista_api:35145498",
-   "title": "Moradia geminada na Rua Dom Sancho i, Santo Ovídio - Cedro - Monte da Virgem, Mafamude",
-   "price": 440000,
-   "old_price": null,
-   "url": "https://www.idealista.pt/imovel/35145498/",
-   "image_url": "https://img4.idealista.pt/s/v1/yLv6QcFavuQ-ndqtd3fIzjn3dwgl4inLwTLLMiVSd6Ml4khBqGDIaJvI4s5m5JvBd_cMd7UGd6gMd_d6eiV6eoCjBsj1m6jL?Expires=1783718001&Signature=MEQCID5AspHylVcpm8jKPudCpgdyYcgJoFdihcMoGgVyVzRNAiACIQ~e35kxQ5zJjsM4liL-U~8xlpVLpyFmjD2nqppIiA__&Key-Pair-Id=K1LQZLVUB8AUIN",
-   "source": "idealista_api",
-   "search_name": "Casa Feira",
-   "location": "Moradia geminada na Rua Dom Sancho i, Santo Ovídio - Cedro - Monte da Virgem, Mafamude",
-   "rooms": 3,
-   "area_m2": 342.0,
-   "published_at": null
-  },
-  {
-   "type": "new",
-   "at": "2026-07-09T22:12:49.782938+01:00",
-   "key": "idealista_api:35144184",
-   "title": "Moradia geminada na Rua Negreira, 174, Serzedo",
-   "price": 397500,
-   "old_price": null,
-   "url": "https://www.idealista.pt/imovel/35144184/",
-   "image_url": "https://img4.idealista.pt/s/v1/yLv6QcFavuQ-ndqtd3fIzjn3dwgl4inLwTLLMiVSd6Ml4khBqGDIaJvI4s5m5JvBdwYId7X3dx6jd_d6BoA-9z4LDMj1m6jL?Expires=1783718001&Signature=MEUCIFwjxLRRQ6pTJNj8ftVlB1qcEk7FOj1LsH6z7ZmQbkKPAiEA82S0NpBXNe02uaL64DArIf~~1h0-NY0RW4wiOeJLj-I_&Key-Pair-Id=K1LQZLVUB8AUIN",
-   "source": "idealista_api",
-   "search_name": "Casa Feira",
-   "location": "Moradia geminada na Rua Negreira, 174, Serzedo",
-   "rooms": 3,
-   "area_m2": 297.0,
-   "published_at": null
-  },
-  {
-   "type": "new",
-   "at": "2026-07-09T22:12:49.782938+01:00",
-   "key": "idealista_api:35141864",
-   "title": "Moradia independente na Rua José Rocha, Liceu - Paço do Rei, Mafamude",
-   "price": 280000,
-   "old_price": null,
-   "url": "https://www.idealista.pt/imovel/35141864/",
-   "image_url": "https://img4.idealista.pt/s/v1/yLv6QcFavuQ-ndqtd3fIzjn3dwgl4inLwTLLMiVSd6Ml4khBqGDIaJvI4s5m5JvBd6ObdwgGd_c-d_d6BoCjPgZ6DMj1m6jL?Expires=1783718001&Signature=MEUCIQCOw3Bl1QEDkoeCRRHTp2cbEwbVSV5~EXxTZ4wVBl7~bQIgA0z4e8~R~FL5hEO95uTYwfurgd5QOErtOJ3JNrgEy54_&Key-Pair-Id=K1LQZLVUB8AUIN",
-   "source": "idealista_api",
-   "search_name": "Casa Feira",
-   "location": "Moradia independente na Rua José Rocha, Liceu - Paço do Rei, Mafamude",
-   "rooms": 6,
-   "area_m2": 254.0,
-   "published_at": null
-  },
   {
    "type": "new",
    "at": "2026-07-10T02:53:17.222352+01:00",
@@ -21512,6 +21439,90 @@
    "rooms": 3,
    "area_m2": 180.0,
    "published_at": null
+  },
+  {
+   "type": "removed",
+   "at": "2026-08-08T22:19:59.960396+01:00",
+   "key": "imovirtual:1iqvq",
+   "title": "T3 num condomínio fechado em São João de Ver",
+   "price": 279000,
+   "url": "https://www.imovirtual.com/pt/anuncio/t3-num-condominio-fechado-em-sao-joao-de-ver-ID1iqvq",
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "location": "São João de Ver",
+   "rooms": 4,
+   "area_m2": null,
+   "days_on_market": 32
+  },
+  {
+   "type": "removed",
+   "at": "2026-08-08T22:19:59.960396+01:00",
+   "key": "imovirtual:1irOb",
+   "title": "Moradia térrea com jardim, zona tranquila",
+   "price": 415000,
+   "url": "https://www.imovirtual.com/pt/anuncio/moradia-terrea-com-jardim-zona-tranquila-ID1irOb",
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "location": "Santa Maria da Feira, Travanca, Sanfins e Espargo",
+   "rooms": 4,
+   "area_m2": null,
+   "days_on_market": 32
+  },
+  {
+   "type": "removed",
+   "at": "2026-08-08T22:19:59.960396+01:00",
+   "key": "imovirtual:1irj9",
+   "title": "Apartamento T3 em Arrifana",
+   "price": 260000,
+   "url": "https://www.imovirtual.com/pt/anuncio/apartamento-t3-em-arrifana-ID1irj9",
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "location": "Arrifana",
+   "rooms": 4,
+   "area_m2": null,
+   "days_on_market": 32
+  },
+  {
+   "type": "removed",
+   "at": "2026-08-08T22:19:59.960396+01:00",
+   "key": "imovirtual:1is4s",
+   "title": "Moradia em Banda V3 em São João de Ver, Santa Maria da Feira",
+   "price": 319000,
+   "url": "https://www.imovirtual.com/pt/anuncio/moradia-em-banda-v3-em-sao-joao-de-ver-santa-maria-da-feira-ID1is4s",
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "location": "São João de Ver",
+   "rooms": 4,
+   "area_m2": null,
+   "days_on_market": 32
+  },
+  {
+   "type": "removed",
+   "at": "2026-08-08T22:19:59.960396+01:00",
+   "key": "imovirtual:1isHB",
+   "title": "Arrendamento T1 Espinho centro com garagem na rua 14 junto a estação",
+   "price": 800,
+   "url": "https://www.imovirtual.com/pt/anuncio/arrendamento-t1-espinho-centro-com-garagem-na-rua-14-junto-a-estacao-ID1isHB",
+   "source": "imovirtual",
+   "search_name": "Arrendamento Aveiro",
+   "location": "Espinho",
+   "rooms": 2,
+   "area_m2": null,
+   "days_on_market": 32
+  },
+  {
+   "type": "removed",
+   "at": "2026-08-08T22:19:59.960396+01:00",
+   "key": "imovirtual:1iDX4",
+   "title": "Moradia Geminada em Argoncilhe, chave na mão",
+   "price": 449000,
+   "url": "https://www.imovirtual.com/pt/anuncio/moradia-geminada-em-argoncilhe-chave-na-mao-ID1iDX4",
+   "source": "imovirtual",
+   "search_name": "Casa Feira",
+   "location": "Argoncilhe",
+   "rooms": 4,
+   "area_m2": null,
+   "days_on_market": 17
   }
  ],
  "pending": {
